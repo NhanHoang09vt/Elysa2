@@ -1,0 +1,6068 @@
+[
+  {
+    "key": "vfx_arcane_arcane_beam",
+    "id": "arcane/arcane-beam",
+    "category": "arcane",
+    "name": "Arcane beam",
+    "desc": "A beam fires right from the hand: a white core, strands twisting round it, pulses running down it, a flaring source and an end that sprays sparks.",
+    "frames": 36,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "6x6 (1536x1536px)",
+    "scale": 0.9696969696969697,
+    "heroFrame": 17,
+    "image": "vfx_arcane_arcane_beam.png",
+    "thumbnail": "vfx_arcane_arcane_beam_thumb.png",
+    "json": "vfx_arcane_arcane_beam.json"
+  },
+  {
+    "key": "vfx_arcane_missiles",
+    "id": "arcane/arcane-missiles",
+    "category": "arcane",
+    "name": "arcane-missiles",
+    "desc": "",
+    "frames": 54,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      200
+    ],
+    "pivotNorm": [
+      0.5,
+      0.78125
+    ],
+    "grid": "1 cols (2048x1792px)",
+    "scale": "1.1",
+    "image": "vfx_arcane_missiles.png",
+    "thumbnail": "vfx_arcane_missiles_thumb.png",
+    "json": "vfx_arcane_missiles.json"
+  },
+  {
+    "key": "vfx_arcane_arcane_orb",
+    "id": "arcane/arcane-orb",
+    "category": "arcane",
+    "name": "Arcane orb",
+    "desc": "A floating orb of smoky violet glass with a swirl turning round a white-hot heart, two tilted rings of light orbiting behind and in front.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 1.4,
+    "heroFrame": 52,
+    "image": "vfx_arcane_arcane_orb.png",
+    "thumbnail": "vfx_arcane_arcane_orb_thumb.png",
+    "json": "vfx_arcane_arcane_orb.json"
+  },
+  {
+    "key": "vfx_arcane_blink_in",
+    "id": "arcane/blink-in",
+    "category": "arcane",
+    "name": "Blink in",
+    "desc": "Glittering bits spiral in to a point of light that opens into a line, then into a white silhouette that cools into the caster.",
+    "frames": 43,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "7x7 (1792x1792px)",
+    "scale": 1.4,
+    "heroFrame": 15,
+    "image": "vfx_arcane_blink_in.png",
+    "thumbnail": "vfx_arcane_blink_in_thumb.png",
+    "json": "vfx_arcane_blink_in.json"
+  },
+  {
+    "key": "vfx_shadow_step",
+    "id": "arcane/blink-out",
+    "category": "arcane",
+    "name": "blink-out",
+    "desc": "",
+    "frames": 49,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (1792x1792px)",
+    "scale": "1.8",
+    "image": "vfx_shadow_step.png",
+    "thumbnail": "vfx_shadow_step_thumb.png",
+    "json": "vfx_shadow_step.json"
+  },
+  {
+    "key": "vfx_magic_circle_cast",
+    "id": "arcane/magic-circle-cast",
+    "category": "arcane",
+    "name": "magic-circle-cast",
+    "desc": "",
+    "frames": 118,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (2816x2816px)",
+    "scale": "1.1",
+    "image": "vfx_magic_circle_cast.png",
+    "thumbnail": "vfx_magic_circle_cast_thumb.png",
+    "json": "vfx_magic_circle_cast.json"
+  },
+  {
+    "key": "vfx_arcane_mana_burst",
+    "id": "arcane/mana-burst",
+    "category": "arcane",
+    "name": "Mana burst",
+    "desc": "Energy rushes into a point and blows out in a white flash and rings, flinging glowing runes that flare and pop into sparks one after another.",
+    "frames": 55,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x7 (2048x1792px)",
+    "scale": 1,
+    "heroFrame": 7,
+    "image": "vfx_arcane_mana_burst.png",
+    "thumbnail": "vfx_arcane_mana_burst_thumb.png",
+    "json": "vfx_arcane_mana_burst.json"
+  },
+  {
+    "key": "vfx_arcane_portal",
+    "id": "arcane/portal",
+    "category": "arcane",
+    "name": "Portal",
+    "desc": "An upright rift: fibrous spiral arms wind down into the dark, a lit rim wobbles, motes and streaks are pulled in, the floor glows.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 1.4,
+    "heroFrame": 45,
+    "image": "vfx_arcane_portal.png",
+    "thumbnail": "vfx_arcane_portal_thumb.png",
+    "json": "vfx_arcane_portal.json"
+  },
+  {
+    "key": "vfx_arcane_rune_circle",
+    "id": "arcane/rune-circle",
+    "category": "arcane",
+    "name": "Rune circle",
+    "desc": "A rune circle turns on the floor in perspective: a carousel of runes lit by chasing light, a turning square, ticks, motes rising off it.",
+    "frames": 120,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 1.4,
+    "heroFrame": 94,
+    "image": "vfx_arcane_rune_circle.png",
+    "thumbnail": "vfx_arcane_rune_circle_thumb.png",
+    "json": "vfx_arcane_rune_circle.json"
+  },
+  {
+    "key": "vfx_arcane_spell_charge",
+    "id": "arcane/spell-charge",
+    "category": "arcane",
+    "name": "Spell charge",
+    "desc": "Energy gathers in the caster's hand: streaks and motes spiral in, rings collapse into a swelling orb that crackles with arcs, ready to fire.",
+    "frames": 48,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "7x7 (1792x1792px)",
+    "scale": 2,
+    "heroFrame": 16,
+    "image": "vfx_arcane_spell_charge.png",
+    "thumbnail": "vfx_arcane_spell_charge_thumb.png",
+    "json": "vfx_arcane_spell_charge.json"
+  },
+  {
+    "key": "vfx_arcane_star_fall",
+    "id": "arcane/star-fall",
+    "category": "arcane",
+    "name": "Star fall",
+    "desc": "Stars streak down on long trails across an area, each landing with a white flash, a ring across the floor and a kick of sparks.",
+    "frames": 76,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x9 (2304x2304px)",
+    "scale": 1,
+    "heroFrame": 31,
+    "image": "vfx_arcane_star_fall.png",
+    "thumbnail": "vfx_arcane_star_fall_thumb.png",
+    "json": "vfx_arcane_star_fall.json"
+  },
+  {
+    "key": "vfx_arcane_time_stop",
+    "id": "arcane/time-stop",
+    "category": "arcane",
+    "name": "Time stop",
+    "desc": "A clock face springs open, ticks slower and slower, freezes drained of colour, cracks, then shatters into falling shards.",
+    "frames": 109,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x10 (2816x2560px)",
+    "scale": 1,
+    "heroFrame": 73,
+    "image": "vfx_arcane_time_stop.png",
+    "thumbnail": "vfx_arcane_time_stop_thumb.png",
+    "json": "vfx_arcane_time_stop.json"
+  },
+  {
+    "key": "vfx_critters_bat",
+    "id": "critters/bat",
+    "category": "critters",
+    "name": "Bat",
+    "desc": "A bat flaps in four snappy wing frames along a figure-eight, its body lifting on each downbeat, moonlight on its wing bones, red eyes glowing and glinting.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 2,
+    "heroFrame": 56,
+    "image": "vfx_critters_bat.png",
+    "thumbnail": "vfx_critters_bat_thumb.png",
+    "json": "vfx_critters_bat.json"
+  },
+  {
+    "key": "vfx_critters_bird",
+    "id": "critters/bird",
+    "category": "critters",
+    "name": "Bird",
+    "desc": "A songbird flies in place: bursts of wingbeats that lift its body on each downstroke, a glide on spread wings, its tail fanning, a loose feather drifting away.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 2,
+    "heroFrame": 45,
+    "image": "vfx_critters_bird.png",
+    "thumbnail": "vfx_critters_bird_thumb.png",
+    "json": "vfx_critters_bird.json"
+  },
+  {
+    "key": "vfx_critters_butterfly",
+    "id": "critters/butterfly",
+    "category": "critters",
+    "name": "Butterfly",
+    "desc": "An iridescent butterfly wanders a loop in bursts of quick wingbeats and open-winged glides, its veined, spotted wings shedding a twinkling trail of glowing dust.",
+    "frames": 96,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1.4,
+    "heroFrame": 45,
+    "image": "vfx_critters_butterfly.png",
+    "thumbnail": "vfx_critters_butterfly_thumb.png",
+    "json": "vfx_critters_butterfly.json"
+  },
+  {
+    "key": "vfx_critters_eyeball",
+    "id": "critters/eyeball",
+    "category": "critters",
+    "name": "Eyeball",
+    "desc": "A bloodshot eyeball floats in its fleshy lids: its glowing iris snaps from one look to the next, it blinks, and its nerve sways behind it as it bobs.",
+    "frames": 96,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 2,
+    "heroFrame": 1,
+    "image": "vfx_critters_eyeball.png",
+    "thumbnail": "vfx_critters_eyeball_thumb.png",
+    "json": "vfx_critters_eyeball.json"
+  },
+  {
+    "key": "vfx_critters_fish_school",
+    "id": "critters/fish-school",
+    "category": "critters",
+    "name": "Fish school",
+    "desc": "A school of fish holds station in two depth rows: bodies wag into swinging tails, one darts ahead now and then, bubbles rise and caustic light ripples over them.",
+    "frames": 144,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "12x12 (3072x3072px)",
+    "scale": 1.4,
+    "heroFrame": 121,
+    "image": "vfx_critters_fish_school.png",
+    "thumbnail": "vfx_critters_fish_school_thumb.png",
+    "json": "vfx_critters_fish_school.json"
+  },
+  {
+    "key": "vfx_critters_flying_skull",
+    "id": "critters/flying-skull",
+    "category": "critters",
+    "name": "Flying skull",
+    "desc": "A cracked bone skull bobs in the air, jaw chattering, eyes burning, a fire roaring off its crown that sheds flame puffs, embers and smoke and throws warm light.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 1.4,
+    "heroFrame": 4,
+    "image": "vfx_critters_flying_skull.png",
+    "thumbnail": "vfx_critters_flying_skull_thumb.png",
+    "json": "vfx_critters_flying_skull.json"
+  },
+  {
+    "key": "vfx_critters_frog",
+    "id": "critters/frog",
+    "category": "critters",
+    "name": "Frog",
+    "desc": "A frog puffs its throat, blinks, crouches and leaps to snap a buzzing fly out of the air, then lands with a squash and a puff of dust, gulps and settles.",
+    "frames": 78,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x9 (2304x2304px)",
+    "scale": 2,
+    "heroFrame": 75,
+    "image": "vfx_critters_frog.png",
+    "thumbnail": "vfx_critters_frog_thumb.png",
+    "json": "vfx_critters_frog.json"
+  },
+  {
+    "key": "vfx_critters_ghost",
+    "id": "critters/ghost",
+    "category": "critters",
+    "name": "Ghost",
+    "desc": "A sheet ghost bobs over the floor: its scalloped hem ripples and trails its drift, little arms flutter, it glances about and blinks, motes trickle off its hem.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 2,
+    "heroFrame": 12,
+    "image": "vfx_critters_ghost.png",
+    "thumbnail": "vfx_critters_ghost_thumb.png",
+    "json": "vfx_critters_ghost.json"
+  },
+  {
+    "key": "vfx_critters_jellyfish",
+    "id": "critters/jellyfish",
+    "category": "critters",
+    "name": "Jellyfish",
+    "desc": "A see-through jellyfish pulses: its bell squeezes to shove it up and relaxes as it sinks, frilled arms and long tentacles trailing, a glow inside, bubbles drifting by.",
+    "frames": 96,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 2,
+    "heroFrame": 59,
+    "image": "vfx_critters_jellyfish.png",
+    "thumbnail": "vfx_critters_jellyfish_thumb.png",
+    "json": "vfx_critters_jellyfish.json"
+  },
+  {
+    "key": "vfx_critters_slime",
+    "id": "critters/slime",
+    "category": "critters",
+    "name": "Slime",
+    "desc": "A glossy slime hops in place: it squashes to wind up, stretches into the jump, rounds out in the air, splats down flinging droplets that creep back, then wobbles and blinks.",
+    "frames": 54,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x7 (2048x1792px)",
+    "scale": 2,
+    "heroFrame": 44,
+    "image": "vfx_critters_slime.png",
+    "thumbnail": "vfx_critters_slime_thumb.png",
+    "json": "vfx_critters_slime.json"
+  },
+  {
+    "key": "vfx_critters_snake",
+    "id": "critters/snake",
+    "category": "critters",
+    "name": "Snake",
+    "desc": "A snake slithers along the floor, head raised: humps rise and roll back down its patterned body to the tail, dust puffs where it touches down, its forked tongue flicks.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 1.4,
+    "heroFrame": 39,
+    "image": "vfx_critters_snake.png",
+    "thumbnail": "vfx_critters_snake_thumb.png",
+    "json": "vfx_critters_snake.json"
+  },
+  {
+    "key": "vfx_critters_wisp",
+    "id": "critters/wisp",
+    "category": "critters",
+    "name": "Wisp",
+    "desc": "A will-o'-the-wisp loops a figure-eight over the floor: a little soul-flame with a face, its flame tail licking up and streaming behind, shedding puffs and sparks.",
+    "frames": 96,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1.4,
+    "heroFrame": 79,
+    "image": "vfx_critters_wisp.png",
+    "thumbnail": "vfx_critters_wisp_thumb.png",
+    "json": "vfx_critters_wisp.json"
+  },
+  {
+    "key": "vfx_explosions_barrel_explosion",
+    "id": "explosions/barrel-explosion",
+    "category": "explosions",
+    "name": "Barrel explosion",
+    "desc": "An explosive barrel shudders, its lid bulging and spitting flame, then blows: a fireball column, staves and the lid flying, burning fuel splashed over the floor.",
+    "frames": 157,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "13x13 (3328x3328px)",
+    "scale": 0.8533333333333334,
+    "heroFrame": 25,
+    "image": "vfx_explosions_barrel_explosion.png",
+    "thumbnail": "vfx_explosions_barrel_explosion_thumb.png",
+    "json": "vfx_explosions_barrel_explosion.json"
+  },
+  {
+    "key": "vfx_explosions_big_explosion",
+    "id": "explosions/big-explosion",
+    "category": "explosions",
+    "name": "Big explosion",
+    "desc": "A huge ground blast in three beats: a white dome, a rolling fireball that climbs into a mushrooming smoke column, heavy rocks, and fires left burning.",
+    "frames": 217,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "15x15 (3840x3840px)",
+    "scale": 0.7111111111111111,
+    "heroFrame": 44,
+    "image": "vfx_explosions_big_explosion.png",
+    "thumbnail": "vfx_explosions_big_explosion_thumb.png",
+    "json": "vfx_explosions_big_explosion.json"
+  },
+  {
+    "key": "vfx_explosions_cartoon_pow",
+    "id": "explosions/cartoon-pow",
+    "category": "explosions",
+    "name": "Cartoon POW",
+    "desc": "A comic-book hit: a jagged two-tone burst star slams in with a shake and boiling edges, POW! drops in letter by letter, action lines fly, then it all snaps away.",
+    "frames": 33,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "6x6 (1536x1536px)",
+    "scale": 1,
+    "heroFrame": 1,
+    "image": "vfx_explosions_cartoon_pow.png",
+    "thumbnail": "vfx_explosions_cartoon_pow_thumb.png",
+    "json": "vfx_explosions_cartoon_pow.json"
+  },
+  {
+    "key": "vfx_explosions_dirt_explosion",
+    "id": "explosions/dirt-explosion",
+    "category": "explosions",
+    "name": "Dirt explosion",
+    "desc": "A buried charge goes off: a flash under the floor, a V of dirt clods and grit thrown high, a brown dust plume that billows and settles, and a crater left behind.",
+    "frames": 109,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x10 (2816x2560px)",
+    "scale": 0.9846153846153847,
+    "heroFrame": 42,
+    "image": "vfx_explosions_dirt_explosion.png",
+    "thumbnail": "vfx_explosions_dirt_explosion_thumb.png",
+    "json": "vfx_explosions_dirt_explosion.json"
+  },
+  {
+    "key": "vfx_explosions_firework_burst",
+    "id": "explosions/firework-burst",
+    "category": "explosions",
+    "name": "Firework burst",
+    "desc": "A shell climbs, slows and bursts into a sphere of coloured trailing stars round a gold core; they droop, crackle into white pops and fade, leaving glitter.",
+    "frames": 109,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x10 (2816x2560px)",
+    "scale": 1,
+    "heroFrame": 13,
+    "image": "vfx_explosions_firework_burst.png",
+    "thumbnail": "vfx_explosions_firework_burst_thumb.png",
+    "json": "vfx_explosions_firework_burst.json"
+  },
+  {
+    "key": "vfx_explosions_firework_rocket",
+    "id": "explosions/firework-rocket",
+    "category": "explosions",
+    "name": "Firework rocket",
+    "desc": "A rocket fizzes off the ground on a sparkling gold trail, coasts, and bursts into a palm: heavy gold fronds arc out, droop on glittering trails and crackle at the tips.",
+    "frames": 115,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 0.8533333333333334,
+    "heroFrame": 32,
+    "image": "vfx_explosions_firework_rocket.png",
+    "thumbnail": "vfx_explosions_firework_rocket_thumb.png",
+    "json": "vfx_explosions_firework_rocket.json"
+  },
+  {
+    "key": "vfx_explosions_grenade",
+    "id": "explosions/grenade",
+    "category": "explosions",
+    "name": "Grenade",
+    "desc": "A grenade is lobbed in, bounces, rolls to a stop with its fuse fizzing, shudders, then blows: a white flash, shrapnel streaks, sparks, a small fireball and a scorch.",
+    "frames": 127,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "12x11 (3072x2816px)",
+    "scale": 0.8533333333333334,
+    "heroFrame": 49,
+    "image": "vfx_explosions_grenade.png",
+    "thumbnail": "vfx_explosions_grenade_thumb.png",
+    "json": "vfx_explosions_grenade.json"
+  },
+  {
+    "key": "vfx_explosions_implosion",
+    "id": "explosions/implosion",
+    "category": "explosions",
+    "name": "Implosion",
+    "desc": "Everything is sucked in: streaks and grit rush inward, rings contract and a dark sphere collapses onto a crushed white point; a beat of stillness, then a sharp pop.",
+    "frames": 51,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x7 (2048x1792px)",
+    "scale": 1,
+    "heroFrame": 2,
+    "image": "vfx_explosions_implosion.png",
+    "thumbnail": "vfx_explosions_implosion_thumb.png",
+    "json": "vfx_explosions_implosion.json"
+  },
+  {
+    "key": "vfx_explosions_nuke",
+    "id": "explosions/nuke",
+    "category": "explosions",
+    "name": "Nuke",
+    "desc": "A blinding white frame, then a fireball lifts on a thin stem into a wide rolling cap that glows from inside; a white skirt flashes and a dust surge sweeps the floor.",
+    "frames": 271,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "17x16 (4352x4096px)",
+    "scale": 0.64,
+    "heroFrame": 0,
+    "image": "vfx_explosions_nuke.png",
+    "thumbnail": "vfx_explosions_nuke_thumb.png",
+    "json": "vfx_explosions_nuke.json"
+  },
+  {
+    "key": "vfx_explosions_plasma_explosion",
+    "id": "explosions/plasma-explosion",
+    "category": "explosions",
+    "name": "Plasma explosion",
+    "desc": "A blue-violet energy blast with no smoke: a white flash, a ball of plasma swelling into a thinning shell, shock rings in and out of depth, lightning arcs crackling off it.",
+    "frames": 52,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x7 (2048x1792px)",
+    "scale": 1,
+    "heroFrame": 0,
+    "image": "vfx_explosions_plasma_explosion.png",
+    "thumbnail": "vfx_explosions_plasma_explosion_thumb.png",
+    "json": "vfx_explosions_plasma_explosion.json"
+  },
+  {
+    "key": "vfx_explosions_small_explosion",
+    "id": "explosions/small-explosion",
+    "category": "explosions",
+    "name": "Explosion",
+    "desc": "A ground blast: a white flash and shock rings, fire that cools into a rolling smoke column, sparks, burning brands that land and keep burning, tumbling rocks and a glowing scorch.",
+    "frames": 163,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "13x13 (3328x3328px)",
+    "scale": 0.8533333333333334,
+    "heroFrame": 35,
+    "image": "vfx_explosions_small_explosion.png",
+    "thumbnail": "vfx_explosions_small_explosion_thumb.png",
+    "json": "vfx_explosions_small_explosion.json"
+  },
+  {
+    "key": "vfx_explosions_smoke_bomb",
+    "id": "explosions/smoke-bomb",
+    "category": "explosions",
+    "name": "Smoke bomb",
+    "desc": "A round canister clinks down, fuse sparking, and pops: thick grey-violet smoke gushes out, rolls along the floor, billows into a cloud that hides all, then thins to wisps.",
+    "frames": 151,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "13x12 (3328x3072px)",
+    "scale": 0.9846153846153847,
+    "heroFrame": 96,
+    "image": "vfx_explosions_smoke_bomb.png",
+    "thumbnail": "vfx_explosions_smoke_bomb_thumb.png",
+    "json": "vfx_explosions_smoke_bomb.json"
+  },
+  {
+    "key": "vfx_fire_brazier",
+    "id": "fire/brazier",
+    "category": "fire",
+    "name": "Brazier",
+    "desc": "An iron bowl on a tripod heaped with glowing coals and a big roaring fire, sparks and embers streaming up off it, light on the iron and the floor.",
+    "frames": 90,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x9 (2560x2304px)",
+    "scale": 1.4,
+    "heroFrame": 4,
+    "image": "vfx_fire_brazier.png",
+    "thumbnail": "vfx_fire_brazier_thumb.png",
+    "json": "vfx_fire_brazier.json"
+  },
+  {
+    "key": "vfx_fire_campfire",
+    "id": "fire/campfire",
+    "category": "fire",
+    "name": "Campfire",
+    "desc": "Crossed logs on a bed of coals and a lively fire: tongues that lick and leap, popping sparks, embers drifting up, smoke curling off, a warm pool of light.",
+    "frames": 90,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x9 (2560x2304px)",
+    "scale": 1.4,
+    "heroFrame": 44,
+    "image": "vfx_fire_campfire.png",
+    "thumbnail": "vfx_fire_campfire_thumb.png",
+    "json": "vfx_fire_campfire.json"
+  },
+  {
+    "key": "vfx_fire_candle",
+    "id": "fire/candle",
+    "category": "fire",
+    "name": "Candle",
+    "desc": "A wax candle in a brass dish: a calm flame with a blue root that sways and stretches, a halo of light, motes drifting in it, a bead of wax running down a drip.",
+    "frames": 120,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 2,
+    "heroFrame": 77,
+    "image": "vfx_fire_candle.png",
+    "thumbnail": "vfx_fire_candle_thumb.png",
+    "json": "vfx_fire_candle.json"
+  },
+  {
+    "key": "vfx_fire_fire_breath",
+    "id": "fire/fire-breath",
+    "category": "fire",
+    "name": "Fire breath",
+    "desc": "A roaring cone of fire streaming right from the mouth: white-hot at the lips, billowing out and cooling to red and smoke at its edges, sparks thrown out ahead.",
+    "frames": 45,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "7x7 (1792x1792px)",
+    "scale": 1.4,
+    "heroFrame": 10,
+    "image": "vfx_fire_fire_breath.png",
+    "thumbnail": "vfx_fire_fire_breath_thumb.png",
+    "json": "vfx_fire_fire_breath.json"
+  },
+  {
+    "key": "vfx_fire_ring",
+    "id": "fire/fire-ring",
+    "category": "fire",
+    "name": "fire-ring",
+    "desc": "",
+    "frames": 118,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (2816x2816px)",
+    "scale": "1.2",
+    "image": "vfx_fire_ring.png",
+    "thumbnail": "vfx_fire_ring_thumb.png",
+    "json": "vfx_fire_ring.json"
+  },
+  {
+    "key": "vfx_fire_tornado",
+    "id": "fire/fire-tornado",
+    "category": "fire",
+    "name": "fire-tornado",
+    "desc": "",
+    "frames": 60,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (2048x2048px)",
+    "scale": "1.2",
+    "image": "vfx_fire_tornado.png",
+    "thumbnail": "vfx_fire_tornado_thumb.png",
+    "json": "vfx_fire_tornado.json"
+  },
+  {
+    "key": "vfx_fireball",
+    "id": "fire/fireball",
+    "category": "fire",
+    "name": "fireball",
+    "desc": "",
+    "frames": 36,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "1 cols (1536x1536px)",
+    "scale": "1.6",
+    "image": "vfx_fireball.png",
+    "thumbnail": "vfx_fireball_thumb.png",
+    "json": "vfx_fireball.json"
+  },
+  {
+    "key": "vfx_fire_flame_pillar",
+    "id": "fire/flame-pillar",
+    "category": "fire",
+    "name": "Flame pillar",
+    "desc": "The floor cracks and glows, a column of fire erupts white-hot and roars, spewing embers and shedding flame, then collapses into rolling smoke.",
+    "frames": 151,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "13x12 (3328x3072px)",
+    "scale": 1,
+    "heroFrame": 19,
+    "image": "vfx_fire_flame_pillar.png",
+    "thumbnail": "vfx_fire_flame_pillar_thumb.png",
+    "json": "vfx_fire_flame_pillar.json"
+  },
+  {
+    "key": "vfx_fire_flamethrower",
+    "id": "fire/flamethrower",
+    "category": "fire",
+    "name": "Flamethrower",
+    "desc": "A pressurised jet shooting right: a blue pilot at the nozzle, a tight stream with surges racing down it, a sputter, burning drops falling off, a tip that curls up into smoke.",
+    "frames": 48,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "7x7 (1792x1792px)",
+    "scale": 1,
+    "heroFrame": 22,
+    "image": "vfx_fire_flamethrower.png",
+    "thumbnail": "vfx_fire_flamethrower_thumb.png",
+    "json": "vfx_fire_flamethrower.json"
+  },
+  {
+    "key": "vfx_fire_meteor",
+    "id": "fire/meteor",
+    "category": "fire",
+    "name": "Meteor",
+    "desc": "A burning rock streaks in from the upper left in a comet of fire and smashes into the floor: a white flash, a fireball, rocks and brands thrown, a glowing crater that cools.",
+    "frames": 151,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "13x12 (3328x3072px)",
+    "scale": 0.9411764705882353,
+    "heroFrame": 19,
+    "image": "vfx_fire_meteor.png",
+    "thumbnail": "vfx_fire_meteor_thumb.png",
+    "json": "vfx_fire_meteor.json"
+  },
+  {
+    "key": "vfx_fire_spirit_flame",
+    "id": "fire/spirit-flame",
+    "category": "fire",
+    "name": "Spirit flame",
+    "desc": "A cold blue-teal ghost fire floating in the air: a bright rim round a hollow dark heart, a wave climbing its wispy tail, curls breaking off, cold sparks rising.",
+    "frames": 90,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x9 (2560x2304px)",
+    "scale": 1.4,
+    "heroFrame": 36,
+    "image": "vfx_fire_spirit_flame.png",
+    "thumbnail": "vfx_fire_spirit_flame_thumb.png",
+    "json": "vfx_fire_spirit_flame.json"
+  },
+  {
+    "key": "vfx_fire_torch",
+    "id": "fire/torch",
+    "category": "fire",
+    "name": "Torch",
+    "desc": "A wall torch on an iron bracket: a licking flame leaping off a pitch-soaked wrap, licks and puffs torn off its tips, smoke, embers, a flickering light on the wall.",
+    "frames": 60,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 2,
+    "heroFrame": 28,
+    "image": "vfx_fire_torch.png",
+    "thumbnail": "vfx_fire_torch_thumb.png",
+    "json": "vfx_fire_torch.json"
+  },
+  {
+    "key": "vfx_holy_blessing",
+    "id": "holy/blessing",
+    "category": "holy",
+    "name": "blessing",
+    "desc": "",
+    "frames": 90,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (2560x2304px)",
+    "scale": "1.6",
+    "image": "vfx_holy_blessing.png",
+    "thumbnail": "vfx_holy_blessing_thumb.png",
+    "json": "vfx_holy_blessing.json"
+  },
+  {
+    "key": "vfx_divine_shield",
+    "id": "holy/divine-shield",
+    "category": "holy",
+    "name": "divine-shield",
+    "desc": "",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      200
+    ],
+    "pivotNorm": [
+      0.5,
+      0.78125
+    ],
+    "grid": "1 cols (2304x2048px)",
+    "scale": "1.8",
+    "image": "vfx_divine_shield.png",
+    "thumbnail": "vfx_divine_shield_thumb.png",
+    "json": "vfx_divine_shield.json"
+  },
+  {
+    "key": "vfx_holy_feather_burst",
+    "id": "holy/feather-burst",
+    "category": "holy",
+    "name": "Feather burst",
+    "desc": "A white puff pops and throws feathers that brake hard, then rock from side to side as they sink and fade, with down drifting after them.",
+    "frames": 91,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1.4,
+    "heroFrame": 0,
+    "image": "vfx_holy_feather_burst.png",
+    "thumbnail": "vfx_holy_feather_burst_thumb.png",
+    "json": "vfx_holy_feather_burst.json"
+  },
+  {
+    "key": "vfx_holy_halo",
+    "id": "holy/halo",
+    "category": "holy",
+    "name": "Halo",
+    "desc": "A ring of gold light floats over the head with a glint running round it; fine dust sifts down from it and the head catches its light.",
+    "frames": 60,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 2,
+    "heroFrame": 6,
+    "image": "vfx_holy_halo.png",
+    "thumbnail": "vfx_holy_halo_thumb.png",
+    "json": "vfx_holy_halo.json"
+  },
+  {
+    "key": "vfx_heal_aoe",
+    "id": "holy/heal-aoe",
+    "category": "holy",
+    "name": "heal-aoe",
+    "desc": "",
+    "frames": 88,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (2560x2304px)",
+    "scale": "1.2",
+    "image": "vfx_heal_aoe.png",
+    "thumbnail": "vfx_heal_aoe_thumb.png",
+    "json": "vfx_heal_aoe.json"
+  },
+  {
+    "key": "vfx_divine_heal",
+    "id": "holy/heal",
+    "category": "holy",
+    "name": "heal",
+    "desc": "",
+    "frames": 58,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (2048x2048px)",
+    "scale": "2",
+    "image": "vfx_divine_heal.png",
+    "thumbnail": "vfx_divine_heal_thumb.png",
+    "json": "vfx_divine_heal.json"
+  },
+  {
+    "key": "vfx_holy_holy_pillar",
+    "id": "holy/holy-pillar",
+    "category": "holy",
+    "name": "Holy pillar",
+    "desc": "Light breaks through from above: a sun opens at the top and a fan of shafts converges on the mark, pulsing, while a sigil burns on the floor; then the fan folds shut.",
+    "frames": 106,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x10 (2816x2560px)",
+    "scale": 1,
+    "heroFrame": 20,
+    "image": "vfx_holy_holy_pillar.png",
+    "thumbnail": "vfx_holy_holy_pillar_thumb.png",
+    "json": "vfx_holy_holy_pillar.json"
+  },
+  {
+    "key": "vfx_holy_resurrection",
+    "id": "holy/resurrection",
+    "category": "holy",
+    "name": "Resurrection",
+    "desc": "Light pours down on the fallen and life climbs back up the body; wings of light unfold, a halo forms, one great wingbeat, then the wings scatter into feathers.",
+    "frames": 145,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "13x12 (3328x3072px)",
+    "scale": 1,
+    "heroFrame": 71,
+    "image": "vfx_holy_resurrection.png",
+    "thumbnail": "vfx_holy_resurrection_thumb.png",
+    "json": "vfx_holy_resurrection.json"
+  },
+  {
+    "key": "vfx_holy_smite",
+    "id": "holy/smite",
+    "category": "holy",
+    "name": "smite",
+    "desc": "",
+    "frames": 85,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (2560x2304px)",
+    "scale": "1",
+    "image": "vfx_holy_smite.png",
+    "thumbnail": "vfx_holy_smite_thumb.png",
+    "json": "vfx_holy_smite.json"
+  },
+  {
+    "key": "vfx_holy_sunburst",
+    "id": "holy/sunburst",
+    "category": "holy",
+    "name": "Sunburst",
+    "desc": "A white-hot core in a gold corona; long and short rays turn slowly round it, breathing, with glints running out along them that wink at the tips.",
+    "frames": 120,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 1.4,
+    "heroFrame": 16,
+    "image": "vfx_holy_sunburst.png",
+    "thumbnail": "vfx_holy_sunburst_thumb.png",
+    "json": "vfx_holy_sunburst.json"
+  },
+  {
+    "key": "vfx_ice_blizzard_vortex",
+    "id": "ice/blizzard-vortex",
+    "category": "ice",
+    "name": "Blizzard vortex",
+    "desc": "A swirling snow tornado: wind bands spin up a leaning funnel, flakes and ice crystals orbit in front and behind, snow boils at its foot and cold light fills its throat.",
+    "frames": 60,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 1.4,
+    "heroFrame": 55,
+    "image": "vfx_ice_blizzard_vortex.png",
+    "thumbnail": "vfx_ice_blizzard_vortex_thumb.png",
+    "json": "vfx_ice_blizzard_vortex.json"
+  },
+  {
+    "key": "vfx_ice_freeze",
+    "id": "ice/freeze",
+    "category": "ice",
+    "name": "Freeze",
+    "desc": "Frost races in and climbs the character, turning it to ice; a faceted block crystallizes round it pane by pane, glints, cracks and bursts, and the character thaws free.",
+    "frames": 121,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 1,
+    "heroFrame": 76,
+    "image": "vfx_ice_freeze.png",
+    "thumbnail": "vfx_ice_freeze_thumb.png",
+    "json": "vfx_ice_freeze.json"
+  },
+  {
+    "key": "vfx_ice_frost_breath",
+    "id": "ice/frost-breath",
+    "category": "ice",
+    "name": "Frost breath",
+    "desc": "A cone of icy wind blowing right: frost puffs billow out, swell and sink, wind streaks race through, ice crystals tumble and glint off a white-hot mouth.",
+    "frames": 36,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "6x6 (1536x1536px)",
+    "scale": 1,
+    "heroFrame": 27,
+    "image": "vfx_ice_frost_breath.png",
+    "thumbnail": "vfx_ice_frost_breath_thumb.png",
+    "json": "vfx_ice_frost_breath.json"
+  },
+  {
+    "key": "vfx_frost_nova",
+    "id": "ice/frost-nova",
+    "category": "ice",
+    "name": "frost-nova",
+    "desc": "",
+    "frames": 103,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (2816x2560px)",
+    "scale": "0.9",
+    "image": "vfx_frost_nova.png",
+    "thumbnail": "vfx_frost_nova_thumb.png",
+    "json": "vfx_frost_nova.json"
+  },
+  {
+    "key": "vfx_ice_ice_crystal",
+    "id": "ice/ice-crystal",
+    "category": "ice",
+    "name": "Ice crystal",
+    "desc": "A floating ice crystal turning slowly in its own cold light: its facets brighten and darken as they turn, glints flash on them, frost motes circle it.",
+    "frames": 90,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x9 (2560x2304px)",
+    "scale": 2,
+    "heroFrame": 3,
+    "image": "vfx_ice_ice_crystal.png",
+    "thumbnail": "vfx_ice_ice_crystal_thumb.png",
+    "json": "vfx_ice_ice_crystal.json"
+  },
+  {
+    "key": "vfx_ice_lance",
+    "id": "ice/ice-lance",
+    "category": "ice",
+    "name": "ice-lance",
+    "desc": "",
+    "frames": 24,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      200
+    ],
+    "pivotNorm": [
+      0.5,
+      0.78125
+    ],
+    "grid": "1 cols (1280x1280px)",
+    "scale": "1.3",
+    "image": "vfx_ice_lance.png",
+    "thumbnail": "vfx_ice_lance_thumb.png",
+    "json": "vfx_ice_lance.json"
+  },
+  {
+    "key": "vfx_ice_ice_shatter",
+    "id": "ice/ice-shatter",
+    "category": "ice",
+    "name": "Ice shatter",
+    "desc": "A block of ice takes a hit from the left: it jolts, cracks race over its faces, it flashes white and bursts into chunks that tumble, bounce and skid off in a roll of ice dust.",
+    "frames": 85,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x9 (2560x2304px)",
+    "scale": 1,
+    "heroFrame": 21,
+    "image": "vfx_ice_ice_shatter.png",
+    "thumbnail": "vfx_ice_ice_shatter_thumb.png",
+    "json": "vfx_ice_ice_shatter.json"
+  },
+  {
+    "key": "vfx_ice_ice_spikes",
+    "id": "ice/ice-spikes",
+    "category": "ice",
+    "name": "Ice spikes",
+    "desc": "A frost line races along the floor and clusters of jagged ice blades burst up behind it in a rising wave, glint, flash white together and shatter into toppling shards.",
+    "frames": 91,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 0.9696969696969697,
+    "heroFrame": 43,
+    "image": "vfx_ice_ice_spikes.png",
+    "thumbnail": "vfx_ice_ice_spikes_thumb.png",
+    "json": "vfx_ice_ice_spikes.json"
+  },
+  {
+    "key": "vfx_ice_icicle_fall",
+    "id": "ice/icicle-fall",
+    "category": "ice",
+    "name": "Icicle fall",
+    "desc": "An icicle drips and trembles, snaps off its frosted root, drops, stabs the floor and bursts into skidding shards, splinters and rolling frost.",
+    "frames": 79,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x9 (2304x2304px)",
+    "scale": 1.4,
+    "heroFrame": 29,
+    "image": "vfx_ice_icicle_fall.png",
+    "thumbnail": "vfx_ice_icicle_fall_thumb.png",
+    "json": "vfx_ice_icicle_fall.json"
+  },
+  {
+    "key": "vfx_ice_snowflake_burst",
+    "id": "ice/snowflake-burst",
+    "category": "ice",
+    "name": "Snowflake burst",
+    "desc": "A cold pop: frost gathers and flashes white in a ring, then crisp six-armed snowflakes spin out, slow, twinkle and drift down to settle and melt.",
+    "frames": 97,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1.4,
+    "heroFrame": 5,
+    "image": "vfx_ice_snowflake_burst.png",
+    "thumbnail": "vfx_ice_snowflake_burst_thumb.png",
+    "json": "vfx_ice_snowflake_burst.json"
+  },
+  {
+    "key": "vfx_blunt_hit",
+    "id": "impacts/blunt-hit",
+    "category": "impacts",
+    "name": "blunt-hit",
+    "desc": "",
+    "frames": 28,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      180
+    ],
+    "pivotNorm": [
+      0.5,
+      0.70313
+    ],
+    "grid": "1 cols (1536x1280px)",
+    "scale": "1.8",
+    "image": "vfx_blunt_hit.png",
+    "thumbnail": "vfx_blunt_hit_thumb.png",
+    "json": "vfx_blunt_hit.json"
+  },
+  {
+    "key": "vfx_impacts_bullet_impact",
+    "id": "impacts/bullet-impact",
+    "category": "impacts",
+    "name": "Bullet impact",
+    "desc": "A bullet hits a wall on the right: a hot half-star, sparks sprayed back in a cone, a puff of grit, chips that fall and bounce, a pock mark cooling to soot.",
+    "frames": 43,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "7x7 (1792x1792px)",
+    "scale": 1.4,
+    "heroFrame": 0,
+    "image": "vfx_impacts_bullet_impact.png",
+    "thumbnail": "vfx_impacts_bullet_impact_thumb.png",
+    "json": "vfx_impacts_bullet_impact.json"
+  },
+  {
+    "key": "vfx_critical_hit",
+    "id": "impacts/crit-hit",
+    "category": "impacts",
+    "name": "crit-hit",
+    "desc": "",
+    "frames": 28,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      180
+    ],
+    "pivotNorm": [
+      0.5,
+      0.70313
+    ],
+    "grid": "1 cols (1536x1280px)",
+    "scale": "1.6",
+    "image": "vfx_critical_hit.png",
+    "thumbnail": "vfx_critical_hit_thumb.png",
+    "json": "vfx_critical_hit.json"
+  },
+  {
+    "key": "vfx_ground_slam",
+    "id": "impacts/ground-slam",
+    "category": "impacts",
+    "name": "ground-slam",
+    "desc": "",
+    "frames": 97,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (2560x2560px)",
+    "scale": "1.2",
+    "image": "vfx_ground_slam.png",
+    "thumbnail": "vfx_ground_slam_thumb.png",
+    "json": "vfx_ground_slam.json"
+  },
+  {
+    "key": "vfx_impacts_heavy_landing",
+    "id": "impacts/heavy-landing",
+    "category": "impacts",
+    "name": "Heavy landing",
+    "desc": "A character lands hard: the floor dents and cracks under their feet, two rings of dust roll out along the floor one after the other, and pebbles hop away.",
+    "frames": 49,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "7x7 (1792x1792px)",
+    "scale": 1,
+    "heroFrame": 16,
+    "image": "vfx_impacts_heavy_landing.png",
+    "thumbnail": "vfx_impacts_heavy_landing_thumb.png",
+    "json": "vfx_impacts_heavy_landing.json"
+  },
+  {
+    "key": "vfx_hit_flash",
+    "id": "impacts/hit-flash",
+    "category": "impacts",
+    "name": "hit-flash",
+    "desc": "",
+    "frames": 16,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      180
+    ],
+    "pivotNorm": [
+      0.5,
+      0.70313
+    ],
+    "grid": "1 cols (1024x1024px)",
+    "scale": "1.5",
+    "image": "vfx_hit_flash.png",
+    "thumbnail": "vfx_hit_flash_thumb.png",
+    "json": "vfx_hit_flash.json"
+  },
+  {
+    "key": "vfx_impacts_hit_spark",
+    "id": "impacts/hit-spark",
+    "category": "impacts",
+    "name": "Hit spark",
+    "desc": "The everyday hit: a sharp, lopsided cross flare with one long ray along the blow round a white diamond core, then a cone of sparks and hot chips that fall and bounce.",
+    "frames": 16,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "4x4 (1024x1024px)",
+    "scale": 1.4,
+    "heroFrame": 0,
+    "image": "vfx_impacts_hit_spark.png",
+    "thumbnail": "vfx_impacts_hit_spark_thumb.png",
+    "json": "vfx_impacts_hit_spark.json"
+  },
+  {
+    "key": "vfx_impacts_impact_frame",
+    "id": "impacts/impact-frame",
+    "category": "impacts",
+    "name": "Impact frame",
+    "desc": "An anime impact: two frames of white with black burst lines rushing at the hit, two frames inverted, then the lines pull out past the edges and vanish.",
+    "frames": 10,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "4x3 (1024x768px)",
+    "scale": 0.8,
+    "heroFrame": 0,
+    "image": "vfx_impacts_impact_frame.png",
+    "thumbnail": "vfx_impacts_impact_frame_thumb.png",
+    "json": "vfx_impacts_impact_frame.json"
+  },
+  {
+    "key": "vfx_impacts_parry",
+    "id": "impacts/parry",
+    "category": "impacts",
+    "name": "Parry",
+    "desc": "Two blades clash: their edges flash in an X, a white four-point star rings out, a ring breaks into arcs and a fan of gold sparks sprays up and rains down.",
+    "frames": 31,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "6x6 (1536x1536px)",
+    "scale": 1,
+    "heroFrame": 0,
+    "image": "vfx_impacts_parry.png",
+    "thumbnail": "vfx_impacts_parry_thumb.png",
+    "json": "vfx_impacts_parry.json"
+  },
+  {
+    "key": "vfx_impacts_ricochet",
+    "id": "impacts/ricochet",
+    "category": "impacts",
+    "name": "Ricochet",
+    "desc": "A tracer streaks down onto the floor, glances off with a white-hot star and skips away at an angle, leaving a glowing skid while sparks skitter along the ground.",
+    "frames": 34,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "6x6 (1536x1536px)",
+    "scale": 1,
+    "heroFrame": 2,
+    "image": "vfx_impacts_ricochet.png",
+    "thumbnail": "vfx_impacts_ricochet_thumb.png",
+    "json": "vfx_impacts_ricochet.json"
+  },
+  {
+    "key": "vfx_impacts_shield_block",
+    "id": "impacts/shield-block",
+    "category": "impacts",
+    "name": "Shield block",
+    "desc": "A blow is caught on a half-dome of energy in front of the character: its diamond lattice flashes, a ripple runs over it, sparks glance off, then it blinks out cell by cell.",
+    "frames": 34,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "6x6 (1536x1536px)",
+    "scale": 1.4,
+    "heroFrame": 0,
+    "image": "vfx_impacts_shield_block.png",
+    "thumbnail": "vfx_impacts_shield_block_thumb.png",
+    "json": "vfx_impacts_shield_block.json"
+  },
+  {
+    "key": "vfx_lightning_ball_lightning",
+    "id": "lightning/ball-lightning",
+    "category": "lightning",
+    "name": "Ball lightning",
+    "desc": "A crackling ball of plasma drifts on a wandering loop, spitting arcs off its skin and leaving a wake of fading motes, and zaps the floor when it dips low.",
+    "frames": 120,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 1.4,
+    "heroFrame": 62,
+    "image": "vfx_lightning_ball_lightning.png",
+    "thumbnail": "vfx_lightning_ball_lightning_thumb.png",
+    "json": "vfx_lightning_ball_lightning.json"
+  },
+  {
+    "key": "vfx_lightning_chain_lightning",
+    "id": "lightning/chain-lightning",
+    "category": "lightning",
+    "name": "Chain lightning",
+    "desc": "A bolt leaps from the caster's hand through three targets in turn; each flashes, sparks and grounds itself to the floor while the arcs between them flicker, then the chain snaps.",
+    "frames": 55,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x7 (2048x1792px)",
+    "scale": 1,
+    "heroFrame": 8,
+    "image": "vfx_lightning_chain_lightning.png",
+    "thumbnail": "vfx_lightning_chain_lightning_thumb.png",
+    "json": "vfx_lightning_chain_lightning.json"
+  },
+  {
+    "key": "vfx_lightning_charge_up",
+    "id": "lightning/charge-up",
+    "category": "lightning",
+    "name": "Charge up",
+    "desc": "Sparks streak and arcs whip in to a crackling core at the caster's hand that swells and pulses faster, then it flashes and bursts: bolts every way, a ring, a spray of sparks.",
+    "frames": 82,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x9 (2560x2304px)",
+    "scale": 0.9411764705882353,
+    "heroFrame": 49,
+    "image": "vfx_lightning_charge_up.png",
+    "thumbnail": "vfx_lightning_charge_up_thumb.png",
+    "json": "vfx_lightning_charge_up.json"
+  },
+  {
+    "key": "vfx_lightning_electrified",
+    "id": "lightning/electrified",
+    "category": "lightning",
+    "name": "Electrified",
+    "desc": "Current runs through a character: arcs crawl over and leap across the body, sparks spit off, the body flares to an electric silhouette on each jolt, and the feet ground out.",
+    "frames": 60,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 2,
+    "heroFrame": 4,
+    "image": "vfx_lightning_electrified.png",
+    "thumbnail": "vfx_lightning_electrified_thumb.png",
+    "json": "vfx_lightning_electrified.json"
+  },
+  {
+    "key": "vfx_lightning_strike",
+    "id": "lightning/lightning-strike",
+    "category": "lightning",
+    "name": "lightning-strike",
+    "desc": "",
+    "frames": 91,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      228
+    ],
+    "pivotNorm": [
+      0.5,
+      0.89063
+    ],
+    "grid": "1 cols (2560x2560px)",
+    "scale": "0.95",
+    "image": "vfx_lightning_strike.png",
+    "thumbnail": "vfx_lightning_strike_thumb.png",
+    "json": "vfx_lightning_strike.json"
+  },
+  {
+    "key": "vfx_lightning_plasma_ball",
+    "id": "lightning/plasma-ball",
+    "category": "lightning",
+    "name": "Plasma ball",
+    "desc": "A glass globe on a dark pedestal: wandering plasma tendrils reach from the core to the glass and fan out in bright feet where they touch it, lighting the stand and floor.",
+    "frames": 90,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x9 (2560x2304px)",
+    "scale": 2,
+    "heroFrame": 49,
+    "image": "vfx_lightning_plasma_ball.png",
+    "thumbnail": "vfx_lightning_plasma_ball_thumb.png",
+    "json": "vfx_lightning_plasma_ball.json"
+  },
+  {
+    "key": "vfx_lightning_spark_arc",
+    "id": "lightning/spark-arc",
+    "category": "lightning",
+    "name": "Spark arc",
+    "desc": "A climbing arc between two rods: it strikes white at their narrow foot, climbs on rising heat as it stretches and bows, sputters and snaps at the top, then strikes again.",
+    "frames": 60,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 1.4,
+    "heroFrame": 42,
+    "image": "vfx_lightning_spark_arc.png",
+    "thumbnail": "vfx_lightning_spark_arc_thumb.png",
+    "json": "vfx_lightning_spark_arc.json"
+  },
+  {
+    "key": "vfx_lightning_storm_cloud",
+    "id": "lightning/storm-cloud",
+    "category": "lightning",
+    "name": "Storm cloud",
+    "desc": "A storm cloud boils overhead, billows lit from inside by flickering discharges, ragged scud under its flat dark base; rain slants down and once a loop a bolt cracks to the floor.",
+    "frames": 90,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x9 (2560x2304px)",
+    "scale": 1,
+    "heroFrame": 52,
+    "image": "vfx_lightning_storm_cloud.png",
+    "thumbnail": "vfx_lightning_storm_cloud_thumb.png",
+    "json": "vfx_lightning_storm_cloud.json"
+  },
+  {
+    "key": "vfx_lightning_tesla_coil",
+    "id": "lightning/tesla-coil",
+    "category": "lightning",
+    "name": "Tesla coil",
+    "desc": "A copper coil under a steel torus throws branching arcs that lash out in volleys and now and then strike the floor in a spray of sparks, lighting the metal and the ground.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 1,
+    "heroFrame": 47,
+    "image": "vfx_lightning_tesla_coil.png",
+    "thumbnail": "vfx_lightning_tesla_coil_thumb.png",
+    "json": "vfx_lightning_tesla_coil.json"
+  },
+  {
+    "key": "vfx_lightning_thunderclap",
+    "id": "lightning/thunderclap",
+    "category": "lightning",
+    "name": "Thunderclap",
+    "desc": "A thunderclap round the caster: a white flash, forked bolts burst out and stab the floor, a heavy shock ring tears across the ground raising dust and grit, sparks streak away.",
+    "frames": 58,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 0.8888888888888888,
+    "heroFrame": 4,
+    "image": "vfx_lightning_thunderclap.png",
+    "thumbnail": "vfx_lightning_thunderclap_thumb.png",
+    "json": "vfx_lightning_thunderclap.json"
+  },
+  {
+    "key": "vfx_lightning_zap_hit",
+    "id": "lightning/zap-hit",
+    "category": "lightning",
+    "name": "Zap hit",
+    "desc": "A contact zap: an arc snaps in from the left, the hit point overloads into a knot of tiny crackling zigzags, a fern of burn marks glows outward, sparks jink away, ozone puffs.",
+    "frames": 28,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "6x5 (1536x1280px)",
+    "scale": 1.4,
+    "heroFrame": 2,
+    "image": "vfx_lightning_zap_hit.png",
+    "thumbnail": "vfx_lightning_zap_hit_thumb.png",
+    "json": "vfx_lightning_zap_hit.json"
+  },
+  {
+    "key": "vfx_melee_claw_swipe",
+    "id": "melee/claw-swipe",
+    "category": "melee",
+    "name": "Claw swipe",
+    "desc": "Three claw marks rake down one after another, white-hot, cooling through orange to red, then close up from both ends and leave a dotted scar, with hot flecks and drips.",
+    "frames": 28,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "6x5 (1536x1280px)",
+    "scale": 1.4,
+    "heroFrame": 4,
+    "image": "vfx_melee_claw_swipe.png",
+    "thumbnail": "vfx_melee_claw_swipe_thumb.png",
+    "json": "vfx_melee_claw_swipe.json"
+  },
+  {
+    "key": "vfx_dagger_flurry",
+    "id": "melee/dagger-flurry",
+    "category": "melee",
+    "name": "dagger-flurry",
+    "desc": "",
+    "frames": 30,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (1536x1280px)",
+    "scale": "1.5",
+    "image": "vfx_dagger_flurry.png",
+    "thumbnail": "vfx_dagger_flurry_thumb.png",
+    "json": "vfx_dagger_flurry.json"
+  },
+  {
+    "key": "vfx_double_slash",
+    "id": "melee/double-slash",
+    "category": "melee",
+    "name": "double-slash",
+    "desc": "",
+    "frames": 25,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (1280x1280px)",
+    "scale": "1.5",
+    "image": "vfx_double_slash.png",
+    "thumbnail": "vfx_double_slash_thumb.png",
+    "json": "vfx_double_slash.json"
+  },
+  {
+    "key": "vfx_melee_hammer_smash",
+    "id": "melee/hammer-smash",
+    "category": "melee",
+    "name": "Hammer smash",
+    "desc": "A hammer drops in front in a wedge of motion: a white slam with rays, a dome of force, a dent with cracks, rocks thrown up that bounce and settle, and dust.",
+    "frames": 61,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 1,
+    "heroFrame": 35,
+    "image": "vfx_melee_hammer_smash.png",
+    "thumbnail": "vfx_melee_hammer_smash_thumb.png",
+    "json": "vfx_melee_hammer_smash.json"
+  },
+  {
+    "key": "vfx_heavy_cleave",
+    "id": "melee/heavy-cleave",
+    "category": "melee",
+    "name": "heavy-cleave",
+    "desc": "",
+    "frames": 58,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (2048x2048px)",
+    "scale": "1.4",
+    "image": "vfx_heavy_cleave.png",
+    "thumbnail": "vfx_heavy_cleave_thumb.png",
+    "json": "vfx_heavy_cleave.json"
+  },
+  {
+    "key": "vfx_melee_scythe_reap",
+    "id": "melee/scythe-reap",
+    "category": "melee",
+    "name": "Scythe reap",
+    "desc": "A slow, huge dark crescent reaps round the front with a pale ghostly edge; it hangs, then tears away from the tail into curling wisps and cold vapour.",
+    "frames": 64,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 1,
+    "heroFrame": 12,
+    "image": "vfx_melee_scythe_reap.png",
+    "thumbnail": "vfx_melee_scythe_reap_thumb.png",
+    "json": "vfx_melee_scythe_reap.json"
+  },
+  {
+    "key": "vfx_spear_sweep",
+    "id": "melee/spear-sweep",
+    "category": "melee",
+    "name": "spear-sweep",
+    "desc": "",
+    "frames": 46,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      216
+    ],
+    "pivotNorm": [
+      0.5,
+      0.84375
+    ],
+    "grid": "1 cols (1792x1792px)",
+    "scale": "1.2",
+    "image": "vfx_spear_sweep.png",
+    "thumbnail": "vfx_spear_sweep_thumb.png",
+    "json": "vfx_spear_sweep.json"
+  },
+  {
+    "key": "vfx_spin_slash",
+    "id": "melee/spin-slash",
+    "category": "melee",
+    "name": "spin-slash",
+    "desc": "",
+    "frames": 25,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      216
+    ],
+    "pivotNorm": [
+      0.5,
+      0.84375
+    ],
+    "grid": "1 cols (1280x1280px)",
+    "scale": "1.2",
+    "image": "vfx_spin_slash.png",
+    "thumbnail": "vfx_spin_slash_thumb.png",
+    "json": "vfx_spin_slash.json"
+  },
+  {
+    "key": "vfx_sword_slash",
+    "id": "melee/sword-slash",
+    "category": "melee",
+    "name": "sword-slash",
+    "desc": "",
+    "frames": 24,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (1280x1280px)",
+    "scale": "1.5",
+    "image": "vfx_sword_slash.png",
+    "thumbnail": "vfx_sword_slash_thumb.png",
+    "json": "vfx_sword_slash.json"
+  },
+  {
+    "key": "vfx_thrust",
+    "id": "melee/thrust",
+    "category": "melee",
+    "name": "thrust",
+    "desc": "",
+    "frames": 24,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (1280x1280px)",
+    "scale": "1.4",
+    "image": "vfx_thrust.png",
+    "thumbnail": "vfx_thrust_thumb.png",
+    "json": "vfx_thrust.json"
+  },
+  {
+    "key": "vfx_power_punch",
+    "id": "melee/uppercut",
+    "category": "melee",
+    "name": "uppercut",
+    "desc": "",
+    "frames": 27,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (1536x1280px)",
+    "scale": "1.5",
+    "image": "vfx_power_punch.png",
+    "thumbnail": "vfx_power_punch_thumb.png",
+    "json": "vfx_power_punch.json"
+  },
+  {
+    "key": "vfx_melee_whip_crack",
+    "id": "melee/whip-crack",
+    "category": "melee",
+    "name": "Whip crack",
+    "desc": "A whip rolls out to the right as a loop running down its length, faster and faster, until the tip flips over and cracks: a white pop, a ring of air, sparks and a puff of smoke.",
+    "frames": 27,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "6x5 (1536x1280px)",
+    "scale": 1,
+    "heroFrame": 7,
+    "image": "vfx_melee_whip_crack.png",
+    "thumbnail": "vfx_melee_whip_crack_thumb.png",
+    "json": "vfx_melee_whip_crack.json"
+  },
+  {
+    "key": "vfx_moves_arrow_shot",
+    "id": "moves/arrow-shot",
+    "category": "moves",
+    "name": "Arrow shot",
+    "desc": "He raises the bow, draws to his cheek, holds his breath and looses: the string snaps forward, the arrow crosses the floor and thuds home.",
+    "frames": 58,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 0.8533333333333334,
+    "heroFrame": 22,
+    "image": "vfx_moves_arrow_shot.png",
+    "thumbnail": "vfx_moves_arrow_shot_thumb.png",
+    "json": "vfx_moves_arrow_shot.json"
+  },
+  {
+    "key": "vfx_dash_strike",
+    "id": "moves/dash-strike",
+    "category": "moves",
+    "name": "dash-strike",
+    "desc": "",
+    "frames": 70,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (2304x2048px)",
+    "scale": "0.9",
+    "image": "vfx_dash_strike.png",
+    "thumbnail": "vfx_dash_strike_thumb.png",
+    "json": "vfx_dash_strike.json"
+  },
+  {
+    "key": "vfx_earth_stomp",
+    "id": "moves/earth-stomp",
+    "category": "moves",
+    "name": "earth-stomp",
+    "desc": "",
+    "frames": 105,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (2816x2560px)",
+    "scale": "1.2",
+    "image": "vfx_earth_stomp.png",
+    "thumbnail": "vfx_earth_stomp_thumb.png",
+    "json": "vfx_earth_stomp.json"
+  },
+  {
+    "key": "vfx_fireball_throw",
+    "id": "moves/fireball-throw",
+    "category": "moves",
+    "name": "fireball-throw",
+    "desc": "",
+    "frames": 205,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (3840x3584px)",
+    "scale": "0.9",
+    "image": "vfx_fireball_throw.png",
+    "thumbnail": "vfx_fireball_throw_thumb.png",
+    "json": "vfx_fireball_throw.json"
+  },
+  {
+    "key": "vfx_moves_ground_pound",
+    "id": "moves/ground-pound",
+    "category": "moves",
+    "name": "Ground pound",
+    "desc": "He coils, leaps out of frame height, hangs, and comes down like a rock: the floor cracks, shock waves race out and throw the target about as they pass.",
+    "frames": 116,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 0.8421052631578947,
+    "heroFrame": 19,
+    "image": "vfx_moves_ground_pound.png",
+    "thumbnail": "vfx_moves_ground_pound_thumb.png",
+    "json": "vfx_moves_ground_pound.json"
+  },
+  {
+    "key": "vfx_holy_smite",
+    "id": "moves/holy-smite",
+    "category": "moves",
+    "name": "holy-smite",
+    "desc": "",
+    "frames": 85,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (2560x2304px)",
+    "scale": "1",
+    "image": "vfx_holy_smite.png",
+    "thumbnail": "vfx_holy_smite_thumb.png",
+    "json": "vfx_holy_smite.json"
+  },
+  {
+    "key": "vfx_moves_ice_lance_throw",
+    "id": "moves/ice-lance-throw",
+    "category": "moves",
+    "name": "Ice lance throw",
+    "desc": "Frost gathers into a spear in his hand, he throws it like a javelin, and the target ices over in a burst of snowflakes and shivers.",
+    "frames": 131,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "12x11 (3072x2816px)",
+    "scale": 0.8258064516129032,
+    "heroFrame": 6,
+    "image": "vfx_moves_ice_lance_throw.png",
+    "thumbnail": "vfx_moves_ice_lance_throw_thumb.png",
+    "json": "vfx_moves_ice_lance_throw.json"
+  },
+  {
+    "key": "vfx_moves_lightning_call",
+    "id": "moves/lightning-call",
+    "category": "moves",
+    "name": "Lightning call",
+    "desc": "An arm goes up, a sigil lights under the target, and on the downswing a thick bolt comes down on it; the target jolts through the aftershocks.",
+    "frames": 91,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 0.8827586206896552,
+    "heroFrame": 21,
+    "image": "vfx_moves_lightning_call.png",
+    "thumbnail": "vfx_moves_lightning_call_thumb.png",
+    "json": "vfx_moves_lightning_call.json"
+  },
+  {
+    "key": "vfx_meteor_call",
+    "id": "moves/meteor-call",
+    "category": "moves",
+    "name": "meteor-call",
+    "desc": "",
+    "frames": 194,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (3584x3584px)",
+    "scale": "0.95",
+    "image": "vfx_meteor_call.png",
+    "thumbnail": "vfx_meteor_call_thumb.png",
+    "json": "vfx_meteor_call.json"
+  },
+  {
+    "key": "vfx_moves_pistol_shots",
+    "id": "moves/pistol-shots",
+    "category": "moves",
+    "name": "Pistol shots",
+    "desc": "Three aimed shots: the gun kicks up each time and settles, tracers cross the floor, and the target staggers under each hit.",
+    "frames": 79,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x9 (2304x2304px)",
+    "scale": 0.6772486772486772,
+    "heroFrame": 25,
+    "image": "vfx_moves_pistol_shots.png",
+    "thumbnail": "vfx_moves_pistol_shots_thumb.png",
+    "json": "vfx_moves_pistol_shots.json"
+  },
+  {
+    "key": "vfx_moves_rocket_launcher",
+    "id": "moves/rocket-launcher",
+    "category": "moves",
+    "name": "Rocket launcher",
+    "desc": "He drops to one knee, shoulders the tube and fires: the kick shoves him back along the floor, the rocket crawls out on its jet and the target goes up.",
+    "frames": 198,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "15x14 (3840x3584px)",
+    "scale": 0.5333333333333333,
+    "heroFrame": 66,
+    "image": "vfx_moves_rocket_launcher.png",
+    "thumbnail": "vfx_moves_rocket_launcher_thumb.png",
+    "json": "vfx_moves_rocket_launcher.json"
+  },
+  {
+    "key": "vfx_sword_combo",
+    "id": "moves/sword-combo",
+    "category": "moves",
+    "name": "sword-combo",
+    "desc": "",
+    "frames": 90,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (2560x2304px)",
+    "scale": "1",
+    "image": "vfx_sword_combo.png",
+    "thumbnail": "vfx_sword_combo_thumb.png",
+    "json": "vfx_sword_combo.json"
+  },
+  {
+    "key": "vfx_nature_acid_splash",
+    "id": "nature/acid-splash",
+    "category": "nature",
+    "name": "Acid splash",
+    "desc": "A gob of acid bursts into a crown and spatters; it eats a glowing, smoking pit into the floor and boils down into it, spitting bright beads, pale steam curling off.",
+    "frames": 85,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x9 (2560x2304px)",
+    "scale": 1,
+    "heroFrame": 9,
+    "image": "vfx_nature_acid_splash.png",
+    "thumbnail": "vfx_nature_acid_splash_thumb.png",
+    "json": "vfx_nature_acid_splash.json"
+  },
+  {
+    "key": "vfx_nature_boulder",
+    "id": "nature/boulder",
+    "category": "nature",
+    "name": "Boulder",
+    "desc": "A spinning boulder arcs right shedding dust and pebbles, smashes into the floor in a white flash and bursts into tumbling chunks, gravel and rolling dust.",
+    "frames": 70,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 0.9696969696969697,
+    "heroFrame": 15,
+    "image": "vfx_nature_boulder.png",
+    "thumbnail": "vfx_nature_boulder_thumb.png",
+    "json": "vfx_nature_boulder.json"
+  },
+  {
+    "key": "vfx_nature_earth_spike",
+    "id": "nature/earth-spike",
+    "category": "nature",
+    "name": "Earth spike",
+    "desc": "The floor cracks with light and heaves, a faceted stone spike rams up with two side shards in a burst of chips, grit and dust; rubble rains, then it splits and crumbles.",
+    "frames": 103,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x10 (2816x2560px)",
+    "scale": 0.9411764705882353,
+    "heroFrame": 11,
+    "image": "vfx_nature_earth_spike.png",
+    "thumbnail": "vfx_nature_earth_spike_thumb.png",
+    "json": "vfx_nature_earth_spike.json"
+  },
+  {
+    "key": "vfx_nature_healing_bloom",
+    "id": "nature/healing-bloom",
+    "category": "nature",
+    "name": "Healing bloom",
+    "desc": "A sprout pushes up and unfurls, a bud swells and opens round a glowing golden heart in a flare of healing light; its petals lift away one by one as motes.",
+    "frames": 100,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1.4,
+    "heroFrame": 28,
+    "image": "vfx_nature_healing_bloom.png",
+    "thumbnail": "vfx_nature_healing_bloom_thumb.png",
+    "json": "vfx_nature_healing_bloom.json"
+  },
+  {
+    "key": "vfx_nature_leaf_storm",
+    "id": "nature/leaf-storm",
+    "category": "nature",
+    "name": "Leaf storm",
+    "desc": "Leaves tumble up a rising spiral round the character, passing behind and in front, turning and flipping, wrapped in bright bands of wind; litter swirls at their feet.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 2,
+    "heroFrame": 8,
+    "image": "vfx_nature_leaf_storm.png",
+    "thumbnail": "vfx_nature_leaf_storm_thumb.png",
+    "json": "vfx_nature_leaf_storm.json"
+  },
+  {
+    "key": "vfx_nature_poison_cloud",
+    "id": "nature/poison-cloud",
+    "category": "nature",
+    "name": "Poison cloud",
+    "desc": "A miasma hugging the floor: ragged sheets of gas lit yellow-green from within, fading to violet, creep out in tongues that curl over at their tips; plumes twist up as ribbons.",
+    "frames": 120,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 1,
+    "heroFrame": 17,
+    "image": "vfx_nature_poison_cloud.png",
+    "thumbnail": "vfx_nature_poison_cloud_thumb.png",
+    "json": "vfx_nature_poison_cloud.json"
+  },
+  {
+    "key": "vfx_nature_quake",
+    "id": "nature/quake",
+    "category": "nature",
+    "name": "Quake",
+    "desc": "The ground jolts three times: a rift tears out along the floor glowing deep inside, slabs of floor heave up and drop back askew, pebbles hop and dust bursts out of the split.",
+    "frames": 94,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 0.8888888888888888,
+    "heroFrame": 41,
+    "image": "vfx_nature_quake.png",
+    "thumbnail": "vfx_nature_quake_thumb.png",
+    "json": "vfx_nature_quake.json"
+  },
+  {
+    "key": "vfx_nature_root_snare",
+    "id": "nature/root-snare",
+    "category": "nature",
+    "name": "Root snare",
+    "desc": "The floor cracks and roots burst up round the character, spiralling round its legs; they cinch tight with a snap, hold, then crack and crumble into bark and dust.",
+    "frames": 82,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x9 (2560x2304px)",
+    "scale": 1.4,
+    "heroFrame": 19,
+    "image": "vfx_nature_root_snare.png",
+    "thumbnail": "vfx_nature_root_snare_thumb.png",
+    "json": "vfx_nature_root_snare.json"
+  },
+  {
+    "key": "vfx_nature_spore_burst",
+    "id": "nature/spore-burst",
+    "category": "nature",
+    "name": "Spore burst",
+    "desc": "A toadstool pushes up, swells and trembles as its gills glow, then squashes and puffs a lumpy cloud of glowing spores that billows up and drifts down twinkling.",
+    "frames": 97,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1,
+    "heroFrame": 25,
+    "image": "vfx_nature_spore_burst.png",
+    "thumbnail": "vfx_nature_spore_burst_thumb.png",
+    "json": "vfx_nature_spore_burst.json"
+  },
+  {
+    "key": "vfx_nature_thorns",
+    "id": "nature/thorns",
+    "category": "nature",
+    "name": "Thorns",
+    "desc": "A seam races along the floor and hooked thorns punch up out of it one after another, each bigger than the last, in bursts of dirt and green light; they hold, then sink.",
+    "frames": 73,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x9 (2304x2304px)",
+    "scale": 1,
+    "heroFrame": 15,
+    "image": "vfx_nature_thorns.png",
+    "thumbnail": "vfx_nature_thorns_thumb.png",
+    "json": "vfx_nature_thorns.json"
+  },
+  {
+    "key": "vfx_nature_tornado",
+    "id": "nature/tornado",
+    "category": "nature",
+    "name": "Tornado",
+    "desc": "A snaking funnel of spinning wind bands under a flared, churning top that flickers with lightning; leaves and debris whirl round it front and back, dust boils at its foot.",
+    "frames": 60,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 1,
+    "heroFrame": 37,
+    "image": "vfx_nature_tornado.png",
+    "thumbnail": "vfx_nature_tornado_thumb.png",
+    "json": "vfx_nature_tornado.json"
+  },
+  {
+    "key": "vfx_nature_toxic_puddle",
+    "id": "nature/toxic-puddle",
+    "category": "nature",
+    "name": "Toxic puddle",
+    "desc": "Black tar lit from inside by chartreuse veins and a glowing rim, an oily sheen drifting on it; glossy bubbles dome, stretch and pop, vapour curls up in fraying ribbons.",
+    "frames": 120,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 1,
+    "heroFrame": 78,
+    "image": "vfx_nature_toxic_puddle.png",
+    "thumbnail": "vfx_nature_toxic_puddle_thumb.png",
+    "json": "vfx_nature_toxic_puddle.json"
+  },
+  {
+    "key": "vfx_nature_vine_whip",
+    "id": "nature/vine-whip",
+    "category": "nature",
+    "name": "Vine whip",
+    "desc": "A thorny vine bursts from the floor, rears back coiled, then lashes out right in a whip crack that sprays sap and tears off leaves, before sliding back into the ground.",
+    "frames": 43,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "7x7 (1792x1792px)",
+    "scale": 1,
+    "heroFrame": 17,
+    "image": "vfx_nature_vine_whip.png",
+    "thumbnail": "vfx_nature_vine_whip_thumb.png",
+    "json": "vfx_nature_vine_whip.json"
+  },
+  {
+    "key": "vfx_pickups_chest_open",
+    "id": "pickups/chest-open",
+    "category": "pickups",
+    "name": "Chest open",
+    "desc": "A banded chest rattles with gold light leaking from its seam, the lid kicks open, rays fan up, and coins and gems arc out, bounce, glint and get collected.",
+    "frames": 139,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "12x12 (3072x3072px)",
+    "scale": 1,
+    "heroFrame": 25,
+    "image": "vfx_pickups_chest_open.png",
+    "thumbnail": "vfx_pickups_chest_open_thumb.png",
+    "json": "vfx_pickups_chest_open.json"
+  },
+  {
+    "key": "vfx_pickups_coin_spin",
+    "id": "pickups/coin-spin",
+    "category": "pickups",
+    "name": "Coin spin",
+    "desc": "A thick gold coin turning on its edge: an embossed star face, a reeded rim showing as it goes edge-on, a flash sweeping the face, bobbing over its shadow.",
+    "frames": 48,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "7x7 (1792x1792px)",
+    "scale": 2,
+    "heroFrame": 23,
+    "image": "vfx_pickups_coin_spin.png",
+    "thumbnail": "vfx_pickups_coin_spin_thumb.png",
+    "json": "vfx_pickups_coin_spin.json"
+  },
+  {
+    "key": "vfx_pickups_collect_burst",
+    "id": "pickups/collect-burst",
+    "category": "pickups",
+    "name": "Collect burst",
+    "desc": "The moment of pickup: a white flash and a cross of light, a thin ring snapping out ahead of a softer one, twinkles thrown wide on curving paths that brake, hang and wink out.",
+    "frames": 42,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "7x6 (1792x1536px)",
+    "scale": 2,
+    "heroFrame": 0,
+    "image": "vfx_pickups_collect_burst.png",
+    "thumbnail": "vfx_pickups_collect_burst_thumb.png",
+    "json": "vfx_pickups_collect_burst.json"
+  },
+  {
+    "key": "vfx_pickups_crystal_shard",
+    "id": "pickups/crystal-shard",
+    "category": "pickups",
+    "name": "Crystal shard",
+    "desc": "A broken amber shard hovers and sways: chipped uneven faces, its top sheared off, light pulsing up through glowing cracks and flaring out of the break; splinters orbit it.",
+    "frames": 96,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 2,
+    "heroFrame": 38,
+    "image": "vfx_pickups_crystal_shard.png",
+    "thumbnail": "vfx_pickups_crystal_shard_thumb.png",
+    "json": "vfx_pickups_crystal_shard.json"
+  },
+  {
+    "key": "vfx_pickups_gem_spin",
+    "id": "pickups/gem-spin",
+    "category": "pickups",
+    "name": "Gem spin",
+    "desc": "A brilliant-cut ruby turning on its axis: real facets catch the light in turn, flashes roll over the crown, refracted light slides across the floor, sparkles wink round it.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 2,
+    "heroFrame": 15,
+    "image": "vfx_pickups_gem_spin.png",
+    "thumbnail": "vfx_pickups_gem_spin_thumb.png",
+    "json": "vfx_pickups_gem_spin.json"
+  },
+  {
+    "key": "vfx_pickups_heart_pickup",
+    "id": "pickups/heart-pickup",
+    "category": "pickups",
+    "name": "Heart pickup",
+    "desc": "A plump glossy heart hovering over its shadow beats lub-dub: a big squash and stretch, a smaller echo, light and a thin ring pulsing out, tiny hearts drifting off.",
+    "frames": 36,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "6x6 (1536x1536px)",
+    "scale": 2,
+    "heroFrame": 9,
+    "image": "vfx_pickups_heart_pickup.png",
+    "thumbnail": "vfx_pickups_heart_pickup_thumb.png",
+    "json": "vfx_pickups_heart_pickup.json"
+  },
+  {
+    "key": "vfx_pickups_key_glint",
+    "id": "pickups/key-glint",
+    "category": "pickups",
+    "name": "Key glint",
+    "desc": "An ornate silver key hovering and rocking; a glint runs from its bow down the shaft to the teeth and bursts off the tip as falling sparks.",
+    "frames": 60,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 2,
+    "heroFrame": 29,
+    "image": "vfx_pickups_key_glint.png",
+    "thumbnail": "vfx_pickups_key_glint_thumb.png",
+    "json": "vfx_pickups_key_glint.json"
+  },
+  {
+    "key": "vfx_pickups_loot_beam",
+    "id": "pickups/loot-beam",
+    "category": "pickups",
+    "name": "Loot beam",
+    "desc": "A dropped sword in a tall pillar of rarity light: a white core thinning to the sky, rings pulsing across the floor, motes streaming up, a glint racing up the shaft.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 1,
+    "heroFrame": 46,
+    "image": "vfx_pickups_loot_beam.png",
+    "thumbnail": "vfx_pickups_loot_beam_thumb.png",
+    "json": "vfx_pickups_loot_beam.json"
+  },
+  {
+    "key": "vfx_pickups_potion",
+    "id": "pickups/potion",
+    "category": "pickups",
+    "name": "Potion",
+    "desc": "A round glass flask of glowing brew rocks in the air: the brew sloshes behind the rock, bubbles rise and pop, light glows through the glass, wisps curl off the cork.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 2,
+    "heroFrame": 60,
+    "image": "vfx_pickups_potion.png",
+    "thumbnail": "vfx_pickups_potion_thumb.png",
+    "json": "vfx_pickups_potion.json"
+  },
+  {
+    "key": "vfx_pickups_power_star",
+    "id": "pickups/power-star",
+    "category": "pickups",
+    "name": "Power star",
+    "desc": "A fat bevelled star rocks side to side and swells on each beat, rays of light turning slowly behind it, sparks spinning off its points.",
+    "frames": 48,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "7x7 (1792x1792px)",
+    "scale": 2,
+    "heroFrame": 36,
+    "image": "vfx_pickups_power_star.png",
+    "thumbnail": "vfx_pickups_power_star_thumb.png",
+    "json": "vfx_pickups_power_star.json"
+  },
+  {
+    "key": "vfx_pickups_xp_orb",
+    "id": "pickups/xp-orb",
+    "category": "pickups",
+    "name": "XP orb",
+    "desc": "A small glowing orb races a figure-eight, a comet tail tapering behind it along its path, flecks shed from the tail winking out, its light following it over the floor.",
+    "frames": 54,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x7 (2048x1792px)",
+    "scale": 2,
+    "heroFrame": 4,
+    "image": "vfx_pickups_xp_orb.png",
+    "thumbnail": "vfx_pickups_xp_orb_thumb.png",
+    "json": "vfx_pickups_xp_orb.json"
+  },
+  {
+    "key": "vfx_projectiles_arrow",
+    "id": "projectiles/arrow",
+    "category": "projectiles",
+    "name": "Arrow",
+    "desc": "An arrow in flight: a steel broadhead catching the light, a wooden shaft, fletching fluttering in the wind, streaks of air peeling off its head and swirling off its feathers.",
+    "frames": 18,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "5x4 (1280x1024px)",
+    "scale": 2,
+    "heroFrame": 10,
+    "image": "vfx_projectiles_arrow.png",
+    "thumbnail": "vfx_projectiles_arrow_thumb.png",
+    "json": "vfx_projectiles_arrow.json"
+  },
+  {
+    "key": "vfx_projectiles_bullet_tracer",
+    "id": "projectiles/bullet-tracer",
+    "category": "projectiles",
+    "name": "Bullet tracer",
+    "desc": "A white-hot slug tearing along, its tracer burning behind it in a long streak that sputters and cools from white through gold to red, shedding sparks and a thread of smoke.",
+    "frames": 18,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "5x4 (1280x1024px)",
+    "scale": 1,
+    "heroFrame": 13,
+    "image": "vfx_projectiles_bullet_tracer.png",
+    "thumbnail": "vfx_projectiles_bullet_tracer_thumb.png",
+    "json": "vfx_projectiles_bullet_tracer.json"
+  },
+  {
+    "key": "vfx_projectiles_cannonball",
+    "id": "projectiles/cannonball",
+    "category": "projectiles",
+    "name": "Cannon shot",
+    "desc": "A cannon fires from a muzzle `height` px above the floor (the origin): a white flash, a tongue of flame, the ball arcing off trailing smoke, a big gunsmoke cloud rolling out.",
+    "frames": 115,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 1,
+    "heroFrame": 57,
+    "image": "vfx_projectiles_cannonball.png",
+    "thumbnail": "vfx_projectiles_cannonball_thumb.png",
+    "json": "vfx_projectiles_cannonball.json"
+  },
+  {
+    "key": "vfx_projectiles_energy_disc",
+    "id": "projectiles/energy-disc",
+    "category": "projectiles",
+    "name": "Energy disc",
+    "desc": "A sawblade of crackling energy spinning flat out as it flies: hooked teeth bright on their leading edges, a white hub, spiral arms churning, sparks flung off the teeth.",
+    "frames": 15,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "4x4 (1024x1024px)",
+    "scale": 2,
+    "heroFrame": 14,
+    "image": "vfx_projectiles_energy_disc.png",
+    "thumbnail": "vfx_projectiles_energy_disc_thumb.png",
+    "json": "vfx_projectiles_energy_disc.json"
+  },
+  {
+    "key": "vfx_projectiles_flare",
+    "id": "projectiles/flare",
+    "category": "projectiles",
+    "name": "Signal flare",
+    "desc": "A signal flare streaks up off the ground trailing sparks and smoke, bursts, and hangs as a pulsing red star that drips sparks under its own red-lit smoke, then gutters out.",
+    "frames": 151,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "13x12 (3328x3072px)",
+    "scale": 1,
+    "heroFrame": 26,
+    "image": "vfx_projectiles_flare.png",
+    "thumbnail": "vfx_projectiles_flare_thumb.png",
+    "json": "vfx_projectiles_flare.json"
+  },
+  {
+    "key": "vfx_projectiles_homing_missile",
+    "id": "projectiles/homing-missile",
+    "category": "projectiles",
+    "name": "Homing missile",
+    "desc": "A missile kicks off, arcs up, rolls over and dives onto its target (the origin), its smoke trail left hanging in the air, and hits in a fiery blast of flame, sparks and rocks.",
+    "frames": 115,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 1,
+    "heroFrame": 35,
+    "image": "vfx_projectiles_homing_missile.png",
+    "thumbnail": "vfx_projectiles_homing_missile_thumb.png",
+    "json": "vfx_projectiles_homing_missile.json"
+  },
+  {
+    "key": "vfx_projectiles_laser_bolt",
+    "id": "projectiles/laser-bolt",
+    "category": "projectiles",
+    "name": "Laser bolt",
+    "desc": "A red laser bolt: a white-hot core in a rounded head, red bands tapering back, pulses racing down it, a tail that shimmers apart into wavering dashes.",
+    "frames": 15,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "4x4 (1024x1024px)",
+    "scale": 1.4,
+    "heroFrame": 9,
+    "image": "vfx_projectiles_laser_bolt.png",
+    "thumbnail": "vfx_projectiles_laser_bolt_thumb.png",
+    "json": "vfx_projectiles_laser_bolt.json"
+  },
+  {
+    "key": "vfx_projectiles_magic_missile",
+    "id": "projectiles/magic-missile",
+    "category": "projectiles",
+    "name": "Magic missile",
+    "desc": "Motes gather into an arcane orb at a hand `height` px above the floor (the origin); it weaves to its target trailing a twisting ribbon and bursts into a star of light.",
+    "frames": 58,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 1,
+    "heroFrame": 25,
+    "image": "vfx_projectiles_magic_missile.png",
+    "thumbnail": "vfx_projectiles_magic_missile_thumb.png",
+    "json": "vfx_projectiles_magic_missile.json"
+  },
+  {
+    "key": "vfx_projectiles_muzzle_pistol",
+    "id": "projectiles/muzzle-pistol",
+    "category": "projectiles",
+    "name": "Pistol shot",
+    "desc": "One pistol shot from a muzzle `height` px above the floor (the origin): a spiky white-cored flash, sparks, a curl of smoke hooking up and back, a casing that bounces and settles.",
+    "frames": 55,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "8x7 (2048x1792px)",
+    "scale": 2,
+    "heroFrame": 0,
+    "image": "vfx_projectiles_muzzle_pistol.png",
+    "thumbnail": "vfx_projectiles_muzzle_pistol_thumb.png",
+    "json": "vfx_projectiles_muzzle_pistol.json"
+  },
+  {
+    "key": "vfx_projectiles_muzzle_shotgun",
+    "id": "projectiles/muzzle-shotgun",
+    "category": "projectiles",
+    "name": "Shotgun blast",
+    "desc": "A shotgun blast from a muzzle `height` px above the floor (the origin): a wide ragged fan of flame, pellet streaks, a heavy rolling smoke cloud, a red shell kicked out on the pump.",
+    "frames": 97,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1.4,
+    "heroFrame": 0,
+    "image": "vfx_projectiles_muzzle_shotgun.png",
+    "thumbnail": "vfx_projectiles_muzzle_shotgun_thumb.png",
+    "json": "vfx_projectiles_muzzle_shotgun.json"
+  },
+  {
+    "key": "vfx_projectiles_muzzle_smg",
+    "id": "projectiles/muzzle-smg",
+    "category": "projectiles",
+    "name": "SMG burst",
+    "desc": "Sustained fire at twelve rounds a second: each shot a different spiky flash with a white core, sparks, smoke wisps piling up and drifting, brass casings bouncing on the floor.",
+    "frames": 30,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "6x5 (1536x1280px)",
+    "scale": 2,
+    "heroFrame": 20,
+    "image": "vfx_projectiles_muzzle_smg.png",
+    "thumbnail": "vfx_projectiles_muzzle_smg_thumb.png",
+    "json": "vfx_projectiles_muzzle_smg.json"
+  },
+  {
+    "key": "vfx_projectiles_plasma_shot",
+    "id": "projectiles/plasma-shot",
+    "category": "projectiles",
+    "name": "Plasma shot",
+    "desc": "A glowing plasma blob: hot knots churning in its core, a corona crackling over its skin, its tail necking into droplets that tear off, cool and wink out behind.",
+    "frames": 24,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "5x5 (1280x1280px)",
+    "scale": 1.4,
+    "heroFrame": 2,
+    "image": "vfx_projectiles_plasma_shot.png",
+    "thumbnail": "vfx_projectiles_plasma_shot_thumb.png",
+    "json": "vfx_projectiles_plasma_shot.json"
+  },
+  {
+    "key": "vfx_projectiles_rocket",
+    "id": "projectiles/rocket",
+    "category": "projectiles",
+    "name": "Rocket",
+    "desc": "A steel rocket roars along: a flickering jet with shock diamonds and a white-hot nozzle, a thick billowing smoke trail lit by the flame, sparks shed behind.",
+    "frames": 36,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "6x6 (1536x1536px)",
+    "scale": 0.8888888888888888,
+    "heroFrame": 25,
+    "image": "vfx_projectiles_rocket.png",
+    "thumbnail": "vfx_projectiles_rocket_thumb.png",
+    "json": "vfx_projectiles_rocket.json"
+  },
+  {
+    "key": "vfx_scifi_emp_blast",
+    "id": "scifi/emp-blast",
+    "category": "scifi",
+    "name": "EMP blast",
+    "desc": "A disc charge ticks, pops white, and a bubble of rolling scanlines swells out with arcs crawling its skin; it strobes, tears and shorts out into falling dead pixels.",
+    "frames": 97,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1.4,
+    "heroFrame": 13,
+    "image": "vfx_scifi_emp_blast.png",
+    "thumbnail": "vfx_scifi_emp_blast_thumb.png",
+    "json": "vfx_scifi_emp_blast.json"
+  },
+  {
+    "key": "vfx_scifi_energy_core",
+    "id": "scifi/energy-core",
+    "category": "scifi",
+    "name": "Energy core",
+    "desc": "A plasma core beating in a steel cage: it swells and throws a shock ring on each beat, two tilted rings orbit it, and arcs jump to the bars and spark.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 2,
+    "heroFrame": 43,
+    "image": "vfx_scifi_energy_core.png",
+    "thumbnail": "vfx_scifi_energy_core_thumb.png",
+    "json": "vfx_scifi_energy_core.json"
+  },
+  {
+    "key": "vfx_scifi_force_field",
+    "id": "scifi/force-field",
+    "category": "scifi",
+    "name": "Force field",
+    "desc": "A glassy dome of hex plates over the hero: plates glint, tracers from the right slam into it, a ripple and cracks of light race across, sparks glance off.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 1,
+    "heroFrame": 13,
+    "image": "vfx_scifi_force_field.png",
+    "thumbnail": "vfx_scifi_force_field_thumb.png",
+    "json": "vfx_scifi_force_field.json"
+  },
+  {
+    "key": "vfx_scifi_glitch",
+    "id": "scifi/glitch",
+    "category": "scifi",
+    "name": "Glitch",
+    "desc": "The hero's signal breaks up in bursts: an RGB split, slices torn sideways, rows smeared out, junk blocks and dead pixels, then snaps back clean.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 2,
+    "heroFrame": 62,
+    "image": "vfx_scifi_glitch.png",
+    "thumbnail": "vfx_scifi_glitch_thumb.png",
+    "json": "vfx_scifi_glitch.json"
+  },
+  {
+    "key": "vfx_scifi_hologram",
+    "id": "scifi/hologram",
+    "category": "scifi",
+    "name": "Hologram",
+    "desc": "A floor projector throws a cone of light holding a turning wireframe model: scanlines roll through it, a data ring circles it, and it flickers, tears and jitters.",
+    "frames": 120,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 2,
+    "heroFrame": 106,
+    "image": "vfx_scifi_hologram.png",
+    "thumbnail": "vfx_scifi_hologram_thumb.png",
+    "json": "vfx_scifi_hologram.json"
+  },
+  {
+    "key": "vfx_scifi_jetpack",
+    "id": "scifi/jetpack",
+    "category": "scifi",
+    "name": "Jetpack",
+    "desc": "Twin thrusters fire straight down: white-hot cores with shock diamonds inside ragged flames, puffs that cool into smoke billowing below, lit by the fire.",
+    "frames": 60,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 2,
+    "heroFrame": 29,
+    "image": "vfx_scifi_jetpack.png",
+    "thumbnail": "vfx_scifi_jetpack_thumb.png",
+    "json": "vfx_scifi_jetpack.json"
+  },
+  {
+    "key": "vfx_scifi_laser_grid",
+    "id": "scifi/laser-grid",
+    "category": "scifi",
+    "name": "Laser grid",
+    "desc": "Security lasers between two steel posts: red beams slide and scissor across, dust and haze light up only where they cut through, and the floor sweepers scorch and spark.",
+    "frames": 90,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x9 (2560x2304px)",
+    "scale": 1.4,
+    "heroFrame": 38,
+    "image": "vfx_scifi_laser_grid.png",
+    "thumbnail": "vfx_scifi_laser_grid_thumb.png",
+    "json": "vfx_scifi_laser_grid.json"
+  },
+  {
+    "key": "vfx_scifi_scanner",
+    "id": "scifi/scanner",
+    "category": "scifi",
+    "name": "Scanner",
+    "desc": "Brackets snap onto the hero, a scan line sweeps head to toe leaving a cooling outline, and a readout counts up to OK before it all lets go.",
+    "frames": 96,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 2,
+    "heroFrame": 17,
+    "image": "vfx_scifi_scanner.png",
+    "thumbnail": "vfx_scifi_scanner_thumb.png",
+    "json": "vfx_scifi_scanner.json"
+  },
+  {
+    "key": "vfx_scifi_teleporter_pad",
+    "id": "scifi/teleporter-pad",
+    "category": "scifi",
+    "name": "Teleporter pad",
+    "desc": "A steel pad glows on the floor, its rings rippling outward; a soft column of light rises off it and rings of light lift away, sparkles drifting up through them.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 2,
+    "heroFrame": 18,
+    "image": "vfx_scifi_teleporter_pad.png",
+    "thumbnail": "vfx_scifi_teleporter_pad_thumb.png",
+    "json": "vfx_scifi_teleporter_pad.json"
+  },
+  {
+    "key": "vfx_scifi_tractor_beam",
+    "id": "scifi/tractor-beam",
+    "category": "scifi",
+    "name": "Tractor beam",
+    "desc": "A hovering pod projects a cone of light to the floor; rocks tear loose in puffs of dust and spiral up spinning into the lens while rings of light climb the beam.",
+    "frames": 90,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x9 (2560x2304px)",
+    "scale": 1.4,
+    "heroFrame": 78,
+    "image": "vfx_scifi_tractor_beam.png",
+    "thumbnail": "vfx_scifi_tractor_beam_thumb.png",
+    "json": "vfx_scifi_tractor_beam.json"
+  },
+  {
+    "key": "vfx_scifi_warp_in",
+    "id": "scifi/warp-in",
+    "category": "scifi",
+    "name": "Warp in",
+    "desc": "A beam slams down, rings run down it and a scanline paints the hero in from head to toe, white-hot pixels cooling to their own colors; the beam pinches shut in sparks.",
+    "frames": 91,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1,
+    "heroFrame": 11,
+    "image": "vfx_scifi_warp_in.png",
+    "thumbnail": "vfx_scifi_warp_in_thumb.png",
+    "json": "vfx_scifi_warp_in.json"
+  },
+  {
+    "key": "vfx_scifi_warp_out",
+    "id": "scifi/warp-out",
+    "category": "scifi",
+    "name": "Warp out",
+    "desc": "The hero's outline flickers on, they flash white and break into light from the head down, streaming up a beam that lifts off the floor and pinches shut.",
+    "frames": 79,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x9 (2304x2304px)",
+    "scale": 1.4,
+    "heroFrame": 13,
+    "image": "vfx_scifi_warp_out.png",
+    "thumbnail": "vfx_scifi_warp_out_thumb.png",
+    "json": "vfx_scifi_warp_out.json"
+  },
+  {
+    "key": "vfx_shadow_black_hole",
+    "id": "shadow/black-hole",
+    "category": "shadow",
+    "name": "Black hole",
+    "desc": "A tilted disk of banded rings turns round a black hole, its far side bent up over the top and under the bottom; debris spirals in, stretches and is swallowed.",
+    "frames": 120,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 1,
+    "heroFrame": 47,
+    "image": "vfx_shadow_black_hole.png",
+    "thumbnail": "vfx_shadow_black_hole_thumb.png",
+    "json": "vfx_shadow_black_hole.json"
+  },
+  {
+    "key": "vfx_shadow_curse",
+    "id": "shadow/curse",
+    "category": "shadow",
+    "name": "Curse",
+    "desc": "Wisps gather over the head, a skull stamps down with a flash, its eyes burn as the curse floods the body violet, then it cracks and crumbles.",
+    "frames": 103,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x10 (2816x2560px)",
+    "scale": 1.4,
+    "heroFrame": 17,
+    "image": "vfx_shadow_curse.png",
+    "thumbnail": "vfx_shadow_curse_thumb.png",
+    "json": "vfx_shadow_curse.json"
+  },
+  {
+    "key": "vfx_shadow_dark_explosion",
+    "id": "shadow/dark-explosion",
+    "category": "shadow",
+    "name": "Dark explosion",
+    "desc": "Motes swirl into a pulsing core, a black star cuts across a violet-white flash, and a black sphere burns at the rim, throws lit shards and smoke, then collapses.",
+    "frames": 115,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 0.9142857142857143,
+    "heroFrame": 56,
+    "image": "vfx_shadow_dark_explosion.png",
+    "thumbnail": "vfx_shadow_dark_explosion_thumb.png",
+    "json": "vfx_shadow_dark_explosion.json"
+  },
+  {
+    "key": "vfx_shadow_eclipse",
+    "id": "shadow/eclipse",
+    "category": "shadow",
+    "name": "Eclipse",
+    "desc": "A black moon over the sun: a breathing pearl corona with long streamers, a thin white rim, and one diamond bead blazing on its edge.",
+    "frames": 120,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 1.4,
+    "heroFrame": 6,
+    "image": "vfx_shadow_eclipse.png",
+    "thumbnail": "vfx_shadow_eclipse_thumb.png",
+    "json": "vfx_shadow_eclipse.json"
+  },
+  {
+    "key": "vfx_shadow_grasping_hands",
+    "id": "shadow/grasping-hands",
+    "category": "shadow",
+    "name": "Grasping hands",
+    "desc": "Shadow arms burst up out of a dark pool with a splash, clench their hands into claws, strain, and are dragged back under, fingers clawing at the air.",
+    "frames": 94,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1,
+    "heroFrame": 26,
+    "image": "vfx_shadow_grasping_hands.png",
+    "thumbnail": "vfx_shadow_grasping_hands_thumb.png",
+    "json": "vfx_shadow_grasping_hands.json"
+  },
+  {
+    "key": "vfx_shadow_hex_sigil",
+    "id": "shadow/hex-sigil",
+    "category": "shadow",
+    "name": "Hex sigil",
+    "desc": "A burning pen traces a cursed sigil in the air, its glyphs pop in one by one, then it flares white and crumbles into falling embers.",
+    "frames": 127,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "12x11 (3072x2816px)",
+    "scale": 1.4,
+    "heroFrame": 79,
+    "image": "vfx_shadow_hex_sigil.png",
+    "thumbnail": "vfx_shadow_hex_sigil_thumb.png",
+    "json": "vfx_shadow_hex_sigil.json"
+  },
+  {
+    "key": "vfx_shadow_life_steal",
+    "id": "shadow/life-steal",
+    "category": "shadow",
+    "name": "Life steal",
+    "desc": "A target on the right is struck and bleeds red orbs; they hang a moment, then whip home as comet streaks and flood the caster crimson.",
+    "frames": 67,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 1,
+    "heroFrame": 1,
+    "image": "vfx_shadow_life_steal.png",
+    "thumbnail": "vfx_shadow_life_steal_thumb.png",
+    "json": "vfx_shadow_life_steal.json"
+  },
+  {
+    "key": "vfx_shadow_necro_skulls",
+    "id": "shadow/necro-skulls",
+    "category": "shadow",
+    "name": "Necro skulls",
+    "desc": "Spectral skulls circle a cold green flame on a tilted orbit, passing behind and before it, eyes lit, trailing curls of ghost smoke.",
+    "frames": 90,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x9 (2560x2304px)",
+    "scale": 1.4,
+    "heroFrame": 78,
+    "image": "vfx_shadow_necro_skulls.png",
+    "thumbnail": "vfx_shadow_necro_skulls_thumb.png",
+    "json": "vfx_shadow_necro_skulls.json"
+  },
+  {
+    "key": "vfx_shadow_shadow_flames",
+    "id": "shadow/shadow-flames",
+    "category": "shadow",
+    "name": "Shadow flames",
+    "desc": "Inside-out fire on the floor: a black heart wrapped in violet flame with pale skin and tips, shedding embers and dark smoke.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 2,
+    "heroFrame": 36,
+    "image": "vfx_shadow_shadow_flames.png",
+    "thumbnail": "vfx_shadow_shadow_flames_thumb.png",
+    "json": "vfx_shadow_shadow_flames.json"
+  },
+  {
+    "key": "vfx_shadow_shadow_tendrils",
+    "id": "shadow/shadow-tendrils",
+    "category": "shadow",
+    "name": "Shadow tendrils",
+    "desc": "A dark pool opens on the floor; tentacles with lit rims and hooked tips lash up out of it with a splash, writhe, and sink back as it closes.",
+    "frames": 97,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1,
+    "heroFrame": 19,
+    "image": "vfx_shadow_shadow_tendrils.png",
+    "thumbnail": "vfx_shadow_shadow_tendrils_thumb.png",
+    "json": "vfx_shadow_shadow_tendrils.json"
+  },
+  {
+    "key": "vfx_shadow_soul_drain",
+    "id": "shadow/soul-drain",
+    "category": "shadow",
+    "name": "Soul drain",
+    "desc": "Pale souls are torn loose on the right and dragged down a funnel of streaks into a black crystal vessel, which flares violet as each one lands.",
+    "frames": 96,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1,
+    "heroFrame": 5,
+    "image": "vfx_shadow_soul_drain.png",
+    "thumbnail": "vfx_shadow_soul_drain_thumb.png",
+    "json": "vfx_shadow_soul_drain.json"
+  },
+  {
+    "key": "vfx_shadow_void_orb",
+    "id": "shadow/void-orb",
+    "category": "shadow",
+    "name": "Void orb",
+    "desc": "A black orb hangs in the air, a pale rim crawling round it; a dark vortex winds into it, motes and streaks are pulled in, and light bends round its edge.",
+    "frames": 96,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1.4,
+    "heroFrame": 66,
+    "image": "vfx_shadow_void_orb.png",
+    "thumbnail": "vfx_shadow_void_orb_thumb.png",
+    "json": "vfx_shadow_void_orb.json"
+  },
+  {
+    "key": "vfx_spawn_coin_drop",
+    "id": "spawn/coin-drop",
+    "category": "spawn",
+    "name": "Coin drop",
+    "desc": "An enemy goes up in a soft poof and gold coins spin out of it, bounce with a glint on each hit, settle on the floor, twinkle, and wink out one by one.",
+    "frames": 91,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1.4,
+    "heroFrame": 0,
+    "image": "vfx_spawn_coin_drop.png",
+    "thumbnail": "vfx_spawn_coin_drop_thumb.png",
+    "json": "vfx_spawn_coin_drop.json"
+  },
+  {
+    "key": "vfx_spawn_disintegrate",
+    "id": "spawn/disintegrate",
+    "category": "spawn",
+    "name": "Disintegrate",
+    "desc": "The character crackles with light, flashes white, then peels away from the head down: each pixel flares white-hot and streams off on the wind as a cooling mote of light.",
+    "frames": 103,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x10 (2816x2560px)",
+    "scale": 1,
+    "heroFrame": 13,
+    "image": "vfx_spawn_disintegrate.png",
+    "thumbnail": "vfx_spawn_disintegrate_thumb.png",
+    "json": "vfx_spawn_disintegrate.json"
+  },
+  {
+    "key": "vfx_spawn_dissolve_burn",
+    "id": "spawn/dissolve-burn",
+    "category": "spawn",
+    "name": "Dissolve burn",
+    "desc": "An ember seam lights at the feet and climbs the body: above it the body scorches and smoulders, at it flames lick up, below it there's only falling ash, embers and smoke.",
+    "frames": 109,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x10 (2816x2560px)",
+    "scale": 2,
+    "heroFrame": 49,
+    "image": "vfx_spawn_dissolve_burn.png",
+    "thumbnail": "vfx_spawn_dissolve_burn_thumb.png",
+    "json": "vfx_spawn_dissolve_burn.json"
+  },
+  {
+    "key": "vfx_spawn_egg_hatch",
+    "id": "spawn/egg-hatch",
+    "category": "spawn",
+    "name": "Egg hatch",
+    "desc": "A speckled egg rocks three times, each rock cracking it further with warm light leaking out, then pops: light pours out of the opening and lit shell halves tumble away.",
+    "frames": 94,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 2,
+    "heroFrame": 60,
+    "image": "vfx_spawn_egg_hatch.png",
+    "thumbnail": "vfx_spawn_egg_hatch_thumb.png",
+    "json": "vfx_spawn_egg_hatch.json"
+  },
+  {
+    "key": "vfx_spawn_poof",
+    "id": "spawn/poof",
+    "category": "spawn",
+    "name": "Poof",
+    "desc": "A cartoon death poof: a white pop, a ring of soft round smoke balls bursting out between speed lines, little stars spinning off, and the cloud lifting and thinning away.",
+    "frames": 49,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "7x7 (1792x1792px)",
+    "scale": 2,
+    "heroFrame": 0,
+    "image": "vfx_spawn_poof.png",
+    "thumbnail": "vfx_spawn_poof_thumb.png",
+    "json": "vfx_spawn_poof.json"
+  },
+  {
+    "key": "vfx_spawn_respawn_beam",
+    "id": "spawn/respawn-beam",
+    "category": "spawn",
+    "name": "Respawn beam",
+    "desc": "A guide line drops, a pillar of light slams onto the spot, and a scan bar climbs from the feet writing the character back in row by row, white-hot lines cooling to its colors.",
+    "frames": 76,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x9 (2304x2304px)",
+    "scale": 1.4,
+    "heroFrame": 10,
+    "image": "vfx_spawn_respawn_beam.png",
+    "thumbnail": "vfx_spawn_respawn_beam_thumb.png",
+    "json": "vfx_spawn_respawn_beam.json"
+  },
+  {
+    "key": "vfx_spawn_shatter_death",
+    "id": "spawn/shatter-death",
+    "category": "spawn",
+    "name": "Shatter death",
+    "desc": "Frost races up the body and seals it in faceted ice, a glint sweeps it, cracks spread from the chest, then it bursts into its own facets that tumble, bounce and melt.",
+    "frames": 100,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1,
+    "heroFrame": 43,
+    "image": "vfx_spawn_shatter_death.png",
+    "thumbnail": "vfx_spawn_shatter_death_thumb.png",
+    "json": "vfx_spawn_shatter_death.json"
+  },
+  {
+    "key": "vfx_spawn_soul_rise",
+    "id": "spawn/soul-rise",
+    "category": "spawn",
+    "name": "Soul rise",
+    "desc": "The body's outline flares and dims, then a pale glowing copy of it lifts out, stretching as its legs melt into a rippling wisp, shedding motes until it thins into light.",
+    "frames": 97,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1.4,
+    "heroFrame": 11,
+    "image": "vfx_spawn_soul_rise.png",
+    "thumbnail": "vfx_spawn_soul_rise_thumb.png",
+    "json": "vfx_spawn_soul_rise.json"
+  },
+  {
+    "key": "vfx_spawn_spawn_portal",
+    "id": "spawn/spawn-portal",
+    "category": "spawn",
+    "name": "Spawn portal",
+    "desc": "A rift tears open on the floor and swirls, belches violet smoke and sparks, spits a fountain of wisps up out of itself, then twists shut with a pop.",
+    "frames": 115,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 1,
+    "heroFrame": 31,
+    "image": "vfx_spawn_spawn_portal.png",
+    "thumbnail": "vfx_spawn_spawn_portal_thumb.png",
+    "json": "vfx_spawn_spawn_portal.json"
+  },
+  {
+    "key": "vfx_spawn_summon_rise",
+    "id": "spawn/summon-rise",
+    "category": "spawn",
+    "name": "Summon rise",
+    "desc": "A rune circle burns into the floor, the ground bursts, and a horned brute heaves up out of it through dust and rubble, lit from below, until its eyes flare.",
+    "frames": 139,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "12x12 (3072x3072px)",
+    "scale": 1,
+    "heroFrame": 32,
+    "image": "vfx_spawn_summon_rise.png",
+    "thumbnail": "vfx_spawn_summon_rise_thumb.png",
+    "json": "vfx_spawn_summon_rise.json"
+  },
+  {
+    "key": "vfx_status_bleeding",
+    "id": "status/bleeding",
+    "category": "status",
+    "name": "Bleeding",
+    "desc": "Bleeding out: beads swell at three wounds, run, let go and fall to spatter into a glossy pool that ripples; each heartbeat spurts a little and flashes the body red.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 2,
+    "heroFrame": 0,
+    "image": "vfx_status_bleeding.png",
+    "thumbnail": "vfx_status_bleeding_thumb.png",
+    "json": "vfx_status_bleeding.json"
+  },
+  {
+    "key": "vfx_status_burning",
+    "id": "status/burning",
+    "category": "status",
+    "name": "burning",
+    "desc": "",
+    "frames": 36,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (1536x1536px)",
+    "scale": "1.8",
+    "image": "vfx_status_burning.png",
+    "thumbnail": "vfx_status_burning_thumb.png",
+    "json": "vfx_status_burning.json"
+  },
+  {
+    "key": "vfx_status_charmed",
+    "id": "status/charmed",
+    "category": "status",
+    "name": "Charmed",
+    "desc": "Smitten: a big heart beats over the head, throwing a ring and a flush of light with every beat, little hearts float up, the eyes go pink and the cheeks blush.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 2,
+    "heroFrame": 37,
+    "image": "vfx_status_charmed.png",
+    "thumbnail": "vfx_status_charmed_thumb.png",
+    "json": "vfx_status_charmed.json"
+  },
+  {
+    "key": "vfx_status_confused",
+    "id": "status/confused",
+    "category": "status",
+    "name": "Confused",
+    "desc": "Head in a spin: a glowing spiral whirls over the head, question marks pop up round it and bob, the eyes dart left and right.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 2,
+    "heroFrame": 25,
+    "image": "vfx_status_confused.png",
+    "thumbnail": "vfx_status_confused_thumb.png",
+    "json": "vfx_status_confused.json"
+  },
+  {
+    "key": "vfx_status_cursed",
+    "id": "status/cursed",
+    "category": "status",
+    "name": "Cursed",
+    "desc": "Hexed: violet smoke rises off the body in winding trails, a dark stain creeps up from the feet with a glowing edge, the eyes burn, a skull glitches in overhead.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 2,
+    "heroFrame": 23,
+    "image": "vfx_status_cursed.png",
+    "thumbnail": "vfx_status_cursed_thumb.png",
+    "json": "vfx_status_cursed.json"
+  },
+  {
+    "key": "vfx_status_frozen",
+    "id": "status/frozen",
+    "category": "status",
+    "name": "frozen",
+    "desc": "",
+    "frames": 60,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "1 cols (2048x2048px)",
+    "scale": "1.6",
+    "image": "vfx_status_frozen.png",
+    "thumbnail": "vfx_status_frozen_thumb.png",
+    "json": "vfx_status_frozen.json"
+  },
+  {
+    "key": "vfx_status_haste",
+    "id": "status/haste",
+    "category": "status",
+    "name": "Haste",
+    "desc": "Sped up: striped after-images stream out behind, speed lines whip past, dust kicks off the heels and the leading edge catches the wind. Faces right.",
+    "frames": 36,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "6x6 (1536x1536px)",
+    "scale": 2,
+    "heroFrame": 26,
+    "image": "vfx_status_haste.png",
+    "thumbnail": "vfx_status_haste_thumb.png",
+    "json": "vfx_status_haste.json"
+  },
+  {
+    "key": "vfx_status_petrified",
+    "id": "status/petrified",
+    "category": "status",
+    "name": "Petrified",
+    "desc": "Turned to stone: grey creeps up from the feet behind a crackling edge that spits grit, the statue holds, cracks run through it, and it bursts into tumbling chunks and dust.",
+    "frames": 115,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 2,
+    "heroFrame": 67,
+    "image": "vfx_status_petrified.png",
+    "thumbnail": "vfx_status_petrified_thumb.png",
+    "json": "vfx_status_petrified.json"
+  },
+  {
+    "key": "vfx_status_poisoned",
+    "id": "status/poisoned",
+    "category": "status",
+    "name": "Poisoned",
+    "desc": "Sick to the bone: green rolls up the body in waves, dark veins creep from a wound, toxic sweat drips and hisses; every 0.8 s it wobbles, blisters pop and a ring pulses out.",
+    "frames": 48,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "7x7 (1792x1792px)",
+    "scale": 2,
+    "heroFrame": 0,
+    "image": "vfx_status_poisoned.png",
+    "thumbnail": "vfx_status_poisoned_thumb.png",
+    "json": "vfx_status_poisoned.json"
+  },
+  {
+    "key": "vfx_status_rage",
+    "id": "status/rage",
+    "category": "status",
+    "name": "Rage",
+    "desc": "Seething: the body judders on every heartbeat, an anger mark throbs at the temple, eyes burn, steam jets off the head, stress lines flash out and the floor cracks hot underfoot.",
+    "frames": 36,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "6x6 (1536x1536px)",
+    "scale": 2,
+    "heroFrame": 2,
+    "image": "vfx_status_rage.png",
+    "thumbnail": "vfx_status_rage_thumb.png",
+    "json": "vfx_status_rage.json"
+  },
+  {
+    "key": "vfx_status_sleep",
+    "id": "status/sleep",
+    "category": "status",
+    "name": "Sleep",
+    "desc": "Fast asleep: eyes shut, soft outlined Zs float up off the head one after another, swaying and growing as they rise, dream motes drift, a slow breathing glow.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 2,
+    "heroFrame": 7,
+    "image": "vfx_status_sleep.png",
+    "thumbnail": "vfx_status_sleep_thumb.png",
+    "json": "vfx_status_sleep.json"
+  },
+  {
+    "key": "vfx_status_slowed",
+    "id": "status/slowed",
+    "category": "status",
+    "name": "Slowed",
+    "desc": "Dragged through time: a glassy clock dial behind the head ticks round in heavy steps, flashing with each, while drops sink in slow motion and spread slow rings.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 2,
+    "heroFrame": 13,
+    "image": "vfx_status_slowed.png",
+    "thumbnail": "vfx_status_slowed_thumb.png",
+    "json": "vfx_status_slowed.json"
+  },
+  {
+    "key": "vfx_status_stunned",
+    "id": "status/stunned",
+    "category": "status",
+    "name": "Stunned",
+    "desc": "Seeing stars: three spinning stars and two little birds circle the head on a tilted ring, ducking behind it and sweeping round in front, trailing glitter.",
+    "frames": 60,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 2,
+    "heroFrame": 44,
+    "image": "vfx_status_stunned.png",
+    "thumbnail": "vfx_status_stunned_thumb.png",
+    "json": "vfx_status_stunned.json"
+  },
+  {
+    "key": "vfx_transitions_blinds",
+    "id": "transitions/blinds",
+    "category": "transitions",
+    "name": "Blinds",
+    "desc": "Slats catch the light edge-on, then tilt shut top to bottom, lit rims glinting as warm light squeezes through the closing gaps with dust in it; then they tilt open and fade.",
+    "frames": 61,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 0.8,
+    "heroFrame": 8,
+    "image": "vfx_transitions_blinds.png",
+    "thumbnail": "vfx_transitions_blinds_thumb.png",
+    "json": "vfx_transitions_blinds.json"
+  },
+  {
+    "key": "vfx_transitions_burn_away",
+    "id": "transitions/burn-away",
+    "category": "transitions",
+    "name": "Burn away",
+    "desc": "The screen burns in from its edges behind a ragged ember line of licking flames, embers and smoke; then the black smoulders and burns open from the middle.",
+    "frames": 91,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 0.8,
+    "heroFrame": 21,
+    "image": "vfx_transitions_burn_away.png",
+    "thumbnail": "vfx_transitions_burn_away_thumb.png",
+    "json": "vfx_transitions_burn_away.json"
+  },
+  {
+    "key": "vfx_transitions_crt_off",
+    "id": "transitions/crt-off",
+    "category": "transitions",
+    "name": "CRT off",
+    "desc": "The picture squeezes into a white-hot glowing line, the line into a dot that lingers as a fading afterglow; then it switches back on, dot to line to picture, with a warm-up glow.",
+    "frames": 61,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 0.8,
+    "heroFrame": 8,
+    "image": "vfx_transitions_crt_off.png",
+    "thumbnail": "vfx_transitions_crt_off_thumb.png",
+    "json": "vfx_transitions_crt_off.json"
+  },
+  {
+    "key": "vfx_transitions_diamond_wipe",
+    "id": "transitions/diamond-wipe",
+    "category": "transitions",
+    "name": "Diamond wipe",
+    "desc": "A wave of faceted diamonds swells across the screen, rims bright and ridges lit, cooling to black as they lock; then they rise as gems again and shrink away with glints.",
+    "frames": 61,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 0.8,
+    "heroFrame": 11,
+    "image": "vfx_transitions_diamond_wipe.png",
+    "thumbnail": "vfx_transitions_diamond_wipe_thumb.png",
+    "json": "vfx_transitions_diamond_wipe.json"
+  },
+  {
+    "key": "vfx_transitions_glitch_wipe",
+    "id": "transitions/glitch-wipe",
+    "category": "transitions",
+    "name": "Glitch wipe",
+    "desc": "Torn bands of black stutter across the screen, freezing and jerking back, their ragged edges split into magenta and cyan ghosts spitting data slivers; then they tear on through.",
+    "frames": 55,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x7 (2048x1792px)",
+    "scale": 0.8,
+    "heroFrame": 22,
+    "image": "vfx_transitions_glitch_wipe.png",
+    "thumbnail": "vfx_transitions_glitch_wipe_thumb.png",
+    "json": "vfx_transitions_glitch_wipe.json"
+  },
+  {
+    "key": "vfx_transitions_iris",
+    "id": "transitions/iris",
+    "category": "transitions",
+    "name": "Iris",
+    "desc": "A lit iris closes onto a warm spotlight where dust drifts, holds as its rim twinkles, snaps shut into a glint, then pops open from a flash with a white-hot rim throwing sparks.",
+    "frames": 67,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 0.8,
+    "heroFrame": 12,
+    "image": "vfx_transitions_iris.png",
+    "thumbnail": "vfx_transitions_iris_thumb.png",
+    "json": "vfx_transitions_iris.json"
+  },
+  {
+    "key": "vfx_transitions_pixel_dissolve",
+    "id": "transitions/pixel-dissolve",
+    "category": "transitions",
+    "name": "Pixel dissolve",
+    "desc": "Clumps of blocks wink in, each drawn in a white outline that fills black and cools, with glints; then they wink out, outlines collapsing, the last small ones sparkling away.",
+    "frames": 67,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 0.8,
+    "heroFrame": 24,
+    "image": "vfx_transitions_pixel_dissolve.png",
+    "thumbnail": "vfx_transitions_pixel_dissolve_thumb.png",
+    "json": "vfx_transitions_pixel_dissolve.json"
+  },
+  {
+    "key": "vfx_transitions_shatter_wipe",
+    "id": "transitions/shatter-wipe",
+    "category": "transitions",
+    "name": "Shatter wipe",
+    "desc": "A dark glass pane drops over the screen and bounces; cracks race out from an impact with a flash, then it bursts into tumbling glass shards with lit edges that fall away.",
+    "frames": 85,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x9 (2560x2304px)",
+    "scale": 0.8,
+    "heroFrame": 8,
+    "image": "vfx_transitions_shatter_wipe.png",
+    "thumbnail": "vfx_transitions_shatter_wipe_thumb.png",
+    "json": "vfx_transitions_shatter_wipe.json"
+  },
+  {
+    "key": "vfx_transitions_slash_wipe",
+    "id": "transitions/slash-wipe",
+    "category": "transitions",
+    "name": "Slash wipe",
+    "desc": "A white-hot blade edge slices across the screen, light ahead of it and sparks spraying back over the cover; a second cut flashes through and the cover splits apart.",
+    "frames": 52,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x7 (2048x1792px)",
+    "scale": 0.8,
+    "heroFrame": 5,
+    "image": "vfx_transitions_slash_wipe.png",
+    "thumbnail": "vfx_transitions_slash_wipe_thumb.png",
+    "json": "vfx_transitions_slash_wipe.json"
+  },
+  {
+    "key": "vfx_transitions_star_iris",
+    "id": "transitions/star-iris",
+    "category": "transitions",
+    "name": "Star iris",
+    "desc": "A five-point star iris spins shut on the middle of the screen, its gold rim lit and its tips twinkling and shedding motes; it closes on a glint and spins open again from a flash.",
+    "frames": 67,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 0.8,
+    "heroFrame": 18,
+    "image": "vfx_transitions_star_iris.png",
+    "thumbnail": "vfx_transitions_star_iris_thumb.png",
+    "json": "vfx_transitions_star_iris.json"
+  },
+  {
+    "key": "vfx_ui_achievement",
+    "id": "ui/achievement",
+    "category": "ui",
+    "name": "Achievement",
+    "desc": "A toast slides in on speed lines and settles; a gold medal pops onto it in a burst of sparkles, a shine sweeps the whole toast, then it slides away.",
+    "frames": 73,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "9x9 (2304x2304px)",
+    "scale": 1,
+    "heroFrame": 10,
+    "image": "vfx_ui_achievement.png",
+    "thumbnail": "vfx_ui_achievement_thumb.png",
+    "json": "vfx_ui_achievement.json"
+  },
+  {
+    "key": "vfx_ui_coin_collect",
+    "id": "ui/coin-collect",
+    "category": "ui",
+    "name": "Coin collect",
+    "desc": "A coin bursts into a fountain of spinning coins that hang, then zip one by one into a HUD counter that pops and ticks up, glints and folds away.",
+    "frames": 75,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "9x9 (2304x2304px)",
+    "scale": 1,
+    "heroFrame": 9,
+    "image": "vfx_ui_coin_collect.png",
+    "thumbnail": "vfx_ui_coin_collect_thumb.png",
+    "json": "vfx_ui_coin_collect.json"
+  },
+  {
+    "key": "vfx_ui_combo_counter",
+    "id": "ui/combo-counter",
+    "category": "ui",
+    "name": "Combo counter",
+    "desc": "x5 COMBO rockets in on streaming speed lines, smearing, and slams to a stop: a white flash, a ring, sparks; it pulses while a timer bar drains, then whooshes out.",
+    "frames": 45,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "7x7 (1792x1792px)",
+    "scale": 1,
+    "heroFrame": 4,
+    "image": "vfx_ui_combo_counter.png",
+    "thumbnail": "vfx_ui_combo_counter_thumb.png",
+    "json": "vfx_ui_combo_counter.json"
+  },
+  {
+    "key": "vfx_ui_confetti",
+    "id": "ui/confetti",
+    "category": "ui",
+    "name": "Confetti",
+    "desc": "Two party poppers bang one after the other: paper bits and curly streamers burst out, stall, then tumble and flutter down, flipping, and settle on the floor.",
+    "frames": 103,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "11x10 (2816x2560px)",
+    "scale": 1,
+    "heroFrame": 8,
+    "image": "vfx_ui_confetti.png",
+    "thumbnail": "vfx_ui_confetti_thumb.png",
+    "json": "vfx_ui_confetti.json"
+  },
+  {
+    "key": "vfx_ui_countdown",
+    "id": "ui/countdown",
+    "category": "ui",
+    "name": "Countdown",
+    "desc": "3, 2, 1 slam into a timer ring that drains like a burning fuse, throwing sparks; then GO! bursts out as the ring blows into a shockwave with rays.",
+    "frames": 94,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1.4,
+    "heroFrame": 56,
+    "image": "vfx_ui_countdown.png",
+    "thumbnail": "vfx_ui_countdown_thumb.png",
+    "json": "vfx_ui_countdown.json"
+  },
+  {
+    "key": "vfx_ui_crit_number",
+    "id": "ui/crit-number",
+    "category": "ui",
+    "name": "Crit number",
+    "desc": "CRIT 128! slams in huge and white over a jagged starburst with a hard shake and speed lines, cools to fire, holds with a shine, then pops into sparks.",
+    "frames": 46,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "7x7 (1792x1792px)",
+    "scale": 1.4,
+    "heroFrame": 0,
+    "image": "vfx_ui_crit_number.png",
+    "thumbnail": "vfx_ui_crit_number_thumb.png",
+    "json": "vfx_ui_crit_number.json"
+  },
+  {
+    "key": "vfx_ui_damage_number",
+    "id": "ui/damage-number",
+    "category": "ui",
+    "name": "Damage number",
+    "desc": "A red -27 punches out of a hit spark, white for a frame, arcs up, lands with a squash and a little hop, then fades as it lifts away.",
+    "frames": 33,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "6x6 (1536x1536px)",
+    "scale": 2,
+    "heroFrame": 1,
+    "image": "vfx_ui_damage_number.png",
+    "thumbnail": "vfx_ui_damage_number_thumb.png",
+    "json": "vfx_ui_damage_number.json"
+  },
+  {
+    "key": "vfx_ui_exclamation",
+    "id": "ui/exclamation",
+    "category": "ui",
+    "name": "Exclamation",
+    "desc": "A bold ! springs up off the hero's head, stretching as it shoots up and squashing as it lands; surprise ticks flick out, it wobbles, then pops away.",
+    "frames": 43,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "7x7 (1792x1792px)",
+    "scale": 2,
+    "heroFrame": 2,
+    "image": "vfx_ui_exclamation.png",
+    "thumbnail": "vfx_ui_exclamation_thumb.png",
+    "json": "vfx_ui_exclamation.json"
+  },
+  {
+    "key": "vfx_ui_health_bar_hit",
+    "id": "ui/health-bar-hit",
+    "category": "ui",
+    "name": "Health bar hit",
+    "desc": "A segmented health bar takes a hit: it jolts and dips, the lost chunk flashes white and sheds chips, holds, then drains away behind a sparking edge.",
+    "frames": 61,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 1.4,
+    "heroFrame": 7,
+    "image": "vfx_ui_health_bar_hit.png",
+    "thumbnail": "vfx_ui_health_bar_hit_thumb.png",
+    "json": "vfx_ui_health_bar_hit.json"
+  },
+  {
+    "key": "vfx_ui_heart_lost",
+    "id": "ui/heart-lost",
+    "category": "ui",
+    "name": "Heart lost",
+    "desc": "A HUD heart is hit: it flashes white and jolts, a crack runs down it, it splits into two halves that tumble away, leaving an empty socket that fades.",
+    "frames": 46,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "7x7 (1792x1792px)",
+    "scale": 2,
+    "heroFrame": 15,
+    "image": "vfx_ui_heart_lost.png",
+    "thumbnail": "vfx_ui_heart_lost_thumb.png",
+    "json": "vfx_ui_heart_lost.json"
+  },
+  {
+    "key": "vfx_ui_level_up",
+    "id": "ui/level-up",
+    "category": "ui",
+    "name": "Level up",
+    "desc": "Gold gathers at the feet and bursts up as a pillar of light round the hero; rings climb it, LEVEL UP! drops in letter by letter, a shine sweeps it, sparkles twinkle.",
+    "frames": 97,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1,
+    "heroFrame": 9,
+    "image": "vfx_ui_level_up.png",
+    "thumbnail": "vfx_ui_level_up_thumb.png",
+    "json": "vfx_ui_level_up.json"
+  },
+  {
+    "key": "vfx_ui_quest_complete",
+    "id": "ui/quest-complete",
+    "category": "ui",
+    "name": "Quest complete",
+    "desc": "A stitched ribbon unrolls from the middle, QUEST COMPLETE types on letter by letter, a gold seal stamps down and ticks, stars pop; then it all rolls away.",
+    "frames": 79,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      160
+    ],
+    "pivotNorm": [
+      0.5,
+      0.625
+    ],
+    "grid": "9x9 (2304x2304px)",
+    "scale": 1,
+    "heroFrame": 29,
+    "image": "vfx_ui_quest_complete.png",
+    "thumbnail": "vfx_ui_quest_complete_thumb.png",
+    "json": "vfx_ui_quest_complete.json"
+  },
+  {
+    "key": "vfx_water_bubbles",
+    "id": "water/bubbles",
+    "category": "water",
+    "name": "Bubbles",
+    "desc": "Bubbles stream up from a vent of pebbles, wobbling and swelling as they rise, flare as they cross shafts of light from the surface, then dome up and pop there.",
+    "frames": 120,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "11x11 (2816x2816px)",
+    "scale": 2,
+    "heroFrame": 29,
+    "image": "vfx_water_bubbles.png",
+    "thumbnail": "vfx_water_bubbles_thumb.png",
+    "json": "vfx_water_bubbles.json"
+  },
+  {
+    "key": "vfx_water_drip",
+    "id": "water/drip",
+    "category": "water",
+    "name": "Drip",
+    "desc": "A bead swells under a wet stone tip and catches the light, pinches off, falls stretched by its speed and plinks into a puddle with a crown, a ring and a tiny rebound.",
+    "frames": 48,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "7x7 (1792x1792px)",
+    "scale": 2,
+    "heroFrame": 23,
+    "image": "vfx_water_drip.png",
+    "thumbnail": "vfx_water_drip_thumb.png",
+    "json": "vfx_water_drip.json"
+  },
+  {
+    "key": "vfx_water_fountain",
+    "id": "water/fountain",
+    "category": "water",
+    "name": "Fountain",
+    "desc": "A stone basin; a jet rises from its spout and blooms into glassy arcs that break into beads, fall back and plink into the water with rings.",
+    "frames": 60,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 2,
+    "heroFrame": 4,
+    "image": "vfx_water_fountain.png",
+    "thumbnail": "vfx_water_fountain_thumb.png",
+    "json": "vfx_water_fountain.json"
+  },
+  {
+    "key": "vfx_water_geyser",
+    "id": "water/geyser",
+    "category": "water",
+    "name": "Geyser",
+    "desc": "A pool heaves and burbles faster and faster, then blasts a white column of water skyward with a churning foam head; it rains back down in drops and steam, slumps and sputters out.",
+    "frames": 151,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "13x12 (3328x3072px)",
+    "scale": 1,
+    "heroFrame": 35,
+    "image": "vfx_water_geyser.png",
+    "thumbnail": "vfx_water_geyser_thumb.png",
+    "json": "vfx_water_geyser.json"
+  },
+  {
+    "key": "vfx_water_rain_splash",
+    "id": "water/rain-splash",
+    "category": "water",
+    "name": "Rain splash",
+    "desc": "A low close-up on one puddle in the rain: big drops land in crowns that throw beads and a rebound jet, rings spread and interfere, a lamp's reflection wobbles on the water.",
+    "frames": 72,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x8 (2304x2048px)",
+    "scale": 1,
+    "heroFrame": 8,
+    "image": "vfx_water_rain_splash.png",
+    "thumbnail": "vfx_water_rain_splash_thumb.png",
+    "json": "vfx_water_rain_splash.json"
+  },
+  {
+    "key": "vfx_water_ripples",
+    "id": "water/ripples",
+    "category": "water",
+    "name": "Ripples",
+    "desc": "A drop plinks on still dark water and rings spread out across it at a low angle: the swell of each ring catches the light, crests glint, and they fade into the calm.",
+    "frames": 60,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 1.4,
+    "heroFrame": 2,
+    "image": "vfx_water_ripples.png",
+    "thumbnail": "vfx_water_ripples_thumb.png",
+    "json": "vfx_water_ripples.json"
+  },
+  {
+    "key": "vfx_water_splash",
+    "id": "water/splash",
+    "category": "water",
+    "name": "Splash",
+    "desc": "A stone drops into still water: a white hit, a crown that tears into droplets arcing out to plink down with rings, a jet that bounces back, foam and drifting mist.",
+    "frames": 76,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "9x9 (2304x2304px)",
+    "scale": 1,
+    "heroFrame": 5,
+    "image": "vfx_water_splash.png",
+    "thumbnail": "vfx_water_splash_thumb.png",
+    "json": "vfx_water_splash.json"
+  },
+  {
+    "key": "vfx_water_water_jet",
+    "id": "water/water-jet",
+    "category": "water",
+    "name": "Water jet",
+    "desc": "A pressurised stream blasts right: a tight glassy rod with surges running down it that swells, roughens, bends under its weight and breaks into chunks, spray and mist.",
+    "frames": 30,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "6x5 (1536x1280px)",
+    "scale": 1,
+    "heroFrame": 26,
+    "image": "vfx_water_water_jet.png",
+    "thumbnail": "vfx_water_water_jet_thumb.png",
+    "json": "vfx_water_water_jet.json"
+  },
+  {
+    "key": "vfx_water_water_orb",
+    "id": "water/water-orb",
+    "category": "water",
+    "name": "Water orb",
+    "desc": "A sphere of water floats and wobbles: a current circles inside it, the floor shows upside down through it, it shines, light gathers on the floor under it, and drips fall and plink.",
+    "frames": 90,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x9 (2560x2304px)",
+    "scale": 2,
+    "heroFrame": 12,
+    "image": "vfx_water_water_orb.png",
+    "thumbnail": "vfx_water_water_orb_thumb.png",
+    "json": "vfx_water_water_orb.json"
+  },
+  {
+    "key": "vfx_water_waterfall",
+    "id": "water/waterfall",
+    "category": "water",
+    "name": "Waterfall",
+    "desc": "A river pours from a notch in a rock outcrop: a white curl, a deep sheet that splits into strands, churning foam, spray, drifting mist and rings on a dark pool.",
+    "frames": 60,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "8x8 (2048x2048px)",
+    "scale": 1.4,
+    "heroFrame": 39,
+    "image": "vfx_water_waterfall.png",
+    "thumbnail": "vfx_water_waterfall_thumb.png",
+    "json": "vfx_water_waterfall.json"
+  },
+  {
+    "key": "vfx_water_wave_crash",
+    "id": "water/wave-crash",
+    "category": "water",
+    "name": "Wave crash",
+    "desc": "A swell rolls in and steepens, its lip throws forward and curls over a dark barrel, then crashes into a burst of white foam and spray that surges on and fades to lace.",
+    "frames": 97,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x10 (2560x2560px)",
+    "scale": 1,
+    "heroFrame": 37,
+    "image": "vfx_water_wave_crash.png",
+    "thumbnail": "vfx_water_wave_crash_thumb.png",
+    "json": "vfx_water_wave_crash.json"
+  },
+  {
+    "key": "vfx_water_whirlpool",
+    "id": "water/whirlpool",
+    "category": "water",
+    "name": "Whirlpool",
+    "desc": "Seen from above, dark water winds into a vortex: foam arms spiral in, darkening as they're drawn down into a deep eye with a lit far rim, flecks of foam circling in after them.",
+    "frames": 90,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "10x9 (2560x2304px)",
+    "scale": 1.4,
+    "heroFrame": 0,
+    "image": "vfx_water_whirlpool.png",
+    "thumbnail": "vfx_water_whirlpool_thumb.png",
+    "json": "vfx_water_whirlpool.json"
+  },
+  {
+    "key": "vfx_weather_aurora",
+    "id": "weather/aurora",
+    "category": "weather",
+    "name": "Aurora",
+    "desc": "Rippling curtains of green-to-violet light over a starfield: folding hems burn bright, rays shimmer up into violet, and the whole sky slowly breathes.",
+    "frames": 360,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "19x19 (4864x4864px)",
+    "scale": 0.8,
+    "heroFrame": 197,
+    "image": "vfx_weather_aurora.png",
+    "thumbnail": "vfx_weather_aurora_thumb.png",
+    "json": "vfx_weather_aurora.json"
+  },
+  {
+    "key": "vfx_weather_blizzard",
+    "id": "weather/blizzard",
+    "category": "weather",
+    "name": "Blizzard",
+    "desc": "Snow driven almost flat by a gale: streaks at three depths race past, gusts throw translucent sheets of snow across the sky and spindrift streams off the drifts.",
+    "frames": 240,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "16x15 (4096x3840px)",
+    "scale": 0.8,
+    "heroFrame": 0,
+    "image": "vfx_weather_blizzard.png",
+    "thumbnail": "vfx_weather_blizzard_thumb.png",
+    "json": "vfx_weather_blizzard.json"
+  },
+  {
+    "key": "vfx_weather_cherry_blossoms",
+    "id": "weather/cherry-blossoms",
+    "category": "weather",
+    "name": "Cherry blossoms",
+    "desc": "Pink petals flutter down on a spring breeze, tumbling in little spirals and flashing as they catch the light, with a few whole blossoms spinning among them.",
+    "frames": 300,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "18x17 (4608x4352px)",
+    "scale": 0.8,
+    "heroFrame": 0,
+    "image": "vfx_weather_cherry_blossoms.png",
+    "thumbnail": "vfx_weather_cherry_blossoms_thumb.png",
+    "json": "vfx_weather_cherry_blossoms.json"
+  },
+  {
+    "key": "vfx_weather_clouds",
+    "id": "weather/clouds",
+    "category": "weather",
+    "name": "Clouds",
+    "desc": "Layers of clouds drift past a bright moon at night: silver-lit tops, dark bellies, edges that flare where they cross the moon, forming and thinning as they go.",
+    "frames": 360,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "19x19 (4864x4864px)",
+    "scale": 0.8,
+    "heroFrame": 183,
+    "image": "vfx_weather_clouds.png",
+    "thumbnail": "vfx_weather_clouds_thumb.png",
+    "json": "vfx_weather_clouds.json"
+  },
+  {
+    "key": "vfx_weather_falling_leaves",
+    "id": "weather/falling-leaves",
+    "category": "weather",
+    "name": "Falling leaves",
+    "desc": "Autumn leaves swing down through the air, tilting and flipping to show their pale backs, ride a gust, land flat in the litter and fade.",
+    "frames": 300,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "18x17 (4608x4352px)",
+    "scale": 0.8,
+    "heroFrame": 0,
+    "image": "vfx_weather_falling_leaves.png",
+    "thumbnail": "vfx_weather_falling_leaves_thumb.png",
+    "json": "vfx_weather_falling_leaves.json"
+  },
+  {
+    "key": "vfx_weather_fireflies",
+    "id": "weather/fireflies",
+    "category": "weather",
+    "name": "Fireflies",
+    "desc": "Fireflies wander over a meadow at night, each glowing up and fading on its own rhythm, trailing light and lighting the grass tips beneath them.",
+    "frames": 360,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "19x19 (4864x4864px)",
+    "scale": 0.8,
+    "heroFrame": 0,
+    "image": "vfx_weather_fireflies.png",
+    "thumbnail": "vfx_weather_fireflies_thumb.png",
+    "json": "vfx_weather_fireflies.json"
+  },
+  {
+    "key": "vfx_weather_fog",
+    "id": "weather/fog",
+    "category": "weather",
+    "name": "Fog",
+    "desc": "Slow banks of moonlit fog at three depths drift past each other, crests catching the light, while thin streaks of mist slide by in front.",
+    "frames": 360,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "19x19 (4864x4864px)",
+    "scale": 0.8,
+    "heroFrame": 91,
+    "image": "vfx_weather_fog.png",
+    "thumbnail": "vfx_weather_fog_thumb.png",
+    "json": "vfx_weather_fog.json"
+  },
+  {
+    "key": "vfx_weather_god_rays",
+    "id": "weather/god-rays",
+    "category": "weather",
+    "name": "God rays",
+    "desc": "Shafts of light slant down from high on the left, breathing and swaying, pooling on the floor, as drifting dust motes light up whenever they cross a beam.",
+    "frames": 300,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "18x17 (4608x4352px)",
+    "scale": 0.8,
+    "heroFrame": 0,
+    "image": "vfx_weather_god_rays.png",
+    "thumbnail": "vfx_weather_god_rays_thumb.png",
+    "json": "vfx_weather_god_rays.json"
+  },
+  {
+    "key": "vfx_weather_rain",
+    "id": "weather/rain",
+    "category": "weather",
+    "name": "Rain",
+    "desc": "Slanted rain at four depths: far drops fade into the dark, near ones glint and splash, drops ring the puddles and a low mist drifts over the wet floor.",
+    "frames": 240,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "16x15 (4096x3840px)",
+    "scale": 0.8,
+    "heroFrame": 0,
+    "image": "vfx_weather_rain.png",
+    "thumbnail": "vfx_weather_rain_thumb.png",
+    "json": "vfx_weather_rain.json"
+  },
+  {
+    "key": "vfx_weather_shooting_stars",
+    "id": "weather/shooting-stars",
+    "category": "weather",
+    "name": "Shooting stars",
+    "desc": "Meteors burn across a starry sky, white heads trailing gold and rose; the big ones flare and break up, and each leaves a glowing train that twists and fades.",
+    "frames": 300,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "18x17 (4608x4352px)",
+    "scale": 0.8,
+    "heroFrame": 164,
+    "image": "vfx_weather_shooting_stars.png",
+    "thumbnail": "vfx_weather_shooting_stars_thumb.png",
+    "json": "vfx_weather_shooting_stars.json"
+  },
+  {
+    "key": "vfx_weather_snow",
+    "id": "weather/snow",
+    "category": "weather",
+    "name": "Snow",
+    "desc": "Snow at three depths in a gusty breeze: far specks, drifting flakes, big near crystals that spin and glow; they settle on a sparkling drift and melt away.",
+    "frames": 360,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "19x19 (4864x4864px)",
+    "scale": 0.8,
+    "heroFrame": 0,
+    "image": "vfx_weather_snow.png",
+    "thumbnail": "vfx_weather_snow_thumb.png",
+    "json": "vfx_weather_snow.json"
+  },
+  {
+    "key": "vfx_weather_storm",
+    "id": "weather/storm",
+    "category": "weather",
+    "name": "Storm",
+    "desc": "Driving rain at two depths under a churning cloud deck; a forked bolt strikes in a double flash that lights the sky and the rain, then sheet lightning glows in the clouds.",
+    "frames": 300,
+    "fps": 30,
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "pivot": [
+      128,
+      224
+    ],
+    "pivotNorm": [
+      0.5,
+      0.875
+    ],
+    "grid": "18x17 (4608x4352px)",
+    "scale": 0.8,
+    "heroFrame": 0,
+    "image": "vfx_weather_storm.png",
+    "thumbnail": "vfx_weather_storm_thumb.png",
+    "json": "vfx_weather_storm.json"
+  }
+]

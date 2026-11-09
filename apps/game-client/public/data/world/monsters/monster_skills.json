@@ -1,0 +1,341 @@
+[
+  {
+    "id": "MSKILL_SLIME_ACID",
+    "name": "Phun Axit Nhầy (Slime Acid Spit)",
+    "description": "Bắn tia dịch nhờn ăn mòn làm chậm đối thủ.",
+    "skill_type": "ranged",
+    "damage_type": "magical",
+    "element": "water",
+    "base_damage": 12,
+    "damage_multiplier": 1.1,
+    "cooldown": 6.0,
+    "cast_time": 0.5,
+    "range": 160,
+    "area_radius": 0,
+    "status_effects": [
+      {
+        "type": "slow",
+        "value": 0.2,
+        "duration": 3.0
+      }
+    ],
+    "animation_id": "attack",
+    "vfx_id": "vfx_slime_spit",
+    "target_type": "single"
+  },
+  {
+    "id": "MSKILL_SLIME_SLAM",
+    "name": "Cú Nhảy Nện Thân (Slime Body Slam)",
+    "description": "Nhảy lên cao rồi rơi tự do đè nát kẻ thù.",
+    "skill_type": "melee",
+    "damage_type": "physical",
+    "element": "neutral",
+    "base_damage": 16,
+    "damage_multiplier": 1.25,
+    "cooldown": 8.0,
+    "cast_time": 0.8,
+    "range": 60,
+    "area_radius": 50,
+    "status_effects": [],
+    "animation_id": "attack",
+    "vfx_id": "vfx_slime_impact",
+    "target_type": "aoe"
+  },
+  {
+    "id": "MSKILL_RABBIT_KICK",
+    "name": "Cú Song Phi Thỏ (Horned Double Kick)",
+    "description": "Bật người đá liên hoàn bằng cặp chân sau khỏe khoắn.",
+    "skill_type": "melee",
+    "damage_type": "physical",
+    "element": "neutral",
+    "base_damage": 15,
+    "damage_multiplier": 1.2,
+    "cooldown": 5.0,
+    "cast_time": 0.3,
+    "range": 50,
+    "area_radius": 0,
+    "status_effects": [],
+    "animation_id": "attack",
+    "vfx_id": "vfx_rabbit_kick",
+    "target_type": "single"
+  },
+  {
+    "id": "MSKILL_SPORE_CLOUD",
+    "name": "Bụi Phấn Độc (Poison Spore Burst)",
+    "description": "Phát tán phấn hoa độc gây sát thương duy trì theo thời gian.",
+    "skill_type": "aoe",
+    "damage_type": "magical",
+    "element": "earth",
+    "base_damage": 14,
+    "damage_multiplier": 1.0,
+    "cooldown": 9.0,
+    "cast_time": 0.6,
+    "range": 80,
+    "area_radius": 90,
+    "status_effects": [
+      {
+        "type": "poison",
+        "dps": 6,
+        "duration": 5.0
+      }
+    ],
+    "animation_id": "skill",
+    "vfx_id": "vfx_poison_spore",
+    "target_type": "aoe"
+  },
+  {
+    "id": "MSKILL_WEB_SHOT",
+    "name": "Phun Mạng Trói (Web Net Entangle)",
+    "description": "Bắn mạng nhện dính khóa chặt chân mục tiêu.",
+    "skill_type": "ranged",
+    "damage_type": "physical",
+    "element": "earth",
+    "base_damage": 18,
+    "damage_multiplier": 1.15,
+    "cooldown": 10.0,
+    "cast_time": 0.4,
+    "range": 180,
+    "area_radius": 0,
+    "status_effects": [
+      {
+        "type": "root",
+        "duration": 2.5
+      }
+    ],
+    "animation_id": "attack",
+    "vfx_id": "vfx_web_net",
+    "target_type": "single"
+  },
+  {
+    "id": "MSKILL_WOLF_BITE",
+    "name": "Cắn Xé Hoang Dã (Fierce Wolf Bite)",
+    "description": "Cú đớp hung hiểm gây chảy máu vết thương.",
+    "skill_type": "melee",
+    "damage_type": "physical",
+    "element": "neutral",
+    "base_damage": 25,
+    "damage_multiplier": 1.35,
+    "cooldown": 6.5,
+    "cast_time": 0.3,
+    "range": 50,
+    "area_radius": 0,
+    "status_effects": [
+      {
+        "type": "bleed",
+        "dps": 8,
+        "duration": 4.0
+      }
+    ],
+    "animation_id": "attack",
+    "vfx_id": "vfx_wolf_bite",
+    "target_type": "single"
+  },
+  {
+    "id": "MSKILL_HOWL_BUFF",
+    "name": "Tiếng Hú Đầu Đàn (Pack Alpha Howl)",
+    "description": "Hú vang tăng lực tấn công và tốc độ di chuyển cho bầy đàn.",
+    "skill_type": "buff",
+    "damage_type": "magical",
+    "element": "neutral",
+    "base_damage": 0,
+    "damage_multiplier": 0.0,
+    "cooldown": 14.0,
+    "cast_time": 0.8,
+    "range": 0,
+    "area_radius": 200,
+    "status_effects": [
+      {
+        "type": "attack_up",
+        "value": 0.2,
+        "duration": 8.0
+      }
+    ],
+    "animation_id": "skill",
+    "vfx_id": "vfx_howl_aura",
+    "target_type": "self"
+  },
+  {
+    "id": "MSKILL_BOAR_CHARGE",
+    "name": "Cú Húc Trực Diện (Boar Rush Charge)",
+    "description": "Lao về phía trước bằng cặp nanh sắc nhọn hất văng mục tiêu.",
+    "skill_type": "dash",
+    "damage_type": "physical",
+    "element": "neutral",
+    "base_damage": 28,
+    "damage_multiplier": 1.4,
+    "cooldown": 9.0,
+    "cast_time": 0.5,
+    "range": 160,
+    "area_radius": 60,
+    "status_effects": [
+      {
+        "type": "knockback",
+        "distance": 80
+      }
+    ],
+    "animation_id": "attack",
+    "vfx_id": "vfx_boar_dust",
+    "target_type": "directional"
+  },
+  {
+    "id": "MSKILL_ALPHA_BURST",
+    "name": "Bùng Nổ Slime Vương (Alpha Gel Geyser)",
+    "description": "Slime khổng lồ nổ tung tạo sóng dung nham nước gây choáng diện rộng.",
+    "skill_type": "aoe",
+    "damage_type": "magical",
+    "element": "water",
+    "base_damage": 45,
+    "damage_multiplier": 1.5,
+    "cooldown": 12.0,
+    "cast_time": 1.0,
+    "range": 0,
+    "area_radius": 140,
+    "status_effects": [
+      {
+        "type": "stun",
+        "duration": 1.5
+      }
+    ],
+    "animation_id": "skill",
+    "vfx_id": "vfx_water_burst",
+    "target_type": "aoe"
+  },
+  {
+    "id": "MSKILL_GOBLIN_THROW",
+    "name": "Ném Đá Độc (Goblin Stone Throw)",
+    "description": "Ném đá từ xa quấy rối mục tiêu.",
+    "skill_type": "ranged",
+    "damage_type": "physical",
+    "element": "earth",
+    "base_damage": 22,
+    "damage_multiplier": 1.2,
+    "cooldown": 5.0,
+    "cast_time": 0.4,
+    "range": 170,
+    "area_radius": 0,
+    "status_effects": [],
+    "animation_id": "attack",
+    "vfx_id": "vfx_stone_projectile",
+    "target_type": "single"
+  },
+  {
+    "id": "MSKILL_TREANT_ROOT",
+    "name": "Rễ Cây Trói Buộc (Entangling Roots)",
+    "description": "Triệu hồi rễ gai nhọn từ lòng đất quấn lấy chân kẻ thù.",
+    "skill_type": "ground",
+    "damage_type": "magical",
+    "element": "earth",
+    "base_damage": 38,
+    "damage_multiplier": 1.3,
+    "cooldown": 11.0,
+    "cast_time": 0.8,
+    "range": 150,
+    "area_radius": 75,
+    "status_effects": [
+      {
+        "type": "root",
+        "duration": 3.0
+      },
+      {
+        "type": "bleed",
+        "dps": 10,
+        "duration": 4.0
+      }
+    ],
+    "animation_id": "skill",
+    "vfx_id": "vfx_root_thorns",
+    "target_type": "ground"
+  },
+  {
+    "id": "MSKILL_HARPY_WIND_SLASH",
+    "name": "Trảm Phong Harpy (Feather Wind Blades)",
+    "description": "Quạt cánh phóng ra 3 lưỡi đao gió xé rách không khí.",
+    "skill_type": "ranged",
+    "damage_type": "magical",
+    "element": "wind",
+    "base_damage": 42,
+    "damage_multiplier": 1.45,
+    "cooldown": 7.0,
+    "cast_time": 0.5,
+    "range": 200,
+    "area_radius": 0,
+    "status_effects": [],
+    "animation_id": "attack",
+    "vfx_id": "vfx_wind_slash",
+    "target_type": "single"
+  },
+  {
+    "id": "MSKILL_GOLEM_SMASH",
+    "name": "Cú Đấm Ngàn Cân (Titanic Golem Smash)",
+    "description": "Giáng nắm đấm đá khổng lồ làm rung chuyển mặt đất gây choáng nặng.",
+    "skill_type": "melee",
+    "damage_type": "physical",
+    "element": "earth",
+    "base_damage": 65,
+    "damage_multiplier": 1.6,
+    "cooldown": 13.0,
+    "cast_time": 1.2,
+    "range": 80,
+    "area_radius": 120,
+    "status_effects": [
+      {
+        "type": "stun",
+        "duration": 2.0
+      }
+    ],
+    "animation_id": "attack",
+    "vfx_id": "vfx_earth_smash",
+    "target_type": "aoe"
+  },
+  {
+    "id": "MSKILL_FROST_BREATH",
+    "name": "Hơi Thở Băng Giá (Freezing Breath)",
+    "description": "Phun luồng khí hàn băng làm đông cứng mục tiêu.",
+    "skill_type": "directional",
+    "damage_type": "magical",
+    "element": "water",
+    "base_damage": 58,
+    "damage_multiplier": 1.5,
+    "cooldown": 10.0,
+    "cast_time": 0.7,
+    "range": 160,
+    "area_radius": 70,
+    "status_effects": [
+      {
+        "type": "freeze",
+        "duration": 2.0
+      }
+    ],
+    "animation_id": "skill",
+    "vfx_id": "vfx_frost_cone",
+    "target_type": "directional"
+  },
+  {
+    "id": "MSKILL_CHIMERA_ROAR",
+    "name": "Tiếng Gầm Tận Diệt (Chimera Annihilation Roar)",
+    "description": "Thần thú gầm thét tạo sóng âm hủy diệt kết hợp lửa và băng.",
+    "skill_type": "aoe",
+    "damage_type": "magical",
+    "element": "fire",
+    "base_damage": 90,
+    "damage_multiplier": 1.8,
+    "cooldown": 15.0,
+    "cast_time": 1.5,
+    "range": 0,
+    "area_radius": 220,
+    "status_effects": [
+      {
+        "type": "stun",
+        "duration": 2.5
+      },
+      {
+        "type": "burn",
+        "dps": 18,
+        "duration": 5.0
+      }
+    ],
+    "animation_id": "skill",
+    "vfx_id": "vfx_fire_explosion",
+    "target_type": "aoe"
+  }
+]

@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "id": "USR_ADMIN_001",
+      "username": "admin",
+      "email": "admin@elysiandensetsu.com",
+      "passwordHash": "$2a$10$Tram1G4WlkGSMQtYVNvJkOngLnFHDQUSOF5khQ8SxMAvWLwIabA/G",
+      "role": "admin",
+      "createdAt": "2026-11-09T04:47:16.592Z"
+    },
+    {
+      "id": "USR_PLAYER_001",
+      "username": "player",
+      "email": "player@elysiandensetsu.com",
+      "passwordHash": "$2a$10$uAUMFASJD2B76JnACROHY.WFZbdVp20fj1S9jUjm5DPkHkWmVtxay",
+      "role": "player",
+      "createdAt": "2026-11-09T04:47:16.663Z"
+    }
+  ],
+  "characters": [
+    {
+      "id": "CHAR_DEFAULT_001",
+      "userId": "USR_PLAYER_001",
+      "name": "Airi_Kurogane",
+      "gender": "female",
+      "classId": "novice",
+      "level": 1,
+      "exp": 0,
+      "gold": 500,
+      "baseStats": {
+        "str": 10,
+        "dex": 10,
+        "agi": 10,
+        "int": 10,
+        "con": 10
+      },
+      "attributes": {
+        "str": 12,
+        "dex": 11,
+        "agi": 11,
+        "int": 10,
+        "con": 12
+      },
+      "appearance": {
+        "gender": "female",
+        "hairstyleId": "f_long",
+        "hairColor": "#1a1a24",
+        "eyeColor": "#2563eb"
+      },
+      "equipment": {
+        "mainHand": "ITEM_SWORD_WOODEN_NOVICE"
+      },
+      "inventory": [
+        {
+          "slotId": 0,
+          "itemId": "ITEM_POTION_HP_SMALL",
+          "quantity": 5
+        }
+      ],
+      "regionId": "VIL_STARTER",
+      "x": 1000,
+      "y": 1000,
+      "createdAt": "2026-11-09T04:47:16.663Z",
+      "updatedAt": "2026-11-09T04:47:16.663Z"
+    },
+    {
+      "id": "CHAR_1794199714392_917",
+      "userId": "USR_ANONYMOUS",
+      "name": "Rin_Valkyrie",
+      "gender": "female",
+      "classId": "swordsman",
+      "level": 1,
+      "exp": 0,
+      "gold": 500,
+      "baseStats": {
+        "str": 15,
+        "dex": 10,
+        "agi": 12,
+        "int": 8,
+        "con": 15
+      },
+      "attributes": {
+        "agi": 12,
+        "str": 15,
+        "con": 15,
+        "dex": 10,
+        "int": 8
+      },
+      "appearance": {
+        "gender": "female",
+        "hairstyleId": "f_long",
+        "hairColor": "#1a1a24",
+        "eyeColor": "#2563eb",
+        "outfitId": "novice_tunic"
+      },
+      "equipment": {
+        "mainHand": "ITEM_SWORD_WOODEN_NOVICE"
+      },
+      "inventory": [
+        {
+          "slotId": 0,
+          "itemId": "ITEM_POTION_HP_SMALL",
+          "quantity": 5
+        }
+      ],
+      "regionId": "VIL_STARTER",
+      "x": 1000,
+      "y": 1000,
+      "createdAt": "2026-11-09T04:48:34.392Z",
+      "updatedAt": "2026-11-09T04:48:34.392Z"
+    }
+  ],
+  "items": [],
+  "weapons": [],
+  "monsters": [],
+  "quests": [],
+  "logs": []
+}

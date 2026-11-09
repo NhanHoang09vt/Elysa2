@@ -1,0 +1,37 @@
+{
+  "rulesVersion": "1.0.0",
+  "worldId": "WORLD_ELYSIA_FRONTIER",
+  "mandatoryChecks": [
+    {
+      "code": "CHK_JSON_SYNTAX",
+      "description": "Every JSON file must parse without syntax errors, trailing commas, or invalid formatting."
+    },
+    {
+      "code": "CHK_ID_INTEGRITY",
+      "description": "No duplicate IDs exist within any entity namespace (regions, monsters, skills, drop tables, npcs, spawns, quests, items)."
+    },
+    {
+      "code": "CHK_CROSS_REF_INTEGRITY",
+      "description": "Every referenced entity ID across 13 cross-reference relationships must resolve."
+    },
+    {
+      "code": "CHK_WORLD_INTEGRITY",
+      "description": "Safe zones contain 0 monster spawns; coordinates are within region bounds; Temple of Job Advancement is accessible through safe route."
+    },
+    {
+      "code": "CHK_QUEST_INTEGRITY",
+      "description": "Quests form an unbroken, acyclic Lv.1 to Lv.15 progression leading to Asica with valid objectives, monsters, and rewards."
+    },
+    {
+      "code": "CHK_BALANCE_INTEGRITY",
+      "description": "Monster stats scale smoothly; drop rates are bounded between 0 and 100%; rewards reflect appropriate level milestones."
+    }
+  ],
+  "thresholds": {
+    "minMonstersCount": 30,
+    "requiredRegionsCount": 5,
+    "maxSafeZoneSpawns": 0,
+    "minLevelAsica": 15,
+    "maxStatMultiplierPerTier": 2.5
+  }
+}

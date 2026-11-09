@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "timestamp": "2026-11-09T11:15:00Z",
+  "summary": {
+    "totalEntities": 213,
+    "validEntities": 213,
+    "invalidEntities": 0,
+    "errorCount": 0,
+    "warningCount": 0
+  },
+  "entityStatistics": {
+    "regions": 5,
+    "connections": 8,
+    "items": 57,
+    "monster_skills": 15,
+    "monsters": 32,
+    "drop_tables": 32,
+    "npcs": 13,
+    "dialogues": 2,
+    "spawn_points": 33,
+    "quest_chains": 1,
+    "quests": 15
+  },
+  "worldIntegrity": {
+    "safeZoneSpawns": 0,
+    "templeAccessibility": "SAFE_AND_CONNECTED",
+    "asicaRequirementsValidated": true,
+    "levelRangeEnforced": true
+  },
+  "errors": [],
+  "warnings": []
+}

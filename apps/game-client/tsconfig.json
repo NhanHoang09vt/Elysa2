@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": false,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "types": ["vite/client"],
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@elysia/game-types": ["../../packages/game-types/src/index.ts"],
+      "@elysia/game-data-schema": ["../../packages/game-data-schema/src/index.ts"],
+      "@elysia/api-contracts": ["../../packages/api-contracts/src/index.ts"],
+      "@elysia/shared-utils": ["../../packages/shared-utils/src/index.ts"]
+    }
+  },
+  "include": ["src"]
+}

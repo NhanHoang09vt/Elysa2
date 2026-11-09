@@ -1,0 +1,24 @@
+[
+  {
+    "chain_id": "CHAIN_BEGINNER_PROGRESSION",
+    "name": "Hành Trình Khởi Nghiệp Biên Cương (Elysia Frontier Novice Saga)",
+    "description": "Chuỗi 15 nhiệm vụ huấn luyện từ một tân binh vô danh tới lúc đủ tư cách diện kiến Đại Tư Tế Asica để nhận chức nghiệp chính thức.",
+    "quests": [
+      "QUEST_001_BEGINNER_TUTORIAL",
+      "QUEST_002_WEAPON_PREPARATION",
+      "QUEST_003_HORNED_PESTS",
+      "QUEST_004_HERBAL_REMEDY",
+      "QUEST_005_ALPHA_SLIME_HUNT",
+      "QUEST_006_WEST_FOREST_SCOUT",
+      "QUEST_007_GOBLIN_MENACE",
+      "QUEST_008_TIMBER_WOLF_PACK",
+      "QUEST_009_SOUTH_VALLEY_EXPEDITION",
+      "QUEST_010_HARPY_FEATHERS",
+      "QUEST_011_STONE_GUARDIAN",
+      "QUEST_012_NORTH_EXPEDITION",
+      "QUEST_013_KOBOLD_SABOTAGE",
+      "QUEST_014_FROSTFANG_CHALLENGE",
+      "QUEST_015_JOB_ADVANCEMENT_TRIAL"
+    ]
+  }
+]

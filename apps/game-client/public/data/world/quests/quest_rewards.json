@@ -1,0 +1,153 @@
+{
+  "QUEST_001_BEGINNER_TUTORIAL": {
+    "exp": 80,
+    "gold": 30,
+    "items": [
+      {
+        "item_id": "ITEM_POTION_HP_SMALL",
+        "quantity": 5
+      }
+    ]
+  },
+  "QUEST_002_WEAPON_PREPARATION": {
+    "exp": 140,
+    "gold": 50,
+    "items": [
+      {
+        "item_id": "ITEM_ARMOR_LEATHER_VEST",
+        "quantity": 1
+      }
+    ]
+  },
+  "QUEST_003_HORNED_PESTS": {
+    "exp": 220,
+    "gold": 70,
+    "items": [
+      {
+        "item_id": "ITEM_BOOTS_LEATHER",
+        "quantity": 1
+      }
+    ]
+  },
+  "QUEST_004_HERBAL_REMEDY": {
+    "exp": 320,
+    "gold": 100,
+    "items": [
+      {
+        "item_id": "ITEM_ANTIDOTE",
+        "quantity": 5
+      }
+    ]
+  },
+  "QUEST_005_ALPHA_SLIME_HUNT": {
+    "exp": 500,
+    "gold": 200,
+    "items": [
+      {
+        "item_id": "ITEM_RING_COPPER",
+        "quantity": 1
+      }
+    ]
+  },
+  "QUEST_006_WEST_FOREST_SCOUT": {
+    "exp": 650,
+    "gold": 220,
+    "items": [
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "quantity": 5
+      }
+    ]
+  },
+  "QUEST_007_GOBLIN_MENACE": {
+    "exp": 850,
+    "gold": 280,
+    "items": [
+      {
+        "item_id": "ITEM_DAGGER_HUNTER",
+        "quantity": 1
+      }
+    ]
+  },
+  "QUEST_008_TIMBER_WOLF_PACK": {
+    "exp": 1100,
+    "gold": 350,
+    "items": [
+      {
+        "item_id": "ITEM_AMULET_WOLF_FANG",
+        "quantity": 1
+      }
+    ]
+  },
+  "QUEST_009_SOUTH_VALLEY_EXPEDITION": {
+    "exp": 1400,
+    "gold": 400,
+    "items": [
+      {
+        "item_id": "ITEM_SPEAR_IRON",
+        "quantity": 1
+      }
+    ]
+  },
+  "QUEST_010_HARPY_FEATHERS": {
+    "exp": 1800,
+    "gold": 500,
+    "items": [
+      {
+        "item_id": "ITEM_SHIELD_IRON",
+        "quantity": 1
+      }
+    ]
+  },
+  "QUEST_011_STONE_GUARDIAN": {
+    "exp": 2300,
+    "gold": 650,
+    "items": [
+      {
+        "item_id": "ITEM_STAFF_OAK",
+        "quantity": 1
+      }
+    ]
+  },
+  "QUEST_012_NORTH_EXPEDITION": {
+    "exp": 2900,
+    "gold": 800,
+    "items": [
+      {
+        "item_id": "ITEM_RING_FROST_RESIST",
+        "quantity": 1
+      }
+    ]
+  },
+  "QUEST_013_KOBOLD_SABOTAGE": {
+    "exp": 3600,
+    "gold": 1000,
+    "items": [
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "quantity": 10
+      }
+    ]
+  },
+  "QUEST_014_FROSTFANG_CHALLENGE": {
+    "exp": 4500,
+    "gold": 1500,
+    "items": [
+      {
+        "item_id": "QITEM_ASICA_RECOMMENDATION",
+        "quantity": 1
+      }
+    ]
+  },
+  "QUEST_015_JOB_ADVANCEMENT_TRIAL": {
+    "exp": 10000,
+    "gold": 5000,
+    "items": [
+      {
+        "item_id": "ITEM_EXCALIBUR_HOLY",
+        "quantity": 1
+      }
+    ],
+    "unlock_feature": "FIRST_JOB_ADVANCEMENT"
+  }
+}

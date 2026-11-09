@@ -1,0 +1,329 @@
+[
+  {
+    "id": "NPC_VILLAGE_HEAD",
+    "name": "Trưởng Làng Gordon (Elder Gordon)",
+    "title": "Trưởng Làng Khởi Nguyên",
+    "description": "Bậc trưởng lão đức cao vọng trọng dẫn dắt các nhà thám hiểm trẻ tuổi.",
+    "region_id": "VIL_STARTER",
+    "x": 1000,
+    "y": 1000,
+    "facing_direction": "front",
+    "npc_type": "quest_giver",
+    "functions": [
+      "QUEST_GIVER",
+      "LORE_TELLER"
+    ],
+    "dialogue_id": "DLG_GORDON",
+    "quest_ids": [
+      "QUEST_001_BEGINNER_TUTORIAL",
+      "QUEST_005_ALPHA_SLIME_HUNT",
+      "QUEST_008_TIMBER_WOLF_PACK",
+      "QUEST_014_FROSTFANG_CHALLENGE",
+      "QUEST_015_JOB_ADVANCEMENT_TRIAL"
+    ],
+    "interaction_conditions": {},
+    "required_level": 1,
+    "required_quest_ids": [],
+    "sprite_asset": "/assets/npcs/elder_gordon.png",
+    "animation_asset": "/assets/npcs/elder_gordon_anim.png",
+    "enabled": true
+  },
+  {
+    "id": "NPC_WEAPON_SMITH",
+    "name": "Thợ Rèn Vulcan (Blacksmith Vulcan)",
+    "title": "Thợ Rèn Bậc Thầy",
+    "description": "Người thợ rèn lực lưỡng phụ trách rèn đúc và bán vũ khí cơ bản.",
+    "region_id": "VIL_STARTER",
+    "x": 850,
+    "y": 1100,
+    "facing_direction": "right",
+    "npc_type": "blacksmith",
+    "functions": [
+      "WEAPON_MERCHANT",
+      "BLACKSMITH",
+      "REPAIR"
+    ],
+    "dialogue_id": "DLG_VULCAN",
+    "quest_ids": [
+      "QUEST_002_WEAPON_PREPARATION",
+      "QUEST_013_KOBOLD_SABOTAGE"
+    ],
+    "interaction_conditions": {},
+    "required_level": 1,
+    "required_quest_ids": [],
+    "sprite_asset": "/assets/npcs/blacksmith_vulcan.png",
+    "animation_asset": "/assets/npcs/blacksmith_vulcan_anim.png",
+    "enabled": true
+  },
+  {
+    "id": "NPC_ARMOR_MERCHANT",
+    "name": "Thương Gia Giáp Selina (Armorer Selina)",
+    "title": "Chủ Tiệm May & Giáp Trụ",
+    "description": "Nữ thợ may tài ba cung cấp các bộ giáp da và trang phục phòng hộ.",
+    "region_id": "VIL_STARTER",
+    "x": 820,
+    "y": 1150,
+    "facing_direction": "front_right",
+    "npc_type": "armor_merchant",
+    "functions": [
+      "ARMOR_MERCHANT"
+    ],
+    "dialogue_id": "DLG_SELINA",
+    "quest_ids": [],
+    "interaction_conditions": {},
+    "required_level": 1,
+    "required_quest_ids": [],
+    "sprite_asset": "/assets/npcs/armorer_selina.png",
+    "animation_asset": "/assets/npcs/armorer_selina_anim.png",
+    "enabled": true
+  },
+  {
+    "id": "NPC_GENERAL_STORE",
+    "name": "Dược Sĩ Maya (Merchant Maya)",
+    "title": "Chủ Tiệm Tạp Hóa & Dược Phẩm",
+    "description": "Nơi cung cấp bình máu, thuốc hồi phục và nguyên liệu cần thiết.",
+    "region_id": "VIL_STARTER",
+    "x": 1150,
+    "y": 1100,
+    "facing_direction": "left",
+    "npc_type": "general_merchant",
+    "functions": [
+      "GENERAL_ITEM_MERCHANT",
+      "POTION_MERCHANT"
+    ],
+    "dialogue_id": "DLG_MAYA",
+    "quest_ids": [
+      "QUEST_010_HARPY_FEATHERS"
+    ],
+    "interaction_conditions": {},
+    "required_level": 1,
+    "required_quest_ids": [],
+    "sprite_asset": "/assets/npcs/merchant_maya.png",
+    "animation_asset": "/assets/npcs/merchant_maya_anim.png",
+    "enabled": true
+  },
+  {
+    "id": "NPC_STORAGE_KEEPER",
+    "name": "Thủ Kho Barnaby (Storage Keeper Barnaby)",
+    "title": "Quản Lý Rương Đồ Làng",
+    "description": "Cất giữ an toàn vật phẩm và vàng bạc cho mọi lữ khách phiêu lưu.",
+    "region_id": "VIL_STARTER",
+    "x": 1180,
+    "y": 950,
+    "facing_direction": "front",
+    "npc_type": "storage_keeper",
+    "functions": [
+      "STORAGE_KEEPER"
+    ],
+    "dialogue_id": "DLG_BARNABY",
+    "quest_ids": [],
+    "interaction_conditions": {},
+    "required_level": 1,
+    "required_quest_ids": [],
+    "sprite_asset": "/assets/npcs/storage_barnaby.png",
+    "animation_asset": "/assets/npcs/storage_barnaby_anim.png",
+    "enabled": true
+  },
+  {
+    "id": "NPC_SKILL_TRAINER",
+    "name": "Võ Sư Kaelen (Instructor Kaelen)",
+    "title": "Tổng Giáo Đầu Võ Thuật",
+    "description": "Người hướng dẫn các kỹ năng chiến đấu cơ bản cho tân thủ.",
+    "region_id": "VIL_STARTER",
+    "x": 750,
+    "y": 850,
+    "facing_direction": "front",
+    "npc_type": "skill_trainer",
+    "functions": [
+      "SKILL_TRAINER"
+    ],
+    "dialogue_id": "DLG_KAELEN",
+    "quest_ids": [
+      "QUEST_007_GOBLIN_MENACE",
+      "QUEST_011_STONE_GUARDIAN"
+    ],
+    "interaction_conditions": {},
+    "required_level": 1,
+    "required_quest_ids": [],
+    "sprite_asset": "/assets/npcs/trainer_kaelen.png",
+    "animation_asset": "/assets/npcs/trainer_kaelen_anim.png",
+    "enabled": true
+  },
+  {
+    "id": "NPC_GATHERING_INSTRUCTOR",
+    "name": "Nhà Thảo Dược Flora (Herbalist Flora)",
+    "title": "Chuyên Gia Thu Thập Dược Liệu",
+    "description": "Dạy các kỹ thuật nhận biết và thu hái thảo dược hoang dã.",
+    "region_id": "VIL_STARTER",
+    "x": 1250,
+    "y": 1250,
+    "facing_direction": "front_left",
+    "npc_type": "gathering_instructor",
+    "functions": [
+      "GATHERING_INSTRUCTOR"
+    ],
+    "dialogue_id": "DLG_FLORA",
+    "quest_ids": [
+      "QUEST_004_HERBAL_REMEDY"
+    ],
+    "interaction_conditions": {},
+    "required_level": 1,
+    "required_quest_ids": [],
+    "sprite_asset": "/assets/npcs/herbalist_flora.png",
+    "animation_asset": "/assets/npcs/herbalist_flora_anim.png",
+    "enabled": true
+  },
+  {
+    "id": "NPC_TELEPORT_KEEPER",
+    "name": "Hộ Vệ Cổng Dịch Chuyển Lyra (Wayfarer Lyra)",
+    "title": "Người Điều Phối Dịch Chuyển",
+    "description": "Kích hoạt tinh thạch dịch chuyển nhanh giữa các vùng an toàn.",
+    "region_id": "VIL_STARTER",
+    "x": 1000,
+    "y": 1200,
+    "facing_direction": "front",
+    "npc_type": "teleport_npc",
+    "functions": [
+      "TELEPORT_NPC"
+    ],
+    "dialogue_id": "DLG_LYRA",
+    "quest_ids": [],
+    "interaction_conditions": {},
+    "required_level": 1,
+    "required_quest_ids": [],
+    "sprite_asset": "/assets/npcs/wayfarer_lyra.png",
+    "animation_asset": "/assets/npcs/wayfarer_lyra_anim.png",
+    "enabled": true
+  },
+  {
+    "id": "NPC_EAST_GUARD",
+    "name": "Lính Gác Justin (Guard Justin)",
+    "title": "Trưởng Trạm Gác Cổng Đông",
+    "description": "Bảo vệ cổng đông dẫn ra Đồng Cỏ Sơ Cấp.",
+    "region_id": "VIL_STARTER",
+    "x": 1900,
+    "y": 1000,
+    "facing_direction": "left",
+    "npc_type": "quest_giver",
+    "functions": [
+      "QUEST_GIVER",
+      "GUARD"
+    ],
+    "dialogue_id": "DLG_JUSTIN",
+    "quest_ids": [
+      "QUEST_003_HORNED_PESTS"
+    ],
+    "interaction_conditions": {},
+    "required_level": 1,
+    "required_quest_ids": [],
+    "sprite_asset": "/assets/npcs/guard_justin.png",
+    "animation_asset": "/assets/npcs/guard_justin_anim.png",
+    "enabled": true
+  },
+  {
+    "id": "NPC_WEST_GUARD",
+    "name": "Lính Gác Brennan (Guard Brennan)",
+    "title": "Trưởng Trạm Gác Cổng Tây",
+    "description": "Cảnh giới bầy Goblin hung hãn từ Rừng Rậm.",
+    "region_id": "VIL_STARTER",
+    "x": 100,
+    "y": 1000,
+    "facing_direction": "right",
+    "npc_type": "quest_giver",
+    "functions": [
+      "QUEST_GIVER",
+      "GUARD"
+    ],
+    "dialogue_id": "DLG_BRENNAN",
+    "quest_ids": [
+      "QUEST_006_WEST_FOREST_SCOUT"
+    ],
+    "interaction_conditions": {},
+    "required_level": 4,
+    "required_quest_ids": [],
+    "sprite_asset": "/assets/npcs/guard_brennan.png",
+    "animation_asset": "/assets/npcs/guard_brennan_anim.png",
+    "enabled": true
+  },
+  {
+    "id": "NPC_SOUTH_GUARD",
+    "name": "Lính Gác Douglas (Guard Douglas)",
+    "title": "Trưởng Trạm Gác Cổng Nam",
+    "description": "Chốt chặn hiểm trở dẫn sang Thung Lũng Đá.",
+    "region_id": "VIL_STARTER",
+    "x": 1000,
+    "y": 1900,
+    "facing_direction": "back",
+    "npc_type": "quest_giver",
+    "functions": [
+      "QUEST_GIVER",
+      "GUARD"
+    ],
+    "dialogue_id": "DLG_DOUGLAS",
+    "quest_ids": [
+      "QUEST_009_SOUTH_VALLEY_EXPEDITION"
+    ],
+    "interaction_conditions": {},
+    "required_level": 7,
+    "required_quest_ids": [],
+    "sprite_asset": "/assets/npcs/guard_douglas.png",
+    "animation_asset": "/assets/npcs/guard_douglas_anim.png",
+    "enabled": true
+  },
+  {
+    "id": "NPC_NORTH_GUARD",
+    "name": "Lính Gác Theresa (Guard Theresa)",
+    "title": "Trưởng Trạm Gác Cổng Bắc",
+    "description": "Canh giữ con đường băng giá dẫn lên Đỉnh Băng Núi Bắc.",
+    "region_id": "VIL_STARTER",
+    "x": 1000,
+    "y": 100,
+    "facing_direction": "front",
+    "npc_type": "quest_giver",
+    "functions": [
+      "QUEST_GIVER",
+      "GUARD"
+    ],
+    "dialogue_id": "DLG_THERESA",
+    "quest_ids": [
+      "QUEST_012_NORTH_EXPEDITION"
+    ],
+    "interaction_conditions": {},
+    "required_level": 10,
+    "required_quest_ids": [],
+    "sprite_asset": "/assets/npcs/guard_theresa.png",
+    "animation_asset": "/assets/npcs/guard_theresa_anim.png",
+    "enabled": true
+  },
+  {
+    "id": "NPC_JOB_ADVANCEMENT_ASICA",
+    "name": "Đại Tư Tế Asica (High Priestess Asica)",
+    "title": "Đại Tư Tế Đền Thờ Chuyển Chức (Temple of Job Advancement)",
+    "description": "Người nắm giữ nghi lễ cổ xưa của Nữ Thần Elysia, chỉ dẫn các tân thủ đạt cấp độ 15 lựa chọn hệ phái chính thức.",
+    "region_id": "VIL_STARTER",
+    "x": 1000,
+    "y": 250,
+    "facing_direction": "front",
+    "npc_type": "job_advancement",
+    "functions": [
+      "JOB_ADVANCEMENT",
+      "SANCTUARY_KEEPER"
+    ],
+    "dialogue_id": "DLG_ASICA",
+    "quest_ids": [
+      "QUEST_015_JOB_ADVANCEMENT_TRIAL"
+    ],
+    "interaction_conditions": {
+      "minPlayerLevel": 15,
+      "requiredCompletedQuestId": "QUEST_014_FROSTFANG_CHALLENGE",
+      "safeRouteGuaranteed": true
+    },
+    "required_level": 15,
+    "required_quest_ids": [
+      "QUEST_014_FROSTFANG_CHALLENGE"
+    ],
+    "sprite_asset": "/assets/npcs/priestess_asica.png",
+    "animation_asset": "/assets/npcs/priestess_asica_anim.png",
+    "enabled": true
+  }
+]

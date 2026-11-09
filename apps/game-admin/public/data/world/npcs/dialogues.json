@@ -1,0 +1,35 @@
+[
+  {
+    "dialogue_id": "DLG_ASICA",
+    "npc_id": "NPC_JOB_ADVANCEMENT_ASICA",
+    "greeting": "Chào con, hỡi linh hồn kiên cường đã vượt qua muôn ngàn hiểm nguy tại Biên Giới Elysia.",
+    "options": [
+      {
+        "text": "Con đã đạt Cấp độ 15 và sẵn sàng Chuyển Chức!",
+        "condition": {
+          "minLevel": 15,
+          "questCompleted": "QUEST_014_FROSTFANG_CHALLENGE"
+        },
+        "action": "OPEN_JOB_ADVANCEMENT_INTERFACE",
+        "response": "Ánh sáng Nữ Thần đã công nhận sức mạnh của con. Hãy chọn con đường định mệnh của mình: Kiếm Sĩ, Hiệp Sĩ, Cung Thủ, Tu Sĩ, Pháp Sư, Đấu Sĩ, Thích Khách hoặc Thương Thủ!"
+      },
+      {
+        "text": "Con cần làm gì để được chuyển chức?",
+        "action": "EXPLAIN_REQUIREMENTS",
+        "response": "Con phải đạt cấp độ 15 và hoàn thành chuỗi thử thách diệt trừ Báo Băng Núi Bắc theo lời dặn của Trưởng Làng Gordon."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "DLG_GORDON",
+    "npc_id": "NPC_VILLAGE_HEAD",
+    "greeting": "Chào mừng đến với Elysia Frontier! Ta là Gordon, trưởng làng nơi đây.",
+    "options": [
+      {
+        "text": "Ta có thể giúp gì cho làng?",
+        "action": "CHECK_QUESTS",
+        "response": "Hãy nhìn quanh, rất nhiều dân làng và binh lính gác cổng đang cần một cánh tay quả cảm."
+      }
+    ]
+  }
+]

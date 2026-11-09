@@ -1,0 +1,962 @@
+[
+  {
+    "table_id": "DROP_GREEN_SLIME",
+    "monster_id": "MONSTER_GREEN_SLIME",
+    "drops": [
+      {
+        "item_id": "MAT_SLIME_JELLY",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "MAT_GREEN_CORE",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_SMALL",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_HORNED_RABBIT",
+    "monster_id": "MONSTER_HORNED_RABBIT",
+    "drops": [
+      {
+        "item_id": "MAT_RABBIT_FUR",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_SMALL",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_BOOTS_LEATHER",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_SPROUT_MANDRAGORA",
+    "monster_id": "MONSTER_SPROUT_MANDRAGORA",
+    "drops": [
+      {
+        "item_id": "MAT_MANDRAGORA_ROOT",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_MP_SMALL",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_ANTIDOTE",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_WOOD_SPIDER",
+    "monster_id": "MONSTER_WOOD_SPIDER",
+    "drops": [
+      {
+        "item_id": "MAT_SPIDER_SILK",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_SMALL",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_ARROW_WOODEN",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_YOUNG_BOAR",
+    "monster_id": "MONSTER_YOUNG_BOAR",
+    "drops": [
+      {
+        "item_id": "MAT_BOAR_TUSK",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_SMALL",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_ARMOR_LEATHER_VEST",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_GRASSLAND_WOLF",
+    "monster_id": "MONSTER_GRASSLAND_WOLF",
+    "drops": [
+      {
+        "item_id": "MAT_GRASSLAND_PELT",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_SMALL",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_RING_COPPER",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_GREAT_ALPHA_SLIME",
+    "monster_id": "MONSTER_GREAT_ALPHA_SLIME",
+    "drops": [
+      {
+        "item_id": "MAT_ALPHA_GEL",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 3,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "MAT_SLIME_JELLY",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_FOREST_BAT",
+    "monster_id": "MONSTER_FOREST_BAT",
+    "drops": [
+      {
+        "item_id": "MAT_BAT_WING",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_SMALL",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_MP_SMALL",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_POISON_SPIDER",
+    "monster_id": "MONSTER_POISON_SPIDER",
+    "drops": [
+      {
+        "item_id": "MAT_VENOM_GLAND",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "MAT_SPIDER_SILK",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_ANTIDOTE",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_GOBLIN_SCOUT",
+    "monster_id": "MONSTER_GOBLIN_SCOUT",
+    "drops": [
+      {
+        "item_id": "MAT_GOBLIN_EAR",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_SMALL",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_DAGGER_HUNTER",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_GOBLIN_GATHERER",
+    "monster_id": "MONSTER_GOBLIN_GATHERER",
+    "drops": [
+      {
+        "item_id": "MAT_GOBLIN_BEAD",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_MP_SMALL",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_ARROW_WOODEN",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_TIMBER_WOLF",
+    "monster_id": "MONSTER_TIMBER_WOLF",
+    "drops": [
+      {
+        "item_id": "MAT_TIMBER_PELT",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_AMULET_WOLF_FANG",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_WILD_HORNED_STAG",
+    "monster_id": "MONSTER_WILD_HORNED_STAG",
+    "drops": [
+      {
+        "item_id": "MAT_STAG_ANTLER",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_ARMOR_LEATHER_VEST",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_THORN_TREANT",
+    "monster_id": "MONSTER_THORN_TREANT",
+    "drops": [
+      {
+        "item_id": "MAT_TREANT_BARK",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_STAFF_OAK",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_MP_MEDIUM",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_GOBLIN_RAIDER_CAPTAIN",
+    "monster_id": "MONSTER_GOBLIN_RAIDER_CAPTAIN",
+    "drops": [
+      {
+        "item_id": "MAT_RAIDER_CREST",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 3,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_SHIELD_IRON",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_ROCK_LIZARD",
+    "monster_id": "MONSTER_ROCK_LIZARD",
+    "drops": [
+      {
+        "item_id": "MAT_LIZARD_SCALE",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_RING_COPPER",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_VALLEY_HARPY",
+    "monster_id": "MONSTER_VALLEY_HARPY",
+    "drops": [
+      {
+        "item_id": "MAT_HARPY_FEATHER",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_BOW_NOVICE",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_MP_MEDIUM",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_GOBLIN_WARRIOR",
+    "monster_id": "MONSTER_GOBLIN_WARRIOR",
+    "drops": [
+      {
+        "item_id": "MAT_GOBLIN_WAR_HORN",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_SPEAR_IRON",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_MUD_GOLEM",
+    "monster_id": "MONSTER_MUD_GOLEM",
+    "drops": [
+      {
+        "item_id": "MAT_GOLEM_CORE_MUD",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_SHIELD_IRON",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_DESERT_SCORPION",
+    "monster_id": "MONSTER_DESERT_SCORPION",
+    "drops": [
+      {
+        "item_id": "MAT_SCORPION_STINGER",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_ANTIDOTE",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_IRON_TUSK_BOAR",
+    "monster_id": "MONSTER_IRON_TUSK_BOAR",
+    "drops": [
+      {
+        "item_id": "MAT_IRON_TUSK",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_ARMOR_LEATHER_VEST",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_VALLEY_WYVERN_YOUNG",
+    "monster_id": "MONSTER_VALLEY_WYVERN_YOUNG",
+    "drops": [
+      {
+        "item_id": "MAT_WYVERN_SCALE_YOUNG",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_DAGGER_HUNTER",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_MP_MEDIUM",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_STONE_GOLEM_GUARDIAN",
+    "monster_id": "MONSTER_STONE_GOLEM_GUARDIAN",
+    "drops": [
+      {
+        "item_id": "MAT_STONE_GUARDIAN_HEART",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 3,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_SHIELD_IRON",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_SNOW_FOX",
+    "monster_id": "MONSTER_SNOW_FOX",
+    "drops": [
+      {
+        "item_id": "MAT_SNOW_FOX_PELT",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_BOOTS_LEATHER",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_FROST_BAT",
+    "monster_id": "MONSTER_FROST_BAT",
+    "drops": [
+      {
+        "item_id": "MAT_FROST_WING",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_MP_MEDIUM",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_RING_FROST_RESIST",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_KOBOLD_MINER",
+    "monster_id": "MONSTER_KOBOLD_MINER",
+    "drops": [
+      {
+        "item_id": "MAT_KOBOLD_ORE",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_SPEAR_IRON",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_KOBOLD_SHAMAN",
+    "monster_id": "MONSTER_KOBOLD_SHAMAN",
+    "drops": [
+      {
+        "item_id": "MAT_KOBOLD_TOTEM",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_STAFF_OAK",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_MP_MEDIUM",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_ICE_SPIDER",
+    "monster_id": "MONSTER_ICE_SPIDER",
+    "drops": [
+      {
+        "item_id": "MAT_ICE_SPIDER_WEB",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_ANTIDOTE",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_DIRE_FROST_WOLF",
+    "monster_id": "MONSTER_DIRE_FROST_WOLF",
+    "drops": [
+      {
+        "item_id": "MAT_DIRE_FROST_PELT",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_AMULET_WOLF_FANG",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_CRAG_YETI",
+    "monster_id": "MONSTER_CRAG_YETI",
+    "drops": [
+      {
+        "item_id": "MAT_YETI_FUR",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_ARMOR_LEATHER_VEST",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_FROSTFANG_SABRE",
+    "monster_id": "MONSTER_FROSTFANG_SABRE",
+    "drops": [
+      {
+        "item_id": "MAT_FROSTFANG_TOOTH",
+        "drop_rate": 75.0,
+        "min_quantity": 1,
+        "max_quantity": 3,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_RING_FROST_RESIST",
+        "drop_rate": 35.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_POTION_HP_MEDIUM",
+        "drop_rate": 8.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  },
+  {
+    "table_id": "DROP_CRAG_CHIMERA",
+    "monster_id": "MONSTER_CRAG_CHIMERA",
+    "drops": [
+      {
+        "item_id": "MAT_CHIMERA_HORN",
+        "drop_rate": 100.0,
+        "min_quantity": 1,
+        "max_quantity": 3,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_EXCALIBUR_HOLY",
+        "drop_rate": 60.0,
+        "min_quantity": 1,
+        "max_quantity": 2,
+        "required_player_level": 1,
+        "special_conditions": []
+      },
+      {
+        "item_id": "ITEM_RING_FROST_RESIST",
+        "drop_rate": 25.0,
+        "min_quantity": 1,
+        "max_quantity": 1,
+        "required_player_level": 1,
+        "special_conditions": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,1857 @@
+[
+  {
+    "id": "MONSTER_GREEN_SLIME",
+    "name": "Slime Xanh (Green Slime)",
+    "description": "Khối gel nhầy màu lục hiền lành nhảy tưng tưng trên đồng cỏ.",
+    "monster_type": "amorphous",
+    "element": "water",
+    "region_id": "FIELD_EAST",
+    "level_min": 1,
+    "level_max": 2,
+    "base_stats": {
+      "hp": 102,
+      "mp": 35,
+      "str": 10,
+      "dex": 9,
+      "agi": 9,
+      "int": 10,
+      "vit": 10
+    },
+    "combat_stats": {
+      "physical_attack": 14,
+      "magical_attack": 4,
+      "physical_defense": 6,
+      "magical_defense": 4,
+      "accuracy": 58,
+      "evasion": 10,
+      "critical_rate": 0.03,
+      "movement_speed": 62,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 30,
+    "gold_reward": 10,
+    "aggro_type": "passive",
+    "detection_range": 100,
+    "attack_range": 45,
+    "movement_speed": 67,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_SLIME_SLAM"
+    ],
+    "drop_table": "DROP_GREEN_SLIME",
+    "sprite_asset": "/assets/monsters/monster_green_slime/monster_green_slime_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_green_slime/idle.png",
+      "walk": "/assets/monsters/monster_green_slime/walk.png",
+      "attack": "/assets/monsters/monster_green_slime/attack.png",
+      "hurt": "/assets/monsters/monster_green_slime/hurt.png",
+      "death": "/assets/monsters/monster_green_slime/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_GREEN_SLIME"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_HORNED_RABBIT",
+    "name": "Thỏ Sừng Đồng Cỏ (Horned Rabbit)",
+    "description": "Chú thỏ đồng nhanh nhẹn có sừng nhọn trên đầu tự vệ.",
+    "monster_type": "beast",
+    "element": "neutral",
+    "region_id": "FIELD_EAST",
+    "level_min": 2,
+    "level_max": 3,
+    "base_stats": {
+      "hp": 144,
+      "mp": 50,
+      "str": 12,
+      "dex": 10,
+      "agi": 10,
+      "int": 8,
+      "vit": 12
+    },
+    "combat_stats": {
+      "physical_attack": 19,
+      "magical_attack": 0,
+      "physical_defense": 9,
+      "magical_defense": 7,
+      "accuracy": 61,
+      "evasion": 12,
+      "critical_rate": 0.03,
+      "movement_speed": 64,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 48,
+    "gold_reward": 16,
+    "aggro_type": "passive",
+    "detection_range": 100,
+    "attack_range": 45,
+    "movement_speed": 69,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_RABBIT_KICK"
+    ],
+    "drop_table": "DROP_HORNED_RABBIT",
+    "sprite_asset": "/assets/monsters/monster_horned_rabbit/monster_horned_rabbit_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_horned_rabbit/idle.png",
+      "walk": "/assets/monsters/monster_horned_rabbit/walk.png",
+      "attack": "/assets/monsters/monster_horned_rabbit/attack.png",
+      "hurt": "/assets/monsters/monster_horned_rabbit/hurt.png",
+      "death": "/assets/monsters/monster_horned_rabbit/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_HORNED_RABBIT"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_SPROUT_MANDRAGORA",
+    "name": "Mandragora Mầm Nhỏ (Sprout Mandragora)",
+    "description": "Cây củ ma quái nhô lên khỏi đất tỏa phấn hoa gây ngứa.",
+    "monster_type": "plant",
+    "element": "earth",
+    "region_id": "FIELD_EAST",
+    "level_min": 2,
+    "level_max": 3,
+    "base_stats": {
+      "hp": 144,
+      "mp": 50,
+      "str": 12,
+      "dex": 10,
+      "agi": 10,
+      "int": 12,
+      "vit": 12
+    },
+    "combat_stats": {
+      "physical_attack": 19,
+      "magical_attack": 9,
+      "physical_defense": 9,
+      "magical_defense": 7,
+      "accuracy": 61,
+      "evasion": 12,
+      "critical_rate": 0.03,
+      "movement_speed": 64,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 48,
+    "gold_reward": 16,
+    "aggro_type": "passive",
+    "detection_range": 100,
+    "attack_range": 45,
+    "movement_speed": 69,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_SPORE_CLOUD"
+    ],
+    "drop_table": "DROP_SPROUT_MANDRAGORA",
+    "sprite_asset": "/assets/monsters/monster_sprout_mandragora/monster_sprout_mandragora_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_sprout_mandragora/idle.png",
+      "walk": "/assets/monsters/monster_sprout_mandragora/walk.png",
+      "attack": "/assets/monsters/monster_sprout_mandragora/attack.png",
+      "hurt": "/assets/monsters/monster_sprout_mandragora/hurt.png",
+      "death": "/assets/monsters/monster_sprout_mandragora/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_SPROUT_MANDRAGORA"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_WOOD_SPIDER",
+    "name": "Nhện Gỗ Đồng Cỏ (Grassland Wood Spider)",
+    "description": "Nhện nhỏ bò nhanh trong bụi cỏ đan tơ giữ chân con mồi.",
+    "monster_type": "insect",
+    "element": "earth",
+    "region_id": "FIELD_EAST",
+    "level_min": 3,
+    "level_max": 4,
+    "base_stats": {
+      "hp": 186,
+      "mp": 65,
+      "str": 14,
+      "dex": 11,
+      "agi": 11,
+      "int": 14,
+      "vit": 14
+    },
+    "combat_stats": {
+      "physical_attack": 24,
+      "magical_attack": 13,
+      "physical_defense": 12,
+      "magical_defense": 10,
+      "accuracy": 64,
+      "evasion": 14,
+      "critical_rate": 0.03,
+      "movement_speed": 66,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 66,
+    "gold_reward": 22,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 71,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_WEB_SHOT"
+    ],
+    "drop_table": "DROP_WOOD_SPIDER",
+    "sprite_asset": "/assets/monsters/monster_wood_spider/monster_wood_spider_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_wood_spider/idle.png",
+      "walk": "/assets/monsters/monster_wood_spider/walk.png",
+      "attack": "/assets/monsters/monster_wood_spider/attack.png",
+      "hurt": "/assets/monsters/monster_wood_spider/hurt.png",
+      "death": "/assets/monsters/monster_wood_spider/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_WOOD_SPIDER"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_YOUNG_BOAR",
+    "name": "Heo Rừng Con (Young Forest Boar)",
+    "description": "Heo rừng mới lớn tính khí hung hăng thích húc càn.",
+    "monster_type": "beast",
+    "element": "neutral",
+    "region_id": "FIELD_EAST",
+    "level_min": 3,
+    "level_max": 4,
+    "base_stats": {
+      "hp": 186,
+      "mp": 65,
+      "str": 14,
+      "dex": 11,
+      "agi": 11,
+      "int": 8,
+      "vit": 14
+    },
+    "combat_stats": {
+      "physical_attack": 24,
+      "magical_attack": 0,
+      "physical_defense": 12,
+      "magical_defense": 10,
+      "accuracy": 64,
+      "evasion": 14,
+      "critical_rate": 0.03,
+      "movement_speed": 66,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 66,
+    "gold_reward": 22,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 71,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_BOAR_CHARGE"
+    ],
+    "drop_table": "DROP_YOUNG_BOAR",
+    "sprite_asset": "/assets/monsters/monster_young_boar/monster_young_boar_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_young_boar/idle.png",
+      "walk": "/assets/monsters/monster_young_boar/walk.png",
+      "attack": "/assets/monsters/monster_young_boar/attack.png",
+      "hurt": "/assets/monsters/monster_young_boar/hurt.png",
+      "death": "/assets/monsters/monster_young_boar/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_YOUNG_BOAR"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_GRASSLAND_WOLF",
+    "name": "Sói Đồng Cỏ (Grassland Wolf)",
+    "description": "Kẻ săn mồi đầu tiên của thảo nguyên, thích rình rập đơn độc.",
+    "monster_type": "beast",
+    "element": "neutral",
+    "region_id": "FIELD_EAST",
+    "level_min": 4,
+    "level_max": 5,
+    "base_stats": {
+      "hp": 228,
+      "mp": 80,
+      "str": 16,
+      "dex": 12,
+      "agi": 12,
+      "int": 8,
+      "vit": 16
+    },
+    "combat_stats": {
+      "physical_attack": 29,
+      "magical_attack": 0,
+      "physical_defense": 15,
+      "magical_defense": 13,
+      "accuracy": 67,
+      "evasion": 16,
+      "critical_rate": 0.03,
+      "movement_speed": 68,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 84,
+    "gold_reward": 28,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 73,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_WOLF_BITE"
+    ],
+    "drop_table": "DROP_GRASSLAND_WOLF",
+    "sprite_asset": "/assets/monsters/monster_grassland_wolf/monster_grassland_wolf_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_grassland_wolf/idle.png",
+      "walk": "/assets/monsters/monster_grassland_wolf/walk.png",
+      "attack": "/assets/monsters/monster_grassland_wolf/attack.png",
+      "hurt": "/assets/monsters/monster_grassland_wolf/hurt.png",
+      "death": "/assets/monsters/monster_grassland_wolf/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_GRASSLAND_WOLF"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_GREAT_ALPHA_SLIME",
+    "name": "Slime Vương Khổng Lồ (Great Alpha Slime)",
+    "description": "Thủ lĩnh Slime to lớn hấp thụ tinh hoa nguồn nước đồng cỏ.",
+    "monster_type": "amorphous",
+    "element": "water",
+    "region_id": "FIELD_EAST",
+    "level_min": 5,
+    "level_max": 5,
+    "base_stats": {
+      "hp": 438,
+      "mp": 95,
+      "str": 18,
+      "dex": 13,
+      "agi": 14,
+      "int": 18,
+      "vit": 18
+    },
+    "combat_stats": {
+      "physical_attack": 42,
+      "magical_attack": 22,
+      "physical_defense": 19,
+      "magical_defense": 16,
+      "accuracy": 70,
+      "evasion": 18,
+      "critical_rate": 0.08,
+      "movement_speed": 70,
+      "attack_speed": 1.2
+    },
+    "exp_reward": 192,
+    "gold_reward": 64,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 75,
+    "respawn_behavior": {
+      "respawn_time_seconds": 35,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_SLIME_ACID",
+      "MSKILL_ALPHA_BURST"
+    ],
+    "drop_table": "DROP_GREAT_ALPHA_SLIME",
+    "sprite_asset": "/assets/monsters/monster_great_alpha_slime/monster_great_alpha_slime_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_great_alpha_slime/idle.png",
+      "walk": "/assets/monsters/monster_great_alpha_slime/walk.png",
+      "attack": "/assets/monsters/monster_great_alpha_slime/attack.png",
+      "hurt": "/assets/monsters/monster_great_alpha_slime/hurt.png",
+      "death": "/assets/monsters/monster_great_alpha_slime/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_GREAT_ALPHA_SLIME"
+    ],
+    "elite": true,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_FOREST_BAT",
+    "name": "Dơi Rừng Rậm (Forest Bat)",
+    "description": "Dơi đen cánh màng treo ngược trên tán cây, lao bổ xuống bất ngờ.",
+    "monster_type": "beast",
+    "element": "shadow",
+    "region_id": "FIELD_WEST",
+    "level_min": 4,
+    "level_max": 5,
+    "base_stats": {
+      "hp": 228,
+      "mp": 80,
+      "str": 16,
+      "dex": 12,
+      "agi": 12,
+      "int": 16,
+      "vit": 16
+    },
+    "combat_stats": {
+      "physical_attack": 29,
+      "magical_attack": 18,
+      "physical_defense": 15,
+      "magical_defense": 13,
+      "accuracy": 67,
+      "evasion": 16,
+      "critical_rate": 0.03,
+      "movement_speed": 68,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 84,
+    "gold_reward": 28,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 73,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [],
+    "drop_table": "DROP_FOREST_BAT",
+    "sprite_asset": "/assets/monsters/monster_forest_bat/monster_forest_bat_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_forest_bat/idle.png",
+      "walk": "/assets/monsters/monster_forest_bat/walk.png",
+      "attack": "/assets/monsters/monster_forest_bat/attack.png",
+      "hurt": "/assets/monsters/monster_forest_bat/hurt.png",
+      "death": "/assets/monsters/monster_forest_bat/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_FOREST_BAT"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_POISON_SPIDER",
+    "name": "Nhện Độc Gai (Poison Fang Spider)",
+    "description": "Loài nhện độc thân sọc vàng tiết nọc độc làm suy yếu con mồi.",
+    "monster_type": "insect",
+    "element": "earth",
+    "region_id": "FIELD_WEST",
+    "level_min": 5,
+    "level_max": 6,
+    "base_stats": {
+      "hp": 270,
+      "mp": 95,
+      "str": 18,
+      "dex": 13,
+      "agi": 14,
+      "int": 18,
+      "vit": 18
+    },
+    "combat_stats": {
+      "physical_attack": 35,
+      "magical_attack": 22,
+      "physical_defense": 19,
+      "magical_defense": 16,
+      "accuracy": 70,
+      "evasion": 18,
+      "critical_rate": 0.03,
+      "movement_speed": 70,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 102,
+    "gold_reward": 34,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 75,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_WEB_SHOT",
+      "MSKILL_SPORE_CLOUD"
+    ],
+    "drop_table": "DROP_POISON_SPIDER",
+    "sprite_asset": "/assets/monsters/monster_poison_spider/monster_poison_spider_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_poison_spider/idle.png",
+      "walk": "/assets/monsters/monster_poison_spider/walk.png",
+      "attack": "/assets/monsters/monster_poison_spider/attack.png",
+      "hurt": "/assets/monsters/monster_poison_spider/hurt.png",
+      "death": "/assets/monsters/monster_poison_spider/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_POISON_SPIDER"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_GOBLIN_SCOUT",
+    "name": "Yêu Tinh Trinh Sát (Goblin Scout)",
+    "description": "Tên Goblin tinh quái cầm dao găm rình mò quanh bìa rừng.",
+    "monster_type": "humanoid",
+    "element": "neutral",
+    "region_id": "FIELD_WEST",
+    "level_min": 5,
+    "level_max": 6,
+    "base_stats": {
+      "hp": 270,
+      "mp": 95,
+      "str": 18,
+      "dex": 13,
+      "agi": 14,
+      "int": 8,
+      "vit": 18
+    },
+    "combat_stats": {
+      "physical_attack": 35,
+      "magical_attack": 0,
+      "physical_defense": 19,
+      "magical_defense": 16,
+      "accuracy": 70,
+      "evasion": 18,
+      "critical_rate": 0.03,
+      "movement_speed": 70,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 102,
+    "gold_reward": 34,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 75,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_GOBLIN_THROW"
+    ],
+    "drop_table": "DROP_GOBLIN_SCOUT",
+    "sprite_asset": "/assets/monsters/monster_goblin_scout/monster_goblin_scout_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_goblin_scout/idle.png",
+      "walk": "/assets/monsters/monster_goblin_scout/walk.png",
+      "attack": "/assets/monsters/monster_goblin_scout/attack.png",
+      "hurt": "/assets/monsters/monster_goblin_scout/hurt.png",
+      "death": "/assets/monsters/monster_goblin_scout/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_GOBLIN_SCOUT"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_GOBLIN_GATHERER",
+    "name": "Yêu Tinh Thu Lượm (Goblin Gatherer)",
+    "description": "Goblin mang gùi chuyên cướp bóc lương thực của lữ khách.",
+    "monster_type": "humanoid",
+    "element": "neutral",
+    "region_id": "FIELD_WEST",
+    "level_min": 6,
+    "level_max": 7,
+    "base_stats": {
+      "hp": 312,
+      "mp": 110,
+      "str": 20,
+      "dex": 14,
+      "agi": 15,
+      "int": 8,
+      "vit": 20
+    },
+    "combat_stats": {
+      "physical_attack": 40,
+      "magical_attack": 0,
+      "physical_defense": 22,
+      "magical_defense": 18,
+      "accuracy": 73,
+      "evasion": 20,
+      "critical_rate": 0.03,
+      "movement_speed": 72,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 120,
+    "gold_reward": 40,
+    "aggro_type": "passive",
+    "detection_range": 100,
+    "attack_range": 45,
+    "movement_speed": 77,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_GOBLIN_THROW"
+    ],
+    "drop_table": "DROP_GOBLIN_GATHERER",
+    "sprite_asset": "/assets/monsters/monster_goblin_gatherer/monster_goblin_gatherer_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_goblin_gatherer/idle.png",
+      "walk": "/assets/monsters/monster_goblin_gatherer/walk.png",
+      "attack": "/assets/monsters/monster_goblin_gatherer/attack.png",
+      "hurt": "/assets/monsters/monster_goblin_gatherer/hurt.png",
+      "death": "/assets/monsters/monster_goblin_gatherer/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_GOBLIN_GATHERER"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_TIMBER_WOLF",
+    "name": "Sói Đen Rừng Rậm (Timber Wolf)",
+    "description": "Sói xám to lớn săn mồi theo đàn, tiếng hú gọi bầy đáng sợ.",
+    "monster_type": "beast",
+    "element": "neutral",
+    "region_id": "FIELD_WEST",
+    "level_min": 6,
+    "level_max": 7,
+    "base_stats": {
+      "hp": 312,
+      "mp": 110,
+      "str": 20,
+      "dex": 14,
+      "agi": 15,
+      "int": 8,
+      "vit": 20
+    },
+    "combat_stats": {
+      "physical_attack": 40,
+      "magical_attack": 0,
+      "physical_defense": 22,
+      "magical_defense": 18,
+      "accuracy": 73,
+      "evasion": 20,
+      "critical_rate": 0.03,
+      "movement_speed": 72,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 120,
+    "gold_reward": 40,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 77,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_WOLF_BITE",
+      "MSKILL_HOWL_BUFF"
+    ],
+    "drop_table": "DROP_TIMBER_WOLF",
+    "sprite_asset": "/assets/monsters/monster_timber_wolf/monster_timber_wolf_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_timber_wolf/idle.png",
+      "walk": "/assets/monsters/monster_timber_wolf/walk.png",
+      "attack": "/assets/monsters/monster_timber_wolf/attack.png",
+      "hurt": "/assets/monsters/monster_timber_wolf/hurt.png",
+      "death": "/assets/monsters/monster_timber_wolf/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_TIMBER_WOLF"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_WILD_HORNED_STAG",
+    "name": "Nai Sừng Tấm Hoang (Wild Horned Stag)",
+    "description": "Nai rừng dũng mãnh bảo vệ lãnh địa bằng cặp gạc cứng như đá.",
+    "monster_type": "beast",
+    "element": "earth",
+    "region_id": "FIELD_WEST",
+    "level_min": 7,
+    "level_max": 8,
+    "base_stats": {
+      "hp": 354,
+      "mp": 125,
+      "str": 22,
+      "dex": 15,
+      "agi": 16,
+      "int": 22,
+      "vit": 22
+    },
+    "combat_stats": {
+      "physical_attack": 45,
+      "magical_attack": 31,
+      "physical_defense": 25,
+      "magical_defense": 21,
+      "accuracy": 76,
+      "evasion": 22,
+      "critical_rate": 0.03,
+      "movement_speed": 74,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 138,
+    "gold_reward": 46,
+    "aggro_type": "passive",
+    "detection_range": 100,
+    "attack_range": 45,
+    "movement_speed": 79,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_BOAR_CHARGE"
+    ],
+    "drop_table": "DROP_WILD_HORNED_STAG",
+    "sprite_asset": "/assets/monsters/monster_wild_horned_stag/monster_wild_horned_stag_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_wild_horned_stag/idle.png",
+      "walk": "/assets/monsters/monster_wild_horned_stag/walk.png",
+      "attack": "/assets/monsters/monster_wild_horned_stag/attack.png",
+      "hurt": "/assets/monsters/monster_wild_horned_stag/hurt.png",
+      "death": "/assets/monsters/monster_wild_horned_stag/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_WILD_HORNED_STAG"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_THORN_TREANT",
+    "name": "Treant Cổ Thụ Gai (Thorn Treant)",
+    "description": "Mộc tinh thức tỉnh điều khiển gai góc trói chân kẻ xâm nhập.",
+    "monster_type": "plant",
+    "element": "earth",
+    "region_id": "FIELD_WEST",
+    "level_min": 7,
+    "level_max": 8,
+    "base_stats": {
+      "hp": 354,
+      "mp": 125,
+      "str": 22,
+      "dex": 15,
+      "agi": 16,
+      "int": 22,
+      "vit": 22
+    },
+    "combat_stats": {
+      "physical_attack": 45,
+      "magical_attack": 31,
+      "physical_defense": 25,
+      "magical_defense": 21,
+      "accuracy": 76,
+      "evasion": 22,
+      "critical_rate": 0.03,
+      "movement_speed": 74,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 138,
+    "gold_reward": 46,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 79,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_TREANT_ROOT"
+    ],
+    "drop_table": "DROP_THORN_TREANT",
+    "sprite_asset": "/assets/monsters/monster_thorn_treant/monster_thorn_treant_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_thorn_treant/idle.png",
+      "walk": "/assets/monsters/monster_thorn_treant/walk.png",
+      "attack": "/assets/monsters/monster_thorn_treant/attack.png",
+      "hurt": "/assets/monsters/monster_thorn_treant/hurt.png",
+      "death": "/assets/monsters/monster_thorn_treant/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_THORN_TREANT"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_GOBLIN_RAIDER_CAPTAIN",
+    "name": "Đội Trưởng Thổ Phỉ Goblin (Goblin Raider Captain)",
+    "description": "Thủ lĩnh Goblin giáp da vung dao chặt uy hiếp cả cánh rừng Tây.",
+    "monster_type": "humanoid",
+    "element": "neutral",
+    "region_id": "FIELD_WEST",
+    "level_min": 8,
+    "level_max": 8,
+    "base_stats": {
+      "hp": 664,
+      "mp": 140,
+      "str": 24,
+      "dex": 16,
+      "agi": 17,
+      "int": 8,
+      "vit": 24
+    },
+    "combat_stats": {
+      "physical_attack": 63,
+      "magical_attack": 0,
+      "physical_defense": 28,
+      "magical_defense": 24,
+      "accuracy": 79,
+      "evasion": 24,
+      "critical_rate": 0.08,
+      "movement_speed": 76,
+      "attack_speed": 1.2
+    },
+    "exp_reward": 300,
+    "gold_reward": 100,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 81,
+    "respawn_behavior": {
+      "respawn_time_seconds": 35,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_GOBLIN_THROW",
+      "MSKILL_HOWL_BUFF"
+    ],
+    "drop_table": "DROP_GOBLIN_RAIDER_CAPTAIN",
+    "sprite_asset": "/assets/monsters/monster_goblin_raider_captain/monster_goblin_raider_captain_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_goblin_raider_captain/idle.png",
+      "walk": "/assets/monsters/monster_goblin_raider_captain/walk.png",
+      "attack": "/assets/monsters/monster_goblin_raider_captain/attack.png",
+      "hurt": "/assets/monsters/monster_goblin_raider_captain/hurt.png",
+      "death": "/assets/monsters/monster_goblin_raider_captain/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_GOBLIN_RAIDER_CAPTAIN"
+    ],
+    "elite": true,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_ROCK_LIZARD",
+    "name": "Thằn Lằn Sa Thạch (Rock Lizard)",
+    "description": "Bò sát da sần sùi ngụy trang hoàn hảo trên vách đá thung lũng.",
+    "monster_type": "reptile",
+    "element": "earth",
+    "region_id": "FIELD_SOUTH",
+    "level_min": 7,
+    "level_max": 8,
+    "base_stats": {
+      "hp": 354,
+      "mp": 125,
+      "str": 22,
+      "dex": 15,
+      "agi": 16,
+      "int": 22,
+      "vit": 22
+    },
+    "combat_stats": {
+      "physical_attack": 45,
+      "magical_attack": 31,
+      "physical_defense": 25,
+      "magical_defense": 21,
+      "accuracy": 76,
+      "evasion": 22,
+      "critical_rate": 0.03,
+      "movement_speed": 74,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 138,
+    "gold_reward": 46,
+    "aggro_type": "passive",
+    "detection_range": 100,
+    "attack_range": 45,
+    "movement_speed": 79,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [],
+    "drop_table": "DROP_ROCK_LIZARD",
+    "sprite_asset": "/assets/monsters/monster_rock_lizard/monster_rock_lizard_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_rock_lizard/idle.png",
+      "walk": "/assets/monsters/monster_rock_lizard/walk.png",
+      "attack": "/assets/monsters/monster_rock_lizard/attack.png",
+      "hurt": "/assets/monsters/monster_rock_lizard/hurt.png",
+      "death": "/assets/monsters/monster_rock_lizard/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_ROCK_LIZARD"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_VALLEY_HARPY",
+    "name": "Harpy Thung Lũng Gió (Valley Harpy)",
+    "description": "Quái điểu thân thiếu nữ quạt cánh tạo phong nhận sắc bén.",
+    "monster_type": "humanoid",
+    "element": "wind",
+    "region_id": "FIELD_SOUTH",
+    "level_min": 8,
+    "level_max": 9,
+    "base_stats": {
+      "hp": 396,
+      "mp": 140,
+      "str": 24,
+      "dex": 16,
+      "agi": 17,
+      "int": 24,
+      "vit": 24
+    },
+    "combat_stats": {
+      "physical_attack": 50,
+      "magical_attack": 36,
+      "physical_defense": 28,
+      "magical_defense": 24,
+      "accuracy": 79,
+      "evasion": 24,
+      "critical_rate": 0.03,
+      "movement_speed": 76,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 156,
+    "gold_reward": 52,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 81,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_HARPY_WIND_SLASH"
+    ],
+    "drop_table": "DROP_VALLEY_HARPY",
+    "sprite_asset": "/assets/monsters/monster_valley_harpy/monster_valley_harpy_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_valley_harpy/idle.png",
+      "walk": "/assets/monsters/monster_valley_harpy/walk.png",
+      "attack": "/assets/monsters/monster_valley_harpy/attack.png",
+      "hurt": "/assets/monsters/monster_valley_harpy/hurt.png",
+      "death": "/assets/monsters/monster_valley_harpy/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_VALLEY_HARPY"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_GOBLIN_WARRIOR",
+    "name": "Chiến Binh Goblin Khiên Sắt (Goblin Warrior)",
+    "description": "Goblin vũ trang khiên gỗ và rìu sắt hung hãn thiện chiến.",
+    "monster_type": "humanoid",
+    "element": "fire",
+    "region_id": "FIELD_SOUTH",
+    "level_min": 9,
+    "level_max": 10,
+    "base_stats": {
+      "hp": 438,
+      "mp": 155,
+      "str": 26,
+      "dex": 17,
+      "agi": 18,
+      "int": 26,
+      "vit": 26
+    },
+    "combat_stats": {
+      "physical_attack": 55,
+      "magical_attack": 40,
+      "physical_defense": 31,
+      "magical_defense": 27,
+      "accuracy": 82,
+      "evasion": 26,
+      "critical_rate": 0.03,
+      "movement_speed": 78,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 174,
+    "gold_reward": 58,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 83,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_GOBLIN_THROW"
+    ],
+    "drop_table": "DROP_GOBLIN_WARRIOR",
+    "sprite_asset": "/assets/monsters/monster_goblin_warrior/monster_goblin_warrior_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_goblin_warrior/idle.png",
+      "walk": "/assets/monsters/monster_goblin_warrior/walk.png",
+      "attack": "/assets/monsters/monster_goblin_warrior/attack.png",
+      "hurt": "/assets/monsters/monster_goblin_warrior/hurt.png",
+      "death": "/assets/monsters/monster_goblin_warrior/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_GOBLIN_WARRIOR"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_MUD_GOLEM",
+    "name": "Người Bùn Thung Lũng (Valley Mud Golem)",
+    "description": "Thể sống bùn đất hấp thụ sát thương vật lý đáng kinh ngạc.",
+    "monster_type": "elemental",
+    "element": "earth",
+    "region_id": "FIELD_SOUTH",
+    "level_min": 9,
+    "level_max": 10,
+    "base_stats": {
+      "hp": 438,
+      "mp": 155,
+      "str": 26,
+      "dex": 17,
+      "agi": 18,
+      "int": 26,
+      "vit": 26
+    },
+    "combat_stats": {
+      "physical_attack": 55,
+      "magical_attack": 40,
+      "physical_defense": 31,
+      "magical_defense": 27,
+      "accuracy": 82,
+      "evasion": 26,
+      "critical_rate": 0.03,
+      "movement_speed": 78,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 174,
+    "gold_reward": 58,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 83,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_SLIME_SLAM"
+    ],
+    "drop_table": "DROP_MUD_GOLEM",
+    "sprite_asset": "/assets/monsters/monster_mud_golem/monster_mud_golem_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_mud_golem/idle.png",
+      "walk": "/assets/monsters/monster_mud_golem/walk.png",
+      "attack": "/assets/monsters/monster_mud_golem/attack.png",
+      "hurt": "/assets/monsters/monster_mud_golem/hurt.png",
+      "death": "/assets/monsters/monster_mud_golem/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_MUD_GOLEM"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_DESERT_SCORPION",
+    "name": "Bọ Cạp Sa Thạch (Desert Scorpion)",
+    "description": "Bọ cạp khổng lồ với đôi càng nghiền nát và đuôi kim độc.",
+    "monster_type": "insect",
+    "element": "earth",
+    "region_id": "FIELD_SOUTH",
+    "level_min": 10,
+    "level_max": 11,
+    "base_stats": {
+      "hp": 480,
+      "mp": 170,
+      "str": 28,
+      "dex": 18,
+      "agi": 20,
+      "int": 28,
+      "vit": 28
+    },
+    "combat_stats": {
+      "physical_attack": 61,
+      "magical_attack": 45,
+      "physical_defense": 35,
+      "magical_defense": 30,
+      "accuracy": 85,
+      "evasion": 28,
+      "critical_rate": 0.03,
+      "movement_speed": 80,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 192,
+    "gold_reward": 64,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 85,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_WEB_SHOT"
+    ],
+    "drop_table": "DROP_DESERT_SCORPION",
+    "sprite_asset": "/assets/monsters/monster_desert_scorpion/monster_desert_scorpion_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_desert_scorpion/idle.png",
+      "walk": "/assets/monsters/monster_desert_scorpion/walk.png",
+      "attack": "/assets/monsters/monster_desert_scorpion/attack.png",
+      "hurt": "/assets/monsters/monster_desert_scorpion/hurt.png",
+      "death": "/assets/monsters/monster_desert_scorpion/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_DESERT_SCORPION"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_IRON_TUSK_BOAR",
+    "name": "Heo Bọc Thép Hẻm Núi (Iron Tusk Boar)",
+    "description": "Heo rừng trưởng thành có nanh bọc lớp khoáng thạch rắn chắc.",
+    "monster_type": "beast",
+    "element": "earth",
+    "region_id": "FIELD_SOUTH",
+    "level_min": 10,
+    "level_max": 11,
+    "base_stats": {
+      "hp": 480,
+      "mp": 170,
+      "str": 28,
+      "dex": 18,
+      "agi": 20,
+      "int": 28,
+      "vit": 28
+    },
+    "combat_stats": {
+      "physical_attack": 61,
+      "magical_attack": 45,
+      "physical_defense": 35,
+      "magical_defense": 30,
+      "accuracy": 85,
+      "evasion": 28,
+      "critical_rate": 0.03,
+      "movement_speed": 80,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 192,
+    "gold_reward": 64,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 85,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_BOAR_CHARGE"
+    ],
+    "drop_table": "DROP_IRON_TUSK_BOAR",
+    "sprite_asset": "/assets/monsters/monster_iron_tusk_boar/monster_iron_tusk_boar_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_iron_tusk_boar/idle.png",
+      "walk": "/assets/monsters/monster_iron_tusk_boar/walk.png",
+      "attack": "/assets/monsters/monster_iron_tusk_boar/attack.png",
+      "hurt": "/assets/monsters/monster_iron_tusk_boar/hurt.png",
+      "death": "/assets/monsters/monster_iron_tusk_boar/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_IRON_TUSK_BOAR"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_VALLEY_WYVERN_YOUNG",
+    "name": "Wyvern Gió Trẻ (Young Valley Wyvern)",
+    "description": "Rồng hai chân mới lớn sải cánh lượn nhào bổ săn mồi.",
+    "monster_type": "dragon",
+    "element": "wind",
+    "region_id": "FIELD_SOUTH",
+    "level_min": 11,
+    "level_max": 12,
+    "base_stats": {
+      "hp": 522,
+      "mp": 185,
+      "str": 30,
+      "dex": 19,
+      "agi": 21,
+      "int": 30,
+      "vit": 30
+    },
+    "combat_stats": {
+      "physical_attack": 66,
+      "magical_attack": 49,
+      "physical_defense": 38,
+      "magical_defense": 32,
+      "accuracy": 88,
+      "evasion": 30,
+      "critical_rate": 0.03,
+      "movement_speed": 82,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 210,
+    "gold_reward": 70,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 87,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_HARPY_WIND_SLASH"
+    ],
+    "drop_table": "DROP_VALLEY_WYVERN_YOUNG",
+    "sprite_asset": "/assets/monsters/monster_valley_wyvern_young/monster_valley_wyvern_young_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_valley_wyvern_young/idle.png",
+      "walk": "/assets/monsters/monster_valley_wyvern_young/walk.png",
+      "attack": "/assets/monsters/monster_valley_wyvern_young/attack.png",
+      "hurt": "/assets/monsters/monster_valley_wyvern_young/hurt.png",
+      "death": "/assets/monsters/monster_valley_wyvern_young/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_VALLEY_WYVERN_YOUNG"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_STONE_GOLEM_GUARDIAN",
+    "name": "Thạch Hộ Vệ Cổ Đại (Stone Golem Guardian)",
+    "description": "Người đá khổng lồ phong ấn cổng nam, cú đấm nứt toác mặt đất.",
+    "monster_type": "elemental",
+    "element": "earth",
+    "region_id": "FIELD_SOUTH",
+    "level_min": 12,
+    "level_max": 12,
+    "base_stats": {
+      "hp": 967,
+      "mp": 200,
+      "str": 32,
+      "dex": 20,
+      "agi": 22,
+      "int": 32,
+      "vit": 32
+    },
+    "combat_stats": {
+      "physical_attack": 90,
+      "magical_attack": 54,
+      "physical_defense": 41,
+      "magical_defense": 35,
+      "accuracy": 91,
+      "evasion": 32,
+      "critical_rate": 0.08,
+      "movement_speed": 84,
+      "attack_speed": 1.2
+    },
+    "exp_reward": 444,
+    "gold_reward": 148,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 89,
+    "respawn_behavior": {
+      "respawn_time_seconds": 35,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_GOLEM_SMASH"
+    ],
+    "drop_table": "DROP_STONE_GOLEM_GUARDIAN",
+    "sprite_asset": "/assets/monsters/monster_stone_golem_guardian/monster_stone_golem_guardian_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_stone_golem_guardian/idle.png",
+      "walk": "/assets/monsters/monster_stone_golem_guardian/walk.png",
+      "attack": "/assets/monsters/monster_stone_golem_guardian/attack.png",
+      "hurt": "/assets/monsters/monster_stone_golem_guardian/hurt.png",
+      "death": "/assets/monsters/monster_stone_golem_guardian/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_STONE_GOLEM_GUARDIAN"
+    ],
+    "elite": true,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_SNOW_FOX",
+    "name": "Cáo Tuyết Trắng (Arctic Snow Fox)",
+    "description": "Linh vật tuyết thoắt ẩn thoắt hiện cắn trộm cực nhanh.",
+    "monster_type": "beast",
+    "element": "water",
+    "region_id": "FIELD_NORTH",
+    "level_min": 10,
+    "level_max": 11,
+    "base_stats": {
+      "hp": 480,
+      "mp": 170,
+      "str": 28,
+      "dex": 18,
+      "agi": 20,
+      "int": 28,
+      "vit": 28
+    },
+    "combat_stats": {
+      "physical_attack": 61,
+      "magical_attack": 45,
+      "physical_defense": 35,
+      "magical_defense": 30,
+      "accuracy": 85,
+      "evasion": 28,
+      "critical_rate": 0.03,
+      "movement_speed": 80,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 192,
+    "gold_reward": 64,
+    "aggro_type": "passive",
+    "detection_range": 100,
+    "attack_range": 45,
+    "movement_speed": 85,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [],
+    "drop_table": "DROP_SNOW_FOX",
+    "sprite_asset": "/assets/monsters/monster_snow_fox/monster_snow_fox_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_snow_fox/idle.png",
+      "walk": "/assets/monsters/monster_snow_fox/walk.png",
+      "attack": "/assets/monsters/monster_snow_fox/attack.png",
+      "hurt": "/assets/monsters/monster_snow_fox/hurt.png",
+      "death": "/assets/monsters/monster_snow_fox/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_SNOW_FOX"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_FROST_BAT",
+    "name": "Dơi Băng Hang Núi (Glacial Frost Bat)",
+    "description": "Dơi phủ lớp sương giá cắn đối thủ gây buốt cóng.",
+    "monster_type": "beast",
+    "element": "water",
+    "region_id": "FIELD_NORTH",
+    "level_min": 11,
+    "level_max": 12,
+    "base_stats": {
+      "hp": 522,
+      "mp": 185,
+      "str": 30,
+      "dex": 19,
+      "agi": 21,
+      "int": 30,
+      "vit": 30
+    },
+    "combat_stats": {
+      "physical_attack": 66,
+      "magical_attack": 49,
+      "physical_defense": 38,
+      "magical_defense": 32,
+      "accuracy": 88,
+      "evasion": 30,
+      "critical_rate": 0.03,
+      "movement_speed": 82,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 210,
+    "gold_reward": 70,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 87,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [],
+    "drop_table": "DROP_FROST_BAT",
+    "sprite_asset": "/assets/monsters/monster_frost_bat/monster_frost_bat_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_frost_bat/idle.png",
+      "walk": "/assets/monsters/monster_frost_bat/walk.png",
+      "attack": "/assets/monsters/monster_frost_bat/attack.png",
+      "hurt": "/assets/monsters/monster_frost_bat/hurt.png",
+      "death": "/assets/monsters/monster_frost_bat/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_FROST_BAT"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_KOBOLD_MINER",
+    "name": "Kobold Khai Khoáng (Kobold Miner)",
+    "description": "Kẻ đào mỏ đầu chó vung cuốc chim phòng vệ điên cuồng.",
+    "monster_type": "humanoid",
+    "element": "earth",
+    "region_id": "FIELD_NORTH",
+    "level_min": 11,
+    "level_max": 12,
+    "base_stats": {
+      "hp": 522,
+      "mp": 185,
+      "str": 30,
+      "dex": 19,
+      "agi": 21,
+      "int": 30,
+      "vit": 30
+    },
+    "combat_stats": {
+      "physical_attack": 66,
+      "magical_attack": 49,
+      "physical_defense": 38,
+      "magical_defense": 32,
+      "accuracy": 88,
+      "evasion": 30,
+      "critical_rate": 0.03,
+      "movement_speed": 82,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 210,
+    "gold_reward": 70,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 87,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [],
+    "drop_table": "DROP_KOBOLD_MINER",
+    "sprite_asset": "/assets/monsters/monster_kobold_miner/monster_kobold_miner_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_kobold_miner/idle.png",
+      "walk": "/assets/monsters/monster_kobold_miner/walk.png",
+      "attack": "/assets/monsters/monster_kobold_miner/attack.png",
+      "hurt": "/assets/monsters/monster_kobold_miner/hurt.png",
+      "death": "/assets/monsters/monster_kobold_miner/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_KOBOLD_MINER"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_KOBOLD_SHAMAN",
+    "name": "Vu Sư Kobold Lửa Băng (Kobold Shaman)",
+    "description": "Pháp sư Kobold niệm thần chú gây bỏng lạnh.",
+    "monster_type": "humanoid",
+    "element": "fire",
+    "region_id": "FIELD_NORTH",
+    "level_min": 12,
+    "level_max": 13,
+    "base_stats": {
+      "hp": 564,
+      "mp": 200,
+      "str": 32,
+      "dex": 20,
+      "agi": 22,
+      "int": 32,
+      "vit": 32
+    },
+    "combat_stats": {
+      "physical_attack": 71,
+      "magical_attack": 54,
+      "physical_defense": 41,
+      "magical_defense": 35,
+      "accuracy": 91,
+      "evasion": 32,
+      "critical_rate": 0.03,
+      "movement_speed": 84,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 228,
+    "gold_reward": 76,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 89,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_FROST_BREATH"
+    ],
+    "drop_table": "DROP_KOBOLD_SHAMAN",
+    "sprite_asset": "/assets/monsters/monster_kobold_shaman/monster_kobold_shaman_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_kobold_shaman/idle.png",
+      "walk": "/assets/monsters/monster_kobold_shaman/walk.png",
+      "attack": "/assets/monsters/monster_kobold_shaman/attack.png",
+      "hurt": "/assets/monsters/monster_kobold_shaman/hurt.png",
+      "death": "/assets/monsters/monster_kobold_shaman/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_KOBOLD_SHAMAN"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_ICE_SPIDER",
+    "name": "Nhện Băng Sương (Frostweave Spider)",
+    "description": "Nhện chân dài giăng tơ băng gây đông cứng kẻ lỡ bước.",
+    "monster_type": "insect",
+    "element": "water",
+    "region_id": "FIELD_NORTH",
+    "level_min": 12,
+    "level_max": 13,
+    "base_stats": {
+      "hp": 564,
+      "mp": 200,
+      "str": 32,
+      "dex": 20,
+      "agi": 22,
+      "int": 32,
+      "vit": 32
+    },
+    "combat_stats": {
+      "physical_attack": 71,
+      "magical_attack": 54,
+      "physical_defense": 41,
+      "magical_defense": 35,
+      "accuracy": 91,
+      "evasion": 32,
+      "critical_rate": 0.03,
+      "movement_speed": 84,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 228,
+    "gold_reward": 76,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 89,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_WEB_SHOT",
+      "MSKILL_FROST_BREATH"
+    ],
+    "drop_table": "DROP_ICE_SPIDER",
+    "sprite_asset": "/assets/monsters/monster_ice_spider/monster_ice_spider_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_ice_spider/idle.png",
+      "walk": "/assets/monsters/monster_ice_spider/walk.png",
+      "attack": "/assets/monsters/monster_ice_spider/attack.png",
+      "hurt": "/assets/monsters/monster_ice_spider/hurt.png",
+      "death": "/assets/monsters/monster_ice_spider/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_ICE_SPIDER"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_DIRE_FROST_WOLF",
+    "name": "Đại Sói Băng Sương (Dire Frost Wolf)",
+    "description": "Chúa tể săn mồi núi bắc với lớp lông dầy chống chịu giá rét.",
+    "monster_type": "beast",
+    "element": "water",
+    "region_id": "FIELD_NORTH",
+    "level_min": 13,
+    "level_max": 14,
+    "base_stats": {
+      "hp": 606,
+      "mp": 215,
+      "str": 34,
+      "dex": 21,
+      "agi": 23,
+      "int": 34,
+      "vit": 34
+    },
+    "combat_stats": {
+      "physical_attack": 76,
+      "magical_attack": 58,
+      "physical_defense": 44,
+      "magical_defense": 38,
+      "accuracy": 94,
+      "evasion": 34,
+      "critical_rate": 0.03,
+      "movement_speed": 86,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 246,
+    "gold_reward": 82,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 91,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_WOLF_BITE",
+      "MSKILL_HOWL_BUFF"
+    ],
+    "drop_table": "DROP_DIRE_FROST_WOLF",
+    "sprite_asset": "/assets/monsters/monster_dire_frost_wolf/monster_dire_frost_wolf_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_dire_frost_wolf/idle.png",
+      "walk": "/assets/monsters/monster_dire_frost_wolf/walk.png",
+      "attack": "/assets/monsters/monster_dire_frost_wolf/attack.png",
+      "hurt": "/assets/monsters/monster_dire_frost_wolf/hurt.png",
+      "death": "/assets/monsters/monster_dire_frost_wolf/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_DIRE_FROST_WOLF"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_CRAG_YETI",
+    "name": "Người Tuyết Yeti Núi Cao (Crag Yeti)",
+    "description": "Quái vật tuyết to lớn với sức mạnh nghiền nát tảng đá.",
+    "monster_type": "humanoid",
+    "element": "water",
+    "region_id": "FIELD_NORTH",
+    "level_min": 13,
+    "level_max": 14,
+    "base_stats": {
+      "hp": 606,
+      "mp": 215,
+      "str": 34,
+      "dex": 21,
+      "agi": 23,
+      "int": 34,
+      "vit": 34
+    },
+    "combat_stats": {
+      "physical_attack": 76,
+      "magical_attack": 58,
+      "physical_defense": 44,
+      "magical_defense": 38,
+      "accuracy": 94,
+      "evasion": 34,
+      "critical_rate": 0.03,
+      "movement_speed": 86,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 246,
+    "gold_reward": 82,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 91,
+    "respawn_behavior": {
+      "respawn_time_seconds": 12,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_GOLEM_SMASH"
+    ],
+    "drop_table": "DROP_CRAG_YETI",
+    "sprite_asset": "/assets/monsters/monster_crag_yeti/monster_crag_yeti_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_crag_yeti/idle.png",
+      "walk": "/assets/monsters/monster_crag_yeti/walk.png",
+      "attack": "/assets/monsters/monster_crag_yeti/attack.png",
+      "hurt": "/assets/monsters/monster_crag_yeti/hurt.png",
+      "death": "/assets/monsters/monster_crag_yeti/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_CRAG_YETI"
+    ],
+    "elite": false,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_FROSTFANG_SABRE",
+    "name": "Báo Răng Kiếm Băng Sương (Frostfang Sabre)",
+    "description": "Thú săn mồi thượng đẳng nanh dài sắc lẻm trước cổng đền.",
+    "monster_type": "beast",
+    "element": "water",
+    "region_id": "FIELD_NORTH",
+    "level_min": 14,
+    "level_max": 14,
+    "base_stats": {
+      "hp": 1118,
+      "mp": 230,
+      "str": 36,
+      "dex": 22,
+      "agi": 24,
+      "int": 36,
+      "vit": 36
+    },
+    "combat_stats": {
+      "physical_attack": 103,
+      "magical_attack": 63,
+      "physical_defense": 47,
+      "magical_defense": 41,
+      "accuracy": 97,
+      "evasion": 36,
+      "critical_rate": 0.08,
+      "movement_speed": 88,
+      "attack_speed": 1.2
+    },
+    "exp_reward": 516,
+    "gold_reward": 172,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 93,
+    "respawn_behavior": {
+      "respawn_time_seconds": 35,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_WOLF_BITE",
+      "MSKILL_FROST_BREATH"
+    ],
+    "drop_table": "DROP_FROSTFANG_SABRE",
+    "sprite_asset": "/assets/monsters/monster_frostfang_sabre/monster_frostfang_sabre_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_frostfang_sabre/idle.png",
+      "walk": "/assets/monsters/monster_frostfang_sabre/walk.png",
+      "attack": "/assets/monsters/monster_frostfang_sabre/attack.png",
+      "hurt": "/assets/monsters/monster_frostfang_sabre/hurt.png",
+      "death": "/assets/monsters/monster_frostfang_sabre/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_FROSTFANG_SABRE"
+    ],
+    "elite": true,
+    "boss": false,
+    "enabled": true
+  },
+  {
+    "id": "MONSTER_CRAG_CHIMERA",
+    "name": "Thần Thú Chimera Đỉnh Núi (Chimera of the Crags)",
+    "description": "Chúa tể tối cao của biên cương Elysia kết hợp Sư Tử, Dê và Rồng.",
+    "monster_type": "boss",
+    "element": "fire",
+    "region_id": "FIELD_NORTH",
+    "level_min": 15,
+    "level_max": 15,
+    "base_stats": {
+      "hp": 1824,
+      "mp": 470,
+      "str": 38,
+      "dex": 23,
+      "agi": 26,
+      "int": 38,
+      "vit": 38
+    },
+    "combat_stats": {
+      "physical_attack": 133,
+      "magical_attack": 101,
+      "physical_defense": 75,
+      "magical_defense": 65,
+      "accuracy": 100,
+      "evasion": 38,
+      "critical_rate": 0.08,
+      "movement_speed": 75,
+      "attack_speed": 1.0
+    },
+    "exp_reward": 957,
+    "gold_reward": 364,
+    "aggro_type": "aggressive",
+    "detection_range": 160,
+    "attack_range": 45,
+    "movement_speed": 95,
+    "respawn_behavior": {
+      "respawn_time_seconds": 60,
+      "despawn_on_combat_reset": true
+    },
+    "skills": [
+      "MSKILL_CHIMERA_ROAR",
+      "MSKILL_FROST_BREATH",
+      "MSKILL_BOAR_CHARGE"
+    ],
+    "drop_table": "DROP_CRAG_CHIMERA",
+    "sprite_asset": "/assets/monsters/monster_crag_chimera/monster_crag_chimera_idle.png",
+    "animation_assets": {
+      "idle": "/assets/monsters/monster_crag_chimera/idle.png",
+      "walk": "/assets/monsters/monster_crag_chimera/walk.png",
+      "attack": "/assets/monsters/monster_crag_chimera/attack.png",
+      "hurt": "/assets/monsters/monster_crag_chimera/hurt.png",
+      "death": "/assets/monsters/monster_crag_chimera/death.png"
+    },
+    "spawn_group_ids": [
+      "SPAWN_GRP_CRAG_CHIMERA"
+    ],
+    "elite": false,
+    "boss": true,
+    "enabled": true
+  }
+]

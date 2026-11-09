@@ -1,0 +1,641 @@
+[
+  {
+    "id": "QUEST_001_BEGINNER_TUTORIAL",
+    "name": "Bước Đầu Phiêu Lưu (First Steps in Elysia)",
+    "description": "Gặp Trưởng Làng Gordon để nhận chỉ dẫn cơ bản và tiêu diệt 3 Slime Xanh ngoại ô làng.",
+    "quest_type": "MAIN_QUEST",
+    "category": "TUTORIAL",
+    "required_level": 1,
+    "recommended_level": 1,
+    "prerequisite_quest_ids": [],
+    "start_npc_id": "NPC_VILLAGE_HEAD",
+    "end_npc_id": "NPC_VILLAGE_HEAD",
+    "region_id": "FIELD_EAST",
+    "objectives": [
+      {
+        "type": "KILL_MONSTER",
+        "monster_id": "MONSTER_GREEN_SLIME",
+        "required_count": 3,
+        "objective_description": "Tiêu diệt 3 Slime Xanh tại Đồng Cỏ Phía Đông"
+      }
+    ],
+    "rewards": {
+      "exp": 80,
+      "gold": 30,
+      "items": [
+        {
+          "item_id": "ITEM_POTION_HP_SMALL",
+          "quantity": 5
+        }
+      ]
+    },
+    "failure_conditions": [],
+    "repeatable": false,
+    "auto_complete": false,
+    "next_quest_ids": [
+      "QUEST_002_WEAPON_PREPARATION"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "QUEST_002_WEAPON_PREPARATION",
+    "name": "Chuẩn Bị Binh Khí (Forging Essentials)",
+    "description": "Thợ rèn Vulcan cần thạch nhầy Slime để tôi luyện vũ khí mới.",
+    "quest_type": "MAIN_QUEST",
+    "category": "COLLECTION",
+    "required_level": 2,
+    "recommended_level": 2,
+    "prerequisite_quest_ids": [
+      "QUEST_001_BEGINNER_TUTORIAL"
+    ],
+    "start_npc_id": "NPC_WEAPON_SMITH",
+    "end_npc_id": "NPC_WEAPON_SMITH",
+    "region_id": "FIELD_EAST",
+    "objectives": [
+      {
+        "type": "COLLECT_ITEM",
+        "item_id": "MAT_SLIME_JELLY",
+        "required_count": 4,
+        "objective_description": "Thu thập 4 Thạch Slime Dính từ Slime Xanh"
+      }
+    ],
+    "rewards": {
+      "exp": 140,
+      "gold": 50,
+      "items": [
+        {
+          "item_id": "ITEM_ARMOR_LEATHER_VEST",
+          "quantity": 1
+        }
+      ]
+    },
+    "failure_conditions": [],
+    "repeatable": false,
+    "auto_complete": false,
+    "next_quest_ids": [
+      "QUEST_003_HORNED_PESTS"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "QUEST_003_HORNED_PESTS",
+    "name": "Quấy Nhiễu Đồng Cỏ (Horned Mischief)",
+    "description": "Lính gác Justin yêu cầu dọn dẹp bầy Thỏ Sừng đang phá hoại cổng Đông.",
+    "quest_type": "MAIN_QUEST",
+    "category": "HUNTING",
+    "required_level": 3,
+    "recommended_level": 3,
+    "prerequisite_quest_ids": [
+      "QUEST_002_WEAPON_PREPARATION"
+    ],
+    "start_npc_id": "NPC_EAST_GUARD",
+    "end_npc_id": "NPC_EAST_GUARD",
+    "region_id": "FIELD_EAST",
+    "objectives": [
+      {
+        "type": "KILL_MONSTER",
+        "monster_id": "MONSTER_HORNED_RABBIT",
+        "required_count": 5,
+        "objective_description": "Tiêu diệt 5 Thỏ Sừng Đồng Cỏ"
+      }
+    ],
+    "rewards": {
+      "exp": 220,
+      "gold": 70,
+      "items": [
+        {
+          "item_id": "ITEM_BOOTS_LEATHER",
+          "quantity": 1
+        }
+      ]
+    },
+    "failure_conditions": [],
+    "repeatable": false,
+    "auto_complete": false,
+    "next_quest_ids": [
+      "QUEST_004_HERBAL_REMEDY"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "QUEST_004_HERBAL_REMEDY",
+    "name": "Phương Thuốc Của Flora (Flora's Antidote)",
+    "description": "Herbalist Flora cần rễ Mandragora để bào chế thuốc giải độc phục vụ tiền tuyến.",
+    "quest_type": "MAIN_QUEST",
+    "category": "COLLECTION",
+    "required_level": 4,
+    "recommended_level": 4,
+    "prerequisite_quest_ids": [
+      "QUEST_003_HORNED_PESTS"
+    ],
+    "start_npc_id": "NPC_GATHERING_INSTRUCTOR",
+    "end_npc_id": "NPC_GATHERING_INSTRUCTOR",
+    "region_id": "FIELD_EAST",
+    "objectives": [
+      {
+        "type": "COLLECT_ITEM",
+        "item_id": "MAT_MANDRAGORA_ROOT",
+        "required_count": 4,
+        "objective_description": "Thu thập 4 Rễ Cây Mandragora"
+      }
+    ],
+    "rewards": {
+      "exp": 320,
+      "gold": 100,
+      "items": [
+        {
+          "item_id": "ITEM_ANTIDOTE",
+          "quantity": 5
+        }
+      ]
+    },
+    "failure_conditions": [],
+    "repeatable": false,
+    "auto_complete": false,
+    "next_quest_ids": [
+      "QUEST_005_ALPHA_SLIME_HUNT"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "QUEST_005_ALPHA_SLIME_HUNT",
+    "name": "Trảm Slime Vương (The Great Alpha Slime)",
+    "description": "Trưởng Làng Gordon hạ lệnh tiêu diệt Slime Vương khổng lồ đe dọa gò Đông.",
+    "quest_type": "MAIN_QUEST",
+    "category": "BOSS_HUNT",
+    "required_level": 5,
+    "recommended_level": 5,
+    "prerequisite_quest_ids": [
+      "QUEST_004_HERBAL_REMEDY"
+    ],
+    "start_npc_id": "NPC_VILLAGE_HEAD",
+    "end_npc_id": "NPC_VILLAGE_HEAD",
+    "region_id": "FIELD_EAST",
+    "objectives": [
+      {
+        "type": "KILL_MONSTER",
+        "monster_id": "MONSTER_GREAT_ALPHA_SLIME",
+        "required_count": 1,
+        "objective_description": "Tiêu diệt 1 Slime Vương Khổng Lồ tại Gò Đất Đông"
+      }
+    ],
+    "rewards": {
+      "exp": 500,
+      "gold": 200,
+      "items": [
+        {
+          "item_id": "ITEM_RING_COPPER",
+          "quantity": 1
+        }
+      ]
+    },
+    "failure_conditions": [],
+    "repeatable": false,
+    "auto_complete": false,
+    "next_quest_ids": [
+      "QUEST_006_WEST_FOREST_SCOUT"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "QUEST_006_WEST_FOREST_SCOUT",
+    "name": "Tiến Vào Rừng Tây (Into the Western Forest)",
+    "description": "Lính gác Brennan mở cổng Tây và cần bạn thám thính tiêu diệt bầy dơi rừng.",
+    "quest_type": "MAIN_QUEST",
+    "category": "EXPLORATION",
+    "required_level": 6,
+    "recommended_level": 6,
+    "prerequisite_quest_ids": [
+      "QUEST_005_ALPHA_SLIME_HUNT"
+    ],
+    "start_npc_id": "NPC_WEST_GUARD",
+    "end_npc_id": "NPC_WEST_GUARD",
+    "region_id": "FIELD_WEST",
+    "objectives": [
+      {
+        "type": "KILL_MONSTER",
+        "monster_id": "MONSTER_FOREST_BAT",
+        "required_count": 6,
+        "objective_description": "Tiêu diệt 6 Dơi Rừng Rậm tại Rừng Tây"
+      }
+    ],
+    "rewards": {
+      "exp": 650,
+      "gold": 220,
+      "items": [
+        {
+          "item_id": "ITEM_POTION_HP_MEDIUM",
+          "quantity": 5
+        }
+      ]
+    },
+    "failure_conditions": [],
+    "repeatable": false,
+    "auto_complete": false,
+    "next_quest_ids": [
+      "QUEST_007_GOBLIN_MENACE"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "QUEST_007_GOBLIN_MENACE",
+    "name": "Mối Đe Dọa Goblin (The Goblin Ambush)",
+    "description": "Võ sư Kaelen yêu cầu trừng phạt bầy Goblin trinh sát rình rập và đoạt lại rương hàng tiếp tế.",
+    "quest_type": "MAIN_QUEST",
+    "category": "HUNTING",
+    "required_level": 7,
+    "recommended_level": 7,
+    "prerequisite_quest_ids": [
+      "QUEST_006_WEST_FOREST_SCOUT"
+    ],
+    "start_npc_id": "NPC_SKILL_TRAINER",
+    "end_npc_id": "NPC_SKILL_TRAINER",
+    "region_id": "FIELD_WEST",
+    "objectives": [
+      {
+        "type": "KILL_MONSTER",
+        "monster_id": "MONSTER_GOBLIN_SCOUT",
+        "required_count": 8,
+        "objective_description": "Tiêu diệt 8 Yêu Tinh Trinh Sát"
+      },
+      {
+        "type": "COLLECT_ITEM",
+        "item_id": "QITEM_VILLAGE_SUPPLY_BOX",
+        "required_count": 1,
+        "objective_description": "Đoạt lại 1 Rương Tiếp Tế Của Làng"
+      }
+    ],
+    "rewards": {
+      "exp": 850,
+      "gold": 280,
+      "items": [
+        {
+          "item_id": "ITEM_DAGGER_HUNTER",
+          "quantity": 1
+        }
+      ]
+    },
+    "failure_conditions": [],
+    "repeatable": false,
+    "auto_complete": false,
+    "next_quest_ids": [
+      "QUEST_008_TIMBER_WOLF_PACK"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "QUEST_008_TIMBER_WOLF_PACK",
+    "name": "Đêm Trăng Tiêu Diệt Tặc Vương (Night of the Raider)",
+    "description": "Đội Trưởng Thổ Phỉ Goblin đã xua bầy Sói Đen đe dọa cổng Tây. Hãy trừ khử hắn!",
+    "quest_type": "MAIN_QUEST",
+    "category": "BOSS_HUNT",
+    "required_level": 8,
+    "recommended_level": 8,
+    "prerequisite_quest_ids": [
+      "QUEST_007_GOBLIN_MENACE"
+    ],
+    "start_npc_id": "NPC_VILLAGE_HEAD",
+    "end_npc_id": "NPC_VILLAGE_HEAD",
+    "region_id": "FIELD_WEST",
+    "objectives": [
+      {
+        "type": "KILL_MONSTER",
+        "monster_id": "MONSTER_TIMBER_WOLF",
+        "required_count": 6,
+        "objective_description": "Tiêu diệt 6 Sói Đen Rừng Rậm"
+      },
+      {
+        "type": "KILL_MONSTER",
+        "monster_id": "MONSTER_GOBLIN_RAIDER_CAPTAIN",
+        "required_count": 1,
+        "objective_description": "Hạ gục 1 Đội Trưởng Thổ Phỉ Goblin"
+      }
+    ],
+    "rewards": {
+      "exp": 1100,
+      "gold": 350,
+      "items": [
+        {
+          "item_id": "ITEM_AMULET_WOLF_FANG",
+          "quantity": 1
+        }
+      ]
+    },
+    "failure_conditions": [],
+    "repeatable": false,
+    "auto_complete": false,
+    "next_quest_ids": [
+      "QUEST_009_SOUTH_VALLEY_EXPEDITION"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "QUEST_009_SOUTH_VALLEY_EXPEDITION",
+    "name": "Viễn Chinh Thung Lũng Nam (The Southern Crags)",
+    "description": "Lính gác Douglas chỉ dẫn thám hiểm Thung Lũng Phía Nam và thu phục Thằn Lằn Đá.",
+    "quest_type": "MAIN_QUEST",
+    "category": "EXPLORATION",
+    "required_level": 9,
+    "recommended_level": 9,
+    "prerequisite_quest_ids": [
+      "QUEST_008_TIMBER_WOLF_PACK"
+    ],
+    "start_npc_id": "NPC_SOUTH_GUARD",
+    "end_npc_id": "NPC_SOUTH_GUARD",
+    "region_id": "FIELD_SOUTH",
+    "objectives": [
+      {
+        "type": "KILL_MONSTER",
+        "monster_id": "MONSTER_ROCK_LIZARD",
+        "required_count": 7,
+        "objective_description": "Tiêu diệt 7 Thằn Lằn Sa Thạch"
+      }
+    ],
+    "rewards": {
+      "exp": 1400,
+      "gold": 400,
+      "items": [
+        {
+          "item_id": "ITEM_SPEAR_IRON",
+          "quantity": 1
+        }
+      ]
+    },
+    "failure_conditions": [],
+    "repeatable": false,
+    "auto_complete": false,
+    "next_quest_ids": [
+      "QUEST_010_HARPY_FEATHERS"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "QUEST_010_HARPY_FEATHERS",
+    "name": "Lông Vũ Cuồng Phong (Winds of the Harpy)",
+    "description": "Dược sĩ Maya cần lông vũ Harpy để chế tạo dược phẩm tăng tốc độ di chuyển.",
+    "quest_type": "MAIN_QUEST",
+    "category": "COLLECTION",
+    "required_level": 10,
+    "recommended_level": 10,
+    "prerequisite_quest_ids": [
+      "QUEST_009_SOUTH_VALLEY_EXPEDITION"
+    ],
+    "start_npc_id": "NPC_GENERAL_STORE",
+    "end_npc_id": "NPC_GENERAL_STORE",
+    "region_id": "FIELD_SOUTH",
+    "objectives": [
+      {
+        "type": "COLLECT_ITEM",
+        "item_id": "MAT_HARPY_FEATHER",
+        "required_count": 6,
+        "objective_description": "Thu thập 6 Lông Vũ Harpy Gió"
+      }
+    ],
+    "rewards": {
+      "exp": 1800,
+      "gold": 500,
+      "items": [
+        {
+          "item_id": "ITEM_SHIELD_IRON",
+          "quantity": 1
+        }
+      ]
+    },
+    "failure_conditions": [],
+    "repeatable": false,
+    "auto_complete": false,
+    "next_quest_ids": [
+      "QUEST_011_STONE_GUARDIAN"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "QUEST_011_STONE_GUARDIAN",
+    "name": "Giấc Ngủ Thạch Hộ Vệ (The Stone Guardian Awakens)",
+    "description": "Võ sư Kaelen yêu cầu đả bại Thạch Hộ Vệ Cổ Đại để thu hồi mảnh bia cổ bí ẩn.",
+    "quest_type": "MAIN_QUEST",
+    "category": "BOSS_HUNT",
+    "required_level": 11,
+    "recommended_level": 11,
+    "prerequisite_quest_ids": [
+      "QUEST_010_HARPY_FEATHERS"
+    ],
+    "start_npc_id": "NPC_SKILL_TRAINER",
+    "end_npc_id": "NPC_SKILL_TRAINER",
+    "region_id": "FIELD_SOUTH",
+    "objectives": [
+      {
+        "type": "KILL_MONSTER",
+        "monster_id": "MONSTER_STONE_GOLEM_GUARDIAN",
+        "required_count": 1,
+        "objective_description": "Tiêu diệt 1 Thạch Hộ Vệ Cổ Đại"
+      },
+      {
+        "type": "COLLECT_ITEM",
+        "item_id": "QITEM_ANCIENT_STONE_FRAGMENT",
+        "required_count": 1,
+        "objective_description": "Thu hồi 1 Mảnh Bia Cổ Elysia"
+      }
+    ],
+    "rewards": {
+      "exp": 2300,
+      "gold": 650,
+      "items": [
+        {
+          "item_id": "ITEM_STAFF_OAK",
+          "quantity": 1
+        }
+      ]
+    },
+    "failure_conditions": [],
+    "repeatable": false,
+    "auto_complete": false,
+    "next_quest_ids": [
+      "QUEST_012_NORTH_EXPEDITION"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "QUEST_012_NORTH_EXPEDITION",
+    "name": "Đỉnh Núi Băng Tuyết (The Glacial Frontier)",
+    "description": "Lính gác Theresa mở lối lên Cổng Bắc. Hãy tiêu diệt dơi băng hang núi mở đường.",
+    "quest_type": "MAIN_QUEST",
+    "category": "EXPLORATION",
+    "required_level": 12,
+    "recommended_level": 12,
+    "prerequisite_quest_ids": [
+      "QUEST_011_STONE_GUARDIAN"
+    ],
+    "start_npc_id": "NPC_NORTH_GUARD",
+    "end_npc_id": "NPC_NORTH_GUARD",
+    "region_id": "FIELD_NORTH",
+    "objectives": [
+      {
+        "type": "KILL_MONSTER",
+        "monster_id": "MONSTER_FROST_BAT",
+        "required_count": 8,
+        "objective_description": "Tiêu diệt 8 Dơi Băng Hang Núi tại Núi Bắc"
+      }
+    ],
+    "rewards": {
+      "exp": 2900,
+      "gold": 800,
+      "items": [
+        {
+          "item_id": "ITEM_RING_FROST_RESIST",
+          "quantity": 1
+        }
+      ]
+    },
+    "failure_conditions": [],
+    "repeatable": false,
+    "auto_complete": false,
+    "next_quest_ids": [
+      "QUEST_013_KOBOLD_SABOTAGE"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "QUEST_013_KOBOLD_SABOTAGE",
+    "name": "Âm Mưu Lũ Kobold (Kobold Mining Threat)",
+    "description": "Thợ rèn Vulcan yêu cầu giải phóng mỏ quặng bằng cách tiêu diệt Kobold khai khoáng và vu sư.",
+    "quest_type": "MAIN_QUEST",
+    "category": "HUNTING",
+    "required_level": 13,
+    "recommended_level": 13,
+    "prerequisite_quest_ids": [
+      "QUEST_012_NORTH_EXPEDITION"
+    ],
+    "start_npc_id": "NPC_WEAPON_SMITH",
+    "end_npc_id": "NPC_WEAPON_SMITH",
+    "region_id": "FIELD_NORTH",
+    "objectives": [
+      {
+        "type": "KILL_MONSTER",
+        "monster_id": "MONSTER_KOBOLD_MINER",
+        "required_count": 10,
+        "objective_description": "Tiêu diệt 10 Kobold Khai Khoáng"
+      },
+      {
+        "type": "KILL_MONSTER",
+        "monster_id": "MONSTER_KOBOLD_SHAMAN",
+        "required_count": 2,
+        "objective_description": "Hạ gục 2 Vu Sư Kobold Lửa Băng"
+      }
+    ],
+    "rewards": {
+      "exp": 3600,
+      "gold": 1000,
+      "items": [
+        {
+          "item_id": "ITEM_POTION_HP_MEDIUM",
+          "quantity": 10
+        }
+      ]
+    },
+    "failure_conditions": [],
+    "repeatable": false,
+    "auto_complete": false,
+    "next_quest_ids": [
+      "QUEST_014_FROSTFANG_CHALLENGE"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "QUEST_014_FROSTFANG_CHALLENGE",
+    "name": "Băng Sương Thú Tiền Đồn (Trial of the Frostfang Sabre)",
+    "description": "Trưởng Làng Gordon đưa ra thử thách quyết định: đánh bại Báo Răng Kiếm Băng Sương để chứng minh dũng khí trước Đền Thờ.",
+    "quest_type": "MAIN_QUEST",
+    "category": "ELITE_HUNT",
+    "required_level": 14,
+    "recommended_level": 14,
+    "prerequisite_quest_ids": [
+      "QUEST_013_KOBOLD_SABOTAGE"
+    ],
+    "start_npc_id": "NPC_VILLAGE_HEAD",
+    "end_npc_id": "NPC_VILLAGE_HEAD",
+    "region_id": "FIELD_NORTH",
+    "objectives": [
+      {
+        "type": "KILL_MONSTER",
+        "monster_id": "MONSTER_FROSTFANG_SABRE",
+        "required_count": 1,
+        "objective_description": "Đả bại 1 Báo Răng Kiếm Băng Sương (Frostfang Sabre)"
+      }
+    ],
+    "rewards": {
+      "exp": 4500,
+      "gold": 1500,
+      "items": [
+        {
+          "item_id": "QITEM_ASICA_RECOMMENDATION",
+          "quantity": 1
+        }
+      ]
+    },
+    "failure_conditions": [],
+    "repeatable": false,
+    "auto_complete": false,
+    "next_quest_ids": [
+      "QUEST_015_JOB_ADVANCEMENT_TRIAL"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "QUEST_015_JOB_ADVANCEMENT_TRIAL",
+    "name": "Thiên Mệnh Thức Tỉnh (The Awakening Destiny: First Job Advancement)",
+    "description": "Cầm Thư Tiến Cử của Trưởng Làng Gordon đến Đền Thờ Chuyển Chức tại Thánh Địa Làng Khởi Nguyên, gặp Đại Tư Tế Asica để nhận chức nghiệp chính thức.",
+    "quest_type": "MAIN_QUEST",
+    "category": "JOB_ADVANCEMENT",
+    "required_level": 15,
+    "recommended_level": 15,
+    "prerequisite_quest_ids": [
+      "QUEST_014_FROSTFANG_CHALLENGE"
+    ],
+    "start_npc_id": "NPC_VILLAGE_HEAD",
+    "end_npc_id": "NPC_JOB_ADVANCEMENT_ASICA",
+    "region_id": "VIL_STARTER",
+    "objectives": [
+      {
+        "type": "TALK_TO_NPC",
+        "npc_id": "NPC_JOB_ADVANCEMENT_ASICA",
+        "target_location": {
+          "region_id": "VIL_STARTER",
+          "x": 1000,
+          "y": 250
+        },
+        "objective_description": "Hội kiến Đại Tư Tế Asica tại Đền Thờ Chuyển Chức"
+      },
+      {
+        "type": "JOB_ADVANCEMENT",
+        "target_class_selection": [
+          "swordsman",
+          "spearman",
+          "knight",
+          "priest",
+          "mage",
+          "assassin",
+          "fighter",
+          "archer"
+        ],
+        "objective_description": "Lựa chọn 1 trong 8 Chức Nghiệp Chính Thức"
+      }
+    ],
+    "rewards": {
+      "exp": 10000,
+      "gold": 5000,
+      "items": [
+        {
+          "item_id": "ITEM_EXCALIBUR_HOLY",
+          "quantity": 1
+        }
+      ],
+      "unlock_feature": "FIRST_JOB_ADVANCEMENT"
+    },
+    "failure_conditions": [],
+    "repeatable": false,
+    "auto_complete": false,
+    "next_quest_ids": [],
+    "enabled": true
+  }
+]

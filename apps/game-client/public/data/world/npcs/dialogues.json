@@ -1,0 +1,277 @@
+[
+  {
+    "dialogue_id": "DLG_ASICA",
+    "npc_id": "NPC_JOB_ADVANCEMENT_ASICA",
+    "greeting": "Chào con, hỡi linh hồn kiên cường đã vượt qua muôn ngàn hiểm nguy tại Biên Giới Elysia.",
+    "options": [
+      {
+        "text": "Con đã đạt Cấp độ 15 và sẵn sàng Chuyển Chức!",
+        "condition": {
+          "minLevel": 15,
+          "questCompleted": "QUEST_014_FROSTFANG_CHALLENGE"
+        },
+        "action": "OPEN_JOB_ADVANCEMENT_INTERFACE",
+        "response": "Ánh sáng Nữ Thần đã công nhận sức mạnh của con. Hãy chọn con đường định mệnh của mình: Kiếm Sĩ, Hiệp Sĩ, Cung Thủ, Tu Sĩ, Pháp Sư, Đấu Sĩ, Thích Khách hoặc Thương Thủ!"
+      },
+      {
+        "text": "Con cần làm gì để được chuyển chức?",
+        "action": "EXPLAIN_REQUIREMENTS",
+        "response": "Con phải đạt cấp độ 15 và hoàn thành chuỗi thử thách diệt trừ Báo Băng Núi Bắc theo lời dặn của Trưởng Làng Gordon."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "DLG_GORDON",
+    "npc_id": "NPC_VILLAGE_HEAD",
+    "greeting": "Chào mừng đến với Elysia Frontier! Ta là Gordon, trưởng làng nơi đây.",
+    "options": [
+      {
+        "text": "Ta có thể giúp gì cho làng?",
+        "action": "CHECK_QUESTS",
+        "response": "Hãy nhìn quanh, rất nhiều dân làng và binh lính gác cổng đang cần một cánh tay quả cảm."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "DLG_VULCAN",
+    "npc_id": "NPC_WEAPON_SMITH",
+    "greeting": "Khách hàng! Vulcan chào ngươi. Lò rèn của ta chưa bao giờ nguội lửa — vũ khí tốt nhất Biên Giới đang chờ ngươi đây.",
+    "options": [
+      {
+        "text": "Cho ta xem vũ khí đang bán.",
+        "action": "OPEN_SHOP",
+        "response": "Đây rồi! Từ kiếm thép sắc bén đến cung phép thuật — tất cả đều do tay ta rèn. Chọn đi, ta bảo đảm chất lượng!"
+      },
+      {
+        "text": "Mua vũ khí ở đây có đắt không?",
+        "action": "OPEN_SHOP",
+        "response": "Ngươi trả tiền cho chất lượng, không phải cho rác. Nhưng ta có hàng bình dân lẫn hàng thượng hạng — túi tiền của ngươi quyết định thôi."
+      },
+      {
+        "text": "Tạm biệt, lần sau ta sẽ quay lại.",
+        "action": "CLOSE_DIALOGUE",
+        "response": "Cứ tự nhiên, lò rèn của Vulcan không bao giờ đóng cửa. Hãy giữ vũ khí sắc bén nhé!"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "DLG_SELINA",
+    "npc_id": "NPC_ARMOR_MERCHANT",
+    "greeting": "Chào mừng đến cửa hàng giáp trụ của Selina! Dù ngươi là chiến binh xông pha hay pháp sư thâm u, ta đều có thứ phù hợp.",
+    "options": [
+      {
+        "text": "Cho ta xem giáp đang bán.",
+        "action": "OPEN_SHOP",
+        "response": "Đây là bộ sưu tập mới nhất! Giáp da cho kẻ cần linh hoạt, giáp sắt cho kẻ cần bền vững, và áo choàng pháp sư cho kẻ ưa phép thuật."
+      },
+      {
+        "text": "Làm sao ta biết giáp nào phù hợp?",
+        "action": "OPEN_SHOP",
+        "response": "Phụ thuộc vào lối đánh của ngươi. Nếu ưa xông thẳng vào quái, hãy chọn giáp nặng. Nếu thích né tránh và ra đòn nhanh, giáp nhẹ là bạn đồng hành tốt hơn."
+      },
+      {
+        "text": "Ta sẽ quay lại sau.",
+        "action": "CLOSE_DIALOGUE",
+        "response": "Không vấn đề! Hàng của ta không đi đâu hết. Hãy giữ mình an toàn trên đường nhé!"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "DLG_MAYA",
+    "npc_id": "NPC_GENERAL_STORE",
+    "greeting": "Ồ, có khách rồi! Maya ở đây sẵn sàng phục vụ. Tiệm tạp hóa của ta có đủ thứ từ thuốc hồi phục đến nguyên liệu chế tạo!",
+    "options": [
+      {
+        "text": "Cho ta xem hàng hóa.",
+        "action": "OPEN_SHOP",
+        "response": "Đây! Thuốc hồi máu, thuốc hồi mana, bùa phép, nguyên liệu thủ công — tất cả mọi thứ một nhà thám hiểm cần. Giá cả phải chăng, chất lượng đảm bảo!"
+      },
+      {
+        "text": "Ngươi có thuốc giải độc không?",
+        "action": "OPEN_SHOP",
+        "response": "Dĩ nhiên! Vùng Rừng Tây và Thung Lũng Nam có nhiều sinh vật độc lắm. Ta luôn trữ sẵn thuốc giải độc — đừng ra đường mà không mang theo!"
+      },
+      {
+        "text": "Ta không cần gì hôm nay, cảm ơn.",
+        "action": "CLOSE_DIALOGUE",
+        "response": "Không sao! Cửa tiệm luôn mở. Hãy ghé lại bất cứ lúc nào nhé, lữ khách!"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "DLG_BARNABY",
+    "npc_id": "NPC_STORAGE_KEEPER",
+    "greeting": "Chào ngươi! Ta là Barnaby, người trông coi kho bảo quản của làng. Mọi thứ gửi vào đây đều được giữ an toàn, ta cam đoan!",
+    "options": [
+      {
+        "text": "Cho ta truy cập kho đồ của mình.",
+        "action": "OPEN_STORAGE",
+        "response": "Đây rồi! Kho của ngươi đang chờ. Hãy sắp xếp đồ đạc cho gọn gàng — một nhà thám hiểm có tổ chức là nhà thám hiểm sống sót lâu hơn!"
+      },
+      {
+        "text": "Kho này hoạt động thế nào?",
+        "action": "OPEN_STORAGE",
+        "response": "Rất đơn giản! Ngươi có thể gửi đồ vào kho và lấy ra bất cứ lúc nào tại đây. Đồ trong kho an toàn tuyệt đối dù ngươi có ngã xuống ngoài chiến trường."
+      },
+      {
+        "text": "Thôi, ta không cần dùng kho lúc này.",
+        "action": "CLOSE_DIALOGUE",
+        "response": "Được rồi! Ta vẫn ở đây khi ngươi cần. Hành trình vui vẻ nhé!"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "DLG_KAELEN",
+    "npc_id": "NPC_SKILL_TRAINER",
+    "greeting": "Dừng lại, lữ khách. Ta là Kaelen, huấn luyện viên kỹ năng của Biên Giới. Nếu ngươi muốn lớn mạnh, hãy để ta chỉ dạy!",
+    "options": [
+      {
+        "text": "Dạy ta những kỹ năng mới.",
+        "action": "OPEN_SKILL_MENU",
+        "response": "Tốt lắm! Đây là danh sách kỹ năng có thể học được dựa theo cấp độ và lớp nhân vật của ngươi. Hãy chọn kỹ cẩn thận — mỗi kỹ năng sẽ định hình phong cách chiến đấu của ngươi."
+      },
+      {
+        "text": "Làm thế nào để nâng cấp kỹ năng?",
+        "action": "OPEN_SKILL_MENU",
+        "response": "Mỗi kỹ năng có thể nâng cấp nhiều lần để tăng sức mạnh. Ngươi cần điểm kỹ năng — đạt được khi lên cấp — và một lượng vàng nhất định. Hãy mở thực đơn để xem chi tiết!"
+      },
+      {
+        "text": "Ta sẽ quay lại khi sẵn sàng.",
+        "action": "CLOSE_DIALOGUE",
+        "response": "Sức mạnh không đến với kẻ chần chừ. Nhưng ta sẽ ở đây đợi ngươi. Hãy rèn luyện đều đặn!"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "DLG_FLORA",
+    "npc_id": "NPC_GATHERING_INSTRUCTOR",
+    "greeting": "Ôi, ngươi đến rồi! Ta là Flora. Rừng và núi non quanh đây ẩn chứa vô số nguyên liệu quý — để ta dạy ngươi cách thu thập nhé!",
+    "options": [
+      {
+        "text": "Dạy ta về thu thập nguyên liệu.",
+        "action": "OPEN_GATHERING_MENU",
+        "response": "Tuyệt vời! Đây là thực đơn thu thập. Ngươi có thể học khai thác khoáng sản, hái thảo dược, và chặt gỗ. Mỗi loại cần kỹ năng khác nhau nhưng đều có ích cho chế tạo đồ."
+      },
+      {
+        "text": "Nguyên liệu dùng để làm gì?",
+        "action": "OPEN_GATHERING_MENU",
+        "response": "Thảo dược dùng để nấu thuốc, khoáng sản để rèn vũ khí và giáp, còn gỗ để tạo cung và đồ dùng. Nhà thám hiểm biết thu thập sẽ không bao giờ thiếu vật tư!"
+      },
+      {
+        "text": "Ta hiểu rồi, cảm ơn Flora!",
+        "action": "CLOSE_DIALOGUE",
+        "response": "Cứ tự nhiên khám phá thiên nhiên! Hãy cẩn thận khi vào rừng sâu — không chỉ cây cỏ mới chờ ngươi ở đó đâu nhé!"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "DLG_LYRA",
+    "npc_id": "NPC_TELEPORT_KEEPER",
+    "greeting": "Chào ngươi, lữ khách mệt mỏi. Ta là Lyra, người canh giữ các cổng dịch chuyển. Muốn đến nơi khác trong chớp mắt không?",
+    "options": [
+      {
+        "text": "Mở cổng dịch chuyển cho ta.",
+        "action": "OPEN_TELEPORT_MENU",
+        "response": "Đây là các điểm đến đang hoạt động. Chú ý rằng ngươi chỉ có thể dịch chuyển đến những vùng đất mà ngươi đã từng khám phá. Hành trình tốt lành!"
+      },
+      {
+        "text": "Làm sao mở khóa thêm điểm dịch chuyển?",
+        "action": "OPEN_TELEPORT_MENU",
+        "response": "Rất đơn giản — hãy đặt chân đến vùng đất mới. Mỗi Đá Dịch Chuyển ngươi chạm tay vào sẽ tự động được đăng ký vào hệ thống. Càng khám phá nhiều, càng di chuyển tự do!"
+      },
+      {
+        "text": "Ta đi bộ được, không cần dịch chuyển.",
+        "action": "CLOSE_DIALOGUE",
+        "response": "Haha, ý chí đáng khâm phục! Nhưng khi mệt mỏi, cổng của ta luôn mở. Chúc ngươi đường đi bình an!"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "DLG_JUSTIN",
+    "npc_id": "NPC_EAST_GUARD",
+    "greeting": "Đứng lại! À, một nhà thám hiểm. Tên ta là Justin, lính canh Cổng Đông. Phía trước là Rừng Tây — hãy cẩn thận!",
+    "options": [
+      {
+        "text": "Ta muốn biết tình hình ở Rừng Tây.",
+        "action": "CHECK_QUESTS",
+        "response": "Rừng Tây đang có nhiều quái vật nguy hiểm. Dơi Rừng và Nhện Độc đang hoành hành — nhiều thương nhân không dám qua lại. Nếu ngươi có thể dẹp bớt chúng, dân làng sẽ biết ơn lắm!"
+      },
+      {
+        "text": "Có nhiệm vụ nào cần ta giúp không?",
+        "action": "CHECK_QUESTS",
+        "response": "Hỏi thăm Trưởng Làng Gordon đi. Lão ấy biết rõ hơn ta về những việc cần làm. Nhưng tai ta cũng nghe được khá nhiều — cứ hỏi nếu cần thông tin về khu vực."
+      },
+      {
+        "text": "Cảm ơn, ta sẽ tiếp tục đường đi.",
+        "action": "CLOSE_DIALOGUE",
+        "response": "Cẩn thận ngoài kia! Vũ khí sẵn sàng, mắt mở to. Chúc ngươi may mắn, lữ khách!"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "DLG_BRENNAN",
+    "npc_id": "NPC_WEST_GUARD",
+    "greeting": "Khách qua đường! Ta là Brennan, canh gác Cổng Tây. Phía ngoài kia là con đường dẫn đến Thung Lũng Nam — địa thế hiểm trở đấy.",
+    "options": [
+      {
+        "text": "Thung Lũng Nam có gì nguy hiểm?",
+        "action": "CHECK_QUESTS",
+        "response": "Thằn Lằn Sa Thạch và Heo Rừng Núi đang quậy phá dữ lắm. Chúng tấn công cả đoàn thương nhân. Nếu ngươi đủ mạnh, hãy giúp chúng ta dọn dẹp con đường phía Nam!"
+      },
+      {
+        "text": "Ngươi có nhiệm vụ nào cho ta không?",
+        "action": "CHECK_QUESTS",
+        "response": "Ta nghe nói có người cần thảo dược từ Thung Lũng Nam. Hỏi thêm ở cửa hàng tạp hóa của Maya xem sao. Còn ta thì chỉ biết gác cổng thôi!"
+      },
+      {
+        "text": "Ta đã hiểu, cảm ơn lính canh.",
+        "action": "CLOSE_DIALOGUE",
+        "response": "Nhớ đừng đánh giá thấp quái vật ở Thung Lũng. Dù trông không to nhưng chúng độc và nhanh lắm. Cẩn thận nhé!"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "DLG_DOUGLAS",
+    "npc_id": "NPC_SOUTH_GUARD",
+    "greeting": "Dừng bước! Á, nhà thám hiểm. Ta là Douglas, lính gác Cổng Nam. Đường lên Núi Đá Khổng Lồ ở phía trước — không phải nơi dành cho kẻ yếu tim.",
+    "options": [
+      {
+        "text": "Khu vực phía Nam có gì đáng sợ?",
+        "action": "CHECK_QUESTS",
+        "response": "Người ta đồn rằng có một Thạch Khổng Lồ cổ xưa đang thức giấc trên đỉnh núi. Ngoài ra, Thằn Lằn Đá và Heo Rừng hung hãn cũng không thiếu. Hãy chuẩn bị kỹ trước khi lên đó!"
+      },
+      {
+        "text": "Có tin tức gì mới từ Thung Lũng không?",
+        "action": "CHECK_QUESTS",
+        "response": "Mới hôm qua một đội trinh sát lên núi chưa thấy về. Ta lo lắm. Nếu ngươi đủ can đảm, hãy tìm hiểu xem chuyện gì xảy ra trên đó — dân làng sẽ cần biết."
+      },
+      {
+        "text": "Ta đã chuẩn bị xong, cho ta đi qua.",
+        "action": "CLOSE_DIALOGUE",
+        "response": "Vậy thì ta không cản ngươi. Nhưng nhớ: trên núi, lùi bước đúng lúc không phải là hèn nhát — đó là khôn ngoan. Chúc ngươi trở về bình an!"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "DLG_THERESA",
+    "npc_id": "NPC_NORTH_GUARD",
+    "greeting": "Khoan đã! Ta là Theresa, lính canh Cổng Bắc. Phía trước là Vùng Tuyết Bắc — nơi đó lạnh buốt xương và đầy nguy hiểm. Ngươi có chắc muốn đi không?",
+    "options": [
+      {
+        "text": "Vùng Tuyết Bắc có gì nguy hiểm?",
+        "action": "CHECK_QUESTS",
+        "response": "Băng giá chỉ là khởi đầu. Cáo Tuyết và Dơi Băng sẽ tấn công ngươi không ngừng. Tệ hơn, nghe nói Báo Băng hung tàn đang ẩn náu trên đỉnh — thứ đó đã hạ gục nhiều người dũng cảm rồi."
+      },
+      {
+        "text": "Có người nào cần ta giúp đỡ không?",
+        "action": "CHECK_QUESTS",
+        "response": "Nhóm Kobold Khai Khoáng đang phá hoại các tuyến tiếp tế. Đại Tư Tế Asica cũng đang tìm người đủ mạnh để diệt Báo Băng. Nếu ngươi có thể làm được một trong hai, cả làng sẽ biết ơn!"
+      },
+      {
+        "text": "Ta đã sẵn sàng đối mặt với giá lạnh.",
+        "action": "CLOSE_DIALOGUE",
+        "response": "Ánh mắt ngươi không giống kẻ thường. Vậy thì cứ tiến lên! Nhưng hãy mặc đủ ấm và mang theo thuốc hồi sức — Vùng Bắc không tha thứ cho sự sơ suất. May mắn, lữ khách!"
+      }
+    ]
+  }
+]

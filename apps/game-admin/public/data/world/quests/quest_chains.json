@@ -1,0 +1,24 @@
+[
+  {
+    "chain_id": "CHAIN_BEGINNER_PROGRESSION",
+    "name": "Hành Trình Khởi Nghiệp Biên Cương (Elysia Frontier Novice Saga)",
+    "description": "Chuỗi 15 nhiệm vụ huấn luyện từ một tân binh vô danh tới lúc đủ tư cách diện kiến Đại Tư Tế Asica để nhận chức nghiệp chính thức.",
+    "quests": [
+      "QUEST_001",
+      "QUEST_002",
+      "QUEST_003",
+      "QUEST_004",
+      "QUEST_005",
+      "QUEST_006",
+      "QUEST_007",
+      "QUEST_008",
+      "QUEST_009",
+      "QUEST_010",
+      "QUEST_011",
+      "QUEST_012",
+      "QUEST_013",
+      "QUEST_014",
+      "QUEST_015"
+    ]
+  }
+]

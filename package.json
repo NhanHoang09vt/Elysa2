@@ -1,0 +1,21 @@
+{
+  "name": "elysia-no-densetsu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Elysia no Densetsu – Elysia Frontier MMORPG Monorepo",
+  "scripts": {
+    "dev:client": "pnpm --filter @elysia/game-client dev",
+    "dev:admin": "pnpm --filter @elysia/game-admin dev",
+    "dev:server": "pnpm --filter @elysia/game-server dev",
+    "build:client": "pnpm --filter @elysia/game-client build",
+    "build:admin": "pnpm --filter @elysia/game-admin build",
+    "build:server": "pnpm --filter @elysia/game-server build",
+    "build:packages": "pnpm --filter \"@elysia/*\" build",
+    "build": "pnpm build:packages && pnpm build:client && pnpm build:admin",
+    "typecheck": "pnpm -r run typecheck",
+    "test": "pnpm -r run test"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}

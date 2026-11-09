@@ -1,0 +1,34 @@
+{
+  "worldId": "WORLD_ELYSIA_FRONTIER",
+  "name": "Elysia Frontier (Biên Giới Elysia)",
+  "nameJp": "エリシアフロンティア",
+  "version": "1.0.0",
+  "description": "Vùng đất khởi nguyên thanh bình bao quanh bởi bốn miền biên cương hoang dã chứa đựng vô số thử thách cho các nhà thám hiểm trẻ tuổi.",
+  "levelCap": 15,
+  "defaultSpawnRegion": "VIL_STARTER",
+  "defaultSpawnCoords": {
+    "x": 1000,
+    "y": 1000
+  },
+  "coordinateSystem": {
+    "type": "isometric_2.5d",
+    "unit": "pixels",
+    "tileWidth": 48,
+    "tileHeight": 48
+  },
+  "safeZones": [
+    "VIL_STARTER"
+  ],
+  "combatZones": [
+    "FIELD_EAST",
+    "FIELD_WEST",
+    "FIELD_SOUTH",
+    "FIELD_NORTH"
+  ],
+  "jobAdvancementRequirement": {
+    "minLevel": 15,
+    "npcId": "NPC_JOB_ADVANCEMENT_ASICA",
+    "questPrerequisiteId": "QUEST_014_FROSTFANG_CHALLENGE",
+    "advancementQuestId": "QUEST_015_JOB_ADVANCEMENT_TRIAL"
+  }
+}

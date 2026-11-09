@@ -1,0 +1,189 @@
+{
+  "characterId": "swordsman_female",
+  "name": "Nữ Kiếm Sĩ Tân Thủ (Female Swordsman Novice)",
+  "gender": "female",
+  "jobClass": "swordsman",
+  "artStyle": "Japanese Anime Chibi Fantasy MMORPG",
+  "dimensions": {
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "anchorX": 128,
+    "anchorY": 238,
+    "scaleFactor": 1.68
+  },
+  "masterArt": {
+    "fullResolution": "/assets/characters/classes/swordsman/female/reference/swordsman_female_master.png",
+    "standard256": "/assets/characters/classes/swordsman/female/reference/swordsman_female_master_256.png",
+    "previewShadow": "/assets/characters/classes/swordsman/female/reference/swordsman_female_preview_shadow.png"
+  },
+  "layers": {
+    "layer_01_body": {
+      "name": "01 Body",
+      "pixelCount": 3895,
+      "path": "/assets/characters/modular/female/layer_01_body_256.png"
+    },
+    "layer_02_face_eyes": {
+      "name": "02 Face Eyes",
+      "pixelCount": 3934,
+      "path": "/assets/characters/modular/female/layer_02_face_eyes_256.png"
+    },
+    "layer_03_hair": {
+      "name": "03 Hair",
+      "pixelCount": 11726,
+      "path": "/assets/characters/modular/female/layer_03_hair_256.png"
+    },
+    "layer_04_hair_accessory": {
+      "name": "04 Hair Accessory",
+      "pixelCount": 443,
+      "path": "/assets/characters/modular/female/layer_04_hair_accessory_256.png"
+    },
+    "layer_05_armor_chest": {
+      "name": "05 Armor Chest",
+      "pixelCount": 3059,
+      "path": "/assets/characters/modular/female/layer_05_armor_chest_256.png"
+    },
+    "layer_06_skirt_tunic": {
+      "name": "06 Skirt Tunic",
+      "pixelCount": 2347,
+      "path": "/assets/characters/modular/female/layer_06_skirt_tunic_256.png"
+    },
+    "layer_07_belt_sashes": {
+      "name": "07 Belt Sashes",
+      "pixelCount": 4554,
+      "path": "/assets/characters/modular/female/layer_07_belt_sashes_256.png"
+    },
+    "layer_08_gloves": {
+      "name": "08 Gloves",
+      "pixelCount": 1151,
+      "path": "/assets/characters/modular/female/layer_08_gloves_256.png"
+    },
+    "layer_09_boots": {
+      "name": "09 Boots",
+      "pixelCount": 5284,
+      "path": "/assets/characters/modular/female/layer_09_boots_256.png"
+    },
+    "layer_10_weapon": {
+      "name": "10 Weapon",
+      "pixelCount": 2335,
+      "path": "/assets/characters/modular/female/layer_10_weapon_256.png"
+    }
+  },
+  "animations": {
+    "idle": {
+      "frameCount": 6,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "totalWidth": 1536,
+      "fps": 6,
+      "repeat": -1,
+      "stripUrl": "/assets/characters/classes/swordsman/female/animations/idle.png",
+      "frames": [
+        "idle_00.png",
+        "idle_01.png",
+        "idle_02.png",
+        "idle_03.png",
+        "idle_04.png",
+        "idle_05.png"
+      ]
+    },
+    "walk": {
+      "frameCount": 6,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "totalWidth": 1536,
+      "fps": 8,
+      "repeat": -1,
+      "stripUrl": "/assets/characters/classes/swordsman/female/animations/walk.png",
+      "frames": [
+        "walk_00.png",
+        "walk_01.png",
+        "walk_02.png",
+        "walk_03.png",
+        "walk_04.png",
+        "walk_05.png"
+      ]
+    },
+    "run": {
+      "frameCount": 6,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "totalWidth": 1536,
+      "fps": 10,
+      "repeat": -1,
+      "stripUrl": "/assets/characters/classes/swordsman/female/animations/run.png",
+      "frames": [
+        "run_00.png",
+        "run_01.png",
+        "run_02.png",
+        "run_03.png",
+        "run_04.png",
+        "run_05.png"
+      ]
+    },
+    "attack": {
+      "frameCount": 5,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "totalWidth": 1280,
+      "fps": 10,
+      "repeat": 0,
+      "stripUrl": "/assets/characters/classes/swordsman/female/animations/attack.png",
+      "frames": [
+        "attack_00.png",
+        "attack_01.png",
+        "attack_02.png",
+        "attack_03.png",
+        "attack_04.png"
+      ]
+    },
+    "skill": {
+      "frameCount": 5,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "totalWidth": 1280,
+      "fps": 10,
+      "repeat": 0,
+      "stripUrl": "/assets/characters/classes/swordsman/female/animations/skill.png",
+      "frames": [
+        "skill_00.png",
+        "skill_01.png",
+        "skill_02.png",
+        "skill_03.png",
+        "skill_04.png"
+      ]
+    },
+    "hurt": {
+      "frameCount": 5,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "totalWidth": 1280,
+      "fps": 8,
+      "repeat": 0,
+      "stripUrl": "/assets/characters/classes/swordsman/female/animations/hurt.png",
+      "frames": [
+        "hurt_00.png",
+        "hurt_01.png",
+        "hurt_02.png",
+        "hurt_03.png",
+        "hurt_04.png"
+      ]
+    },
+    "death": {
+      "frameCount": 6,
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "totalWidth": 1536,
+      "fps": 6,
+      "repeat": 0,
+      "stripUrl": "/assets/characters/classes/swordsman/female/animations/death.png",
+      "frames": [
+        "death_00.png",
+        "death_01.png",
+        "death_02.png",
+        "death_03.png",
+        "death_04.png",
+        "death_05.png"
+      ]
+    }
+  }
+}

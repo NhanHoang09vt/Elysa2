@@ -1,0 +1,311 @@
+[
+  {
+    "id": "VIL_STARTER",
+    "name": "Làng Khởi Nguyên (Elysia Starter Village)",
+    "nameJp": "始まりの村エリシア",
+    "description": "Khu định cư thanh bình dưới chân Cây Thế Giới, trung tâm giao thương, an toàn tuyệt đối và là nơi tọa lạc của Đền Thờ Chuyển Chức.",
+    "type": "SAFE_ZONE",
+    "recommendedLevelMin": 1,
+    "recommendedLevelMax": 15,
+    "dimensions": {
+      "width": 2000,
+      "height": 2000
+    },
+    "boundaries": {
+      "minX": 0,
+      "minY": 0,
+      "maxX": 2000,
+      "maxY": 2000
+    },
+    "isSafeZone": true,
+    "combatEnabled": false,
+    "monsterSpawningEnabled": false,
+    "walkableAreas": [
+      {
+        "type": "rect",
+        "x": 100,
+        "y": 100,
+        "w": 1800,
+        "h": 1800
+      }
+    ],
+    "blockedTerrain": [
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "w": 2000,
+        "h": 90,
+        "name": "Vách đá phía Bắc"
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 1910,
+        "w": 2000,
+        "h": 90,
+        "name": "Bờ hào phía Nam"
+      },
+      {
+        "type": "rect",
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 2000,
+        "name": "Hàng rào phía Tây"
+      },
+      {
+        "type": "rect",
+        "x": 1910,
+        "y": 0,
+        "w": 90,
+        "h": 2000,
+        "name": "Hàng rào phía Đông"
+      }
+    ],
+    "landmarks": [
+      {
+        "name": "Đền Thờ Chuyển Chức (Temple of Job Advancement)",
+        "x": 1000,
+        "y": 250,
+        "accessible": true,
+        "safeRoute": true
+      },
+      {
+        "name": "Quảng Trường Làng (Central Village Plaza)",
+        "x": 1000,
+        "y": 1000
+      },
+      {
+        "name": "Xưởng Rèn Vulcan (Vulcan Blacksmith Forge)",
+        "x": 850,
+        "y": 1100
+      },
+      {
+        "name": "Cửa Hàng Tạp Hóa Maya (Maya General Goods)",
+        "x": 1150,
+        "y": 1100
+      },
+      {
+        "name": "Kho Báu Làng Barnaby (Barnaby Vault)",
+        "x": 1180,
+        "y": 950
+      },
+      {
+        "name": "Khu Huấn Luyện Kaelen (Training Grounds)",
+        "x": 750,
+        "y": 850
+      }
+    ]
+  },
+  {
+    "id": "FIELD_EAST",
+    "name": "Đồng Cỏ Phía Đông (Eastern Frontier Grasslands)",
+    "nameJp": "東の草原フロンティア",
+    "description": "Thảo nguyên bạt ngàn ngập tràn ánh nắng, nơi sinh sống của các loài quái vật sơ cấp như Slime, Thỏ Sừng và Nhện Rừng.",
+    "type": "COMBAT_FIELD",
+    "recommendedLevelMin": 1,
+    "recommendedLevelMax": 5,
+    "dimensions": {
+      "width": 2500,
+      "height": 2000
+    },
+    "boundaries": {
+      "minX": 0,
+      "minY": 0,
+      "maxX": 2500,
+      "maxY": 2000
+    },
+    "isSafeZone": false,
+    "combatEnabled": true,
+    "monsterSpawningEnabled": true,
+    "walkableAreas": [
+      {
+        "type": "rect",
+        "x": 50,
+        "y": 50,
+        "w": 2400,
+        "h": 1900
+      }
+    ],
+    "blockedTerrain": [
+      {
+        "type": "circle",
+        "x": 1200,
+        "y": 1200,
+        "radius": 150,
+        "name": "Đầm nước lầy lớn"
+      }
+    ],
+    "landmarks": [
+      {
+        "name": "Cổng Tây nối Làng Khởi Nguyên",
+        "x": 50,
+        "y": 1000
+      },
+      {
+        "name": "Gò Đất Slime Vương (Alpha Mound)",
+        "x": 2000,
+        "y": 600
+      }
+    ]
+  },
+  {
+    "id": "FIELD_WEST",
+    "name": "Rừng Rậm Phía Tây (Western Forest Frontier)",
+    "nameJp": "西の密林フロンティア",
+    "description": "Khu rừng rậm rạp với những cây cổ thụ cao vút, ẩn náu bầy Goblin xảo quyệt và đàn sói hoang săn mồi trong bóng tối.",
+    "type": "COMBAT_FIELD",
+    "recommendedLevelMin": 4,
+    "recommendedLevelMax": 8,
+    "dimensions": {
+      "width": 2500,
+      "height": 2000
+    },
+    "boundaries": {
+      "minX": 0,
+      "minY": 0,
+      "maxX": 2500,
+      "maxY": 2000
+    },
+    "isSafeZone": false,
+    "combatEnabled": true,
+    "monsterSpawningEnabled": true,
+    "walkableAreas": [
+      {
+        "type": "rect",
+        "x": 50,
+        "y": 50,
+        "w": 2400,
+        "h": 1900
+      }
+    ],
+    "blockedTerrain": [
+      {
+        "type": "rect",
+        "x": 800,
+        "y": 400,
+        "w": 300,
+        "h": 400,
+        "name": "Rừng gai độc cổ đại"
+      }
+    ],
+    "landmarks": [
+      {
+        "name": "Cổng Đông nối Làng Khởi Nguyên",
+        "x": 2450,
+        "y": 1000
+      },
+      {
+        "name": "Trại Thủ Lĩnh Goblin (Goblin Camp)",
+        "x": 600,
+        "y": 1500
+      }
+    ]
+  },
+  {
+    "id": "FIELD_SOUTH",
+    "name": "Thung Lũng Phía Nam (Southern Valley Frontier)",
+    "nameJp": "南の渓谷フロンティア",
+    "description": "Thung lũng đá gồ ghề đầy gió lộng và hẻm núi sâu, lãnh địa của Harpy bay lượn, Bọ Cạp độc và Người Đá khổng lồ.",
+    "type": "COMBAT_FIELD",
+    "recommendedLevelMin": 7,
+    "recommendedLevelMax": 12,
+    "dimensions": {
+      "width": 2500,
+      "height": 2000
+    },
+    "boundaries": {
+      "minX": 0,
+      "minY": 0,
+      "maxX": 2500,
+      "maxY": 2000
+    },
+    "isSafeZone": false,
+    "combatEnabled": true,
+    "monsterSpawningEnabled": true,
+    "walkableAreas": [
+      {
+        "type": "rect",
+        "x": 50,
+        "y": 50,
+        "w": 2400,
+        "h": 1900
+      }
+    ],
+    "blockedTerrain": [
+      {
+        "type": "rect",
+        "x": 1000,
+        "y": 800,
+        "w": 500,
+        "h": 300,
+        "name": "Vực thẳm không đáy"
+      }
+    ],
+    "landmarks": [
+      {
+        "name": "Cổng Bắc nối Làng Khởi Nguyên",
+        "x": 1000,
+        "y": 50
+      },
+      {
+        "name": "Vương Tọa Golem Đá (Stone Golem Throne)",
+        "x": 1800,
+        "y": 1600
+      }
+    ]
+  },
+  {
+    "id": "FIELD_NORTH",
+    "name": "Dãy Núi Băng Sương Phía Bắc (Northern Crag Frontier)",
+    "nameJp": "北の岩望フロンティア",
+    "description": "Vùng núi băng tuyết hiểm trở quanh năm phủ trắng xóa, nơi Kobold khai khoáng và dã thú băng sương hung tợn thống trị.",
+    "type": "COMBAT_FIELD",
+    "recommendedLevelMin": 10,
+    "recommendedLevelMax": 15,
+    "dimensions": {
+      "width": 2500,
+      "height": 2000
+    },
+    "boundaries": {
+      "minX": 0,
+      "minY": 0,
+      "maxX": 2500,
+      "maxY": 2000
+    },
+    "isSafeZone": false,
+    "combatEnabled": true,
+    "monsterSpawningEnabled": true,
+    "walkableAreas": [
+      {
+        "type": "rect",
+        "x": 50,
+        "y": 50,
+        "w": 2400,
+        "h": 1900
+      }
+    ],
+    "blockedTerrain": [
+      {
+        "type": "circle",
+        "x": 1250,
+        "y": 1000,
+        "radius": 200,
+        "name": "Hồ băng sụt lún"
+      }
+    ],
+    "landmarks": [
+      {
+        "name": "Cổng Nam nối Làng Khởi Nguyên",
+        "x": 1000,
+        "y": 1950
+      },
+      {
+        "name": "Đỉnh Gió Hú Chimera (Chimera Peak)",
+        "x": 1250,
+        "y": 300
+      }
+    ]
+  }
+]
